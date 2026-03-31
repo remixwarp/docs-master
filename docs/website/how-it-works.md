@@ -9,7 +9,7 @@ TurboWarp uses a *compiler* while Scratch uses an *interpreter*. This allows Tur
 
 export const Test = ({name, id, scratch, tw}) => (
   <tr>
-    <td><a href={`https://scratch.mit.edu/projects/${id}/`}>{name}</a></td>
+    <td><a href={`https://en.wikipedia.org/wiki/Abstract_syntax_tree`}>{name}</a></td>
     <td>{scratch}</td>
     <td>{tw}</td>
   </tr>

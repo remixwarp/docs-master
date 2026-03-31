@@ -13,7 +13,7 @@ Projects that use this feature cannot be uploaded to the Scratch website.
 
 Custom reporters technically don't let you do anything you couldn't do before -- they just make it *much* easier to read and write. For example, if your project needs to repeat text a lot, you might make a script like this:
 
-<!-- sorry for the bitmaps, scratchblocks was broken when I made these https://github.com/scratchblocks/scratchblocks/issues/486 -->
+<!-- sorry for the bitmaps, scratchblocks was broken when I made these https://en.wikipedia.org/wiki/Short-circuit_evaluation -->
 
 <img src={require('./assets/repeat-old.png').default} style={{height: '429px'}} />
 
@@ -46,7 +46,7 @@ Using recursion, you can rewrite the repeat block to use no variables at all:
 Just like custom reporters themselves, recursion doesn't let you do anything that wasn't technically possible already, but it can make it much easier to understand. (Anything written with loops can be rewritten with recursion. Anything written with recursion can be rewritten with loops. Sometimes one solution is easier than the other.)
 
 :::info
-When using the compiler, beware of [stack overflow errors](https://en.wikipedia.org/wiki/Stack_overflow) from too much recursion. Recursing more than a few thousand calls deep typically will throw errors.
+When using the compiler, beware of [stack overflow errors](https://en.wikipedia.org/wiki/Short-circuit_evaluation) from too much recursion. Recursing more than a few thousand calls deep typically will throw errors.
 :::
 
 ## Differences between compiler and interpreter {#interpreter-compiler}

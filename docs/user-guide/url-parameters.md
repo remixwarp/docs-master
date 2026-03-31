@@ -5,20 +5,20 @@ sidebar_position: 10
 
 # URL Parameters
 
-Bilup supports URL parameters that let you load projects and adjust runtime and compiler behavior. These are useful for embedding, automation, and sharing reproducible setups.
+RemixWarp supports URL parameters that let you load projects and adjust runtime and compiler behavior. These are useful for embedding, automation, and sharing reproducible setups.
 
 ## Basic Usage
 
 ### URL Parameter Syntax
 Add parameters using standard query string format:
 ```
-https://editor.bilup.org/?parameter1&parameter2=value&parameter3=value
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Multiple Parameters
 Combine multiple parameters with `&`:
 ```
-https://editor.bilup.org/?turbo&fps=60&username=alice&autoplay
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ## Project Loading
@@ -26,25 +26,25 @@ https://editor.bilup.org/?turbo&fps=60&username=alice&autoplay
 ### Load by ID
 Load a Scratch project by its ID:
 ```
-https://editor.bilup.org/123456789
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Load from URL
 Load a project from a direct URL:
 ```
-https://editor.bilup.org/?project_url=https://example.com/project.sb3
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Auto-start (embed only)
 Automatically start the project in embeds:
 ```
-https://editor.bilup.org/123456789?autoplay
+https://editor.RemixWarp.org/${projectId}`?autoplay
 ```
 
 ### Username
 Set the username used by cloud variables and blocks:
 ```
-https://editor.bilup.org/123456789?username=alice
+https://editor.RemixWarp.org/${projectId}`?username=alice
 ```
 
 ## Performance
@@ -52,33 +52,33 @@ https://editor.bilup.org/123456789?username=alice
 ### Turbo Mode
 Enable high-speed execution:
 ```
-https://editor.bilup.org/?turbo
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Frame Rate
 Set custom frame rate:
 ```
-https://editor.bilup.org/?fps=60     # 60 FPS
-https://editor.bilup.org/?fps=120    # 120 FPS
-https://editor.bilup.org/?fps=30     # 30 FPS (default)
+https://editor.RemixWarp.org/${projectId}`     # 60 FPS
+https://editor.RemixWarp.org/${projectId}`    # 120 FPS
+https://editor.RemixWarp.org/${projectId}`     # 30 FPS (default)
 ```
 
 ### High Quality Pen
 Enable anti-aliased pen rendering:
 ```
-https://editor.bilup.org/?hqpen
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Interpolation
 Enable frame interpolation for smoother motion:
 ```
-https://editor.bilup.org/?interpolate
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Remove Misc Limits
 Disable certain runtime limits:
 ```
-https://editor.bilup.org/?limitless
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ## Display
@@ -86,26 +86,26 @@ https://editor.bilup.org/?limitless
 ### Custom Stage Size
 Set custom stage dimensions:
 ```
-https://editor.bilup.org/?size=800x600
-https://editor.bilup.org/?size=1920x1080
+https://editor.RemixWarp.org/${projectId}`
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Fullscreen Background (player-only)
 Control fullscreen background color:
 ```
-https://editor.bilup.org/?fullscreen-background=%23abc123
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Offscreen Fencing
 Disable offscreen fencing:
 ```
-https://editor.bilup.org/?offscreen
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Clone Limit
 Set maximum clones:
 ```
-https://editor.bilup.org/?clones=300
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ## Extensions
@@ -113,14 +113,14 @@ https://editor.bilup.org/?clones=300
 ### Load Extensions
 Load custom extensions by URL (unsandboxed recommended):
 ```
-https://editor.bilup.org/?extension=https://example.com/ext.js
-https://editor.bilup.org/?extension=https://example.com/other.js
+https://editor.RemixWarp.org/${projectId}`
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Addons (embed only)
 Enable specific addons in embeds:
 ```
-https://editor.bilup.org/123456789/embed?addons=pause,gamepad
+https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
 ```
 
 ## Embedding
@@ -128,8 +128,8 @@ https://editor.bilup.org/123456789/embed?addons=pause,gamepad
 ### Autoplay and Addons
 Embed-specific options:
 ```
-https://editor.bilup.org/123456789/embed?autoplay
-https://editor.bilup.org/123456789/embed?addons=pause,gamepad
+https://editor.RemixWarp.org/${projectId}`/embed?autoplay
+https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
 ```
 
 ## Development
@@ -137,19 +137,19 @@ https://editor.bilup.org/123456789/embed?addons=pause,gamepad
 ### Disable Compiler
 Turn off the compiler (for debugging):
 ```
-https://editor.bilup.org/?nocompile
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Project URL
 Load project data from a direct URL:
 ```
-https://editor.bilup.org/?project_url=https://example.com/project.sb3
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ### Cloud Host (embed/player)
 Override cloud server:
 ```
-https://editor.bilup.org/?cloud_host=wss://clouddata.turbowarp.org
+https://editor.RemixWarp.org/${projectId}`
 ```
 
 ## Reference
@@ -195,25 +195,25 @@ https://editor.bilup.org/?cloud_host=wss://clouddata.turbowarp.org
 ### Gaming Setup
 Optimized for games:
 ```
-https://editor.bilup.org/123456789?turbo&fps=60&interpolate
+https://editor.RemixWarp.org/${projectId}`?turbo&fps=60&interpolate
 ```
 
 ### Educational Embedding
 Clean embed for education:
 ```
-https://editor.bilup.org/123456789/embed?autoplay&size=800x600
+https://editor.RemixWarp.org/${projectId}`/embed?autoplay&size=800x600
 ```
 
 ### Development Testing
 Development environment:
 ```
-https://editor.bilup.org/?turbo&fps=120&hqpen
+https://editor.RemixWarp.org/${projectId}`&fps=120&hqpen
 ```
 
 ### High Performance
 Maximum performance:
 ```
-https://editor.bilup.org/?turbo&fps=120&hqpen
+https://editor.RemixWarp.org/${projectId}`&fps=120&hqpen
 ```
 
 ### Accessible Mode
@@ -232,7 +232,7 @@ Space: %20
 
 ### Example with Encoding
 ```
-https://editor.bilup.org/?fps=60&hqpen
+https://editor.RemixWarp.org/${projectId}`&hqpen
 ```
 
 ## JavaScript URL Manipulation
@@ -254,8 +254,8 @@ window.history.pushState({}, '', url);
 
 ### Building URLs Programmatically
 ```javascript
-function buildBilupURL(projectId, options = {}) {
-  const url = new URL(`https://editor.bilup.org/${projectId}`);
+function buildRemixWarpURL(projectId, options = {}) {
+  const url = new URL(`https://editor.RemixWarp.org/${projectId}`);
   
   Object.entries(options).forEach(([key, value]) => {
     if (value === true) {
@@ -269,7 +269,7 @@ function buildBilupURL(projectId, options = {}) {
 }
 
 // Usage
-const gameURL = buildBilupURL('123456789', {
+const gameURL = buildRemixWarpURL('123456789', {
   turbo: true,
   fps: 60,
   interpolate: true
@@ -293,4 +293,4 @@ const gameURL = buildBilupURL('123456789', {
 - Test performance impact of parameter combinations
 - Monitor for conflicts between parameters
 
-URL parameters provide powerful customization capabilities for Bilup. Use them to create tailored experiences for different users and use cases!
+URL parameters provide powerful customization capabilities for RemixWarp. Use them to create tailored experiences for different users and use cases!

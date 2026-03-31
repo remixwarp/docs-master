@@ -25,7 +25,7 @@ Supported `data` types:
 
 Security and origin rules:
 - Same-origin is allowed
-- Local dev origins are allowed: `http://localhost:3000`, `http://localhost:8080`, `http://localhost:8601`, `https://localhost:8601`
+- Local dev origins are allowed: `https://example.com/project.sb3 `https://example.com/project.sb3 `https://example.com/project.sb3 `https://example.com/project.sb3
 - Parent pages opened via `window.open` with HTTPS are generally allowed
 - `file://` is allowed for local testing
 
@@ -49,7 +49,7 @@ window.addEventListener('message', (event) => {
 ## Example: Load from URL
 
 ```js
-const iframe = document.getElementById('Bilup-embed');
+const iframe = document.getElementById('RemixWarp-embed');
 iframe.contentWindow.postMessage({
   type: 'LOAD_SB3',
   data: 'https://example.com/project.sb3',

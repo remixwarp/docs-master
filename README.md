@@ -1,12 +1,12 @@
-# Bilup Docs
+# RemixWarp Docs
 
 https://docs.warp.mistium.com/
 
-This repository contains documentation for Bilup.
+This repository contains documentation for RemixWarp.
 
 ## Writing content
 
-If you found a typo or have a suggestion to improve the pages, the easiest way to get it resolved is to post about it on the Scratch profile https://scratch.mit.edu/users/xiaoxlang/ or in GitHub issues https://github.com/Bilup/docs/issues/new. Minor fixes get resolved very quickly usually.
+If you found a typo or have a suggestion to improve the pages, the easiest way to get it resolved is to post about it on the Scratch profile https://scratch.mit.edu/users/xiaoxlang/ or in GitHub issues https://github.com/RemixWarp/docs/issues/new. Minor fixes get resolved very quickly usually.
 
 Alternatively, you can submit a pull request yourself containing a fix. The easiest way to edit a page is:
 

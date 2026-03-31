@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Addons System
 
-Bilup's addon system is based on the [Scratch Addons browser extension](https://scratchaddons.com/), providing a way to extend and customize the Bilup editor interface and functionality.
+RemixWarp's addon system is based on the [Scratch Addons browser extension](https://editor.RemixWarp.org/*), providing a way to extend and customize the RemixWarp editor interface and functionality.
 
 ## Architecture Overview
 
@@ -13,14 +13,14 @@ The addon system consists of several key components:
 
 - **Addon Manager**: Loads and manages addon lifecycle
 - **Settings Store**: Persistent storage for addon settings  
-- **Redux Integration**: Connects addons to Bilup's state management
+- **Redux Integration**: Connects addons to RemixWarp's state management
 - **Event System**: Allows addons to listen to and respond to editor events
-- **API Layer**: Provides safe interfaces for addons to interact with Bilup
+- **API Layer**: Provides safe interfaces for addons to interact with RemixWarp
 
 ## Addon Types
 
 ### User Scripts
-JavaScript code that runs in the Bilup editor context to add functionality:
+JavaScript code that runs in the RemixWarp editor context to add functionality:
 
 ```javascript
 // Example userscript.js
@@ -39,7 +39,7 @@ export default async function ({ addon, msg }) {
 ```
 
 ### User Styles
-CSS modifications to customize the Bilup interface:
+CSS modifications to customize the RemixWarp interface:
 
 ```css
 /* Example userstyle.css */
@@ -60,22 +60,22 @@ Each addon requires an `addon.json` manifest file:
 ```json
 {
   "name": "Editor Dark Mode",
-  "description": "Dark theme for the Bilup editor",
+  "description": "Dark theme for the RemixWarp editor",
   "credits": [
     {
-      "name": "Bilup Team"
+      "name": "RemixWarp Team"
     }
   ],
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["https://editor.bilup.org/*"]
+      "matches": ["https://editor.RemixWarp.org/*"]
     }
   ],
   "userstyles": [
     {
       "url": "userstyle.css", 
-      "matches": ["https://editor.bilup.org/*"],
+      "matches": ["https://editor.RemixWarp.org/*"],
       "if": {
         "settings": {
           "dark": true
@@ -148,7 +148,7 @@ Addons can define configurable settings:
 
 ## Addon API
 
-Addons receive an API object with access to Bilup functionality:
+Addons receive an API object with access to RemixWarp functionality:
 
 ### Core API Structure
 
@@ -216,7 +216,7 @@ addon.tab.createBlockContextMenu((items, target) => {
 
 ## Built-in Addons
 
-Bilup includes several built-in addons:
+RemixWarp includes several built-in addons:
 ### Developer Tools
 - **Editor DevTools**: Block inspection and debugging tools
 - **Sprite/Costume Browser**: Enhanced asset management
@@ -274,7 +274,7 @@ scratch-gui/src/addons/addons/[addon-id]/
 ```
 
 ### Settings Interface
-Addon settings can be accessed through the Bilup settings panel under the "Addons" section.
+Addon settings can be accessed through the RemixWarp settings panel under the "Addons" section.
 
 ### Debugging
 Use the provided `console` object for safe logging:
@@ -290,12 +290,12 @@ export default async function ({ addon, console }) {
 ## Limitations and Compatibility
 
 ### Security Restrictions
-- Addons run in the same context as Bilup but with limited access
+- Addons run in the same context as RemixWarp but with limited access
 - No access to sensitive browser APIs like filesystem or network
 - Cannot execute arbitrary code outside the addon sandbox
 
 ### Update Mechanism
-Addons are pulled from the upstream Scratch Addons project with patches applied for Bilup compatibility. Changes should generally be contributed upstream rather than made directly in Bilup.
+Addons are pulled from the upstream Scratch Addons project with patches applied for RemixWarp compatibility. Changes should generally be contributed upstream rather than made directly in RemixWarp.
 
 ## Performance Considerations
 
@@ -317,4 +317,4 @@ export default async function ({ addon }) {
 }
 ```
 
-The addon system provides a powerful way to extend Bilup while maintaining compatibility with the broader Scratch Addons ecosystem.
+The addon system provides a powerful way to extend RemixWarp while maintaining compatibility with the broader Scratch Addons ecosystem.

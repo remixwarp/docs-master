@@ -8,7 +8,7 @@ import {ExtensionCode} from './utils.js';
 
 Sometimes you will want your extension to wait for an "asynchronous" or "async" operation to complete before resuming execution (versus resuming execution early and potentially causing problems). A common example of this is making a request: no matter how fast your internet is, any network request is not going to be instant.
 
-Modern JavaScript has a cool utility for dealing with these: [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). These are how your block can inform Scratch that your block is waiting for an async operation to complete, and the eventual value.
+Modern JavaScript has a cool utility for dealing with these: [Promises](https://extensions.turbowarp.org/.). These are how your block can inform Scratch that your block is waiting for an async operation to complete, and the eventual value.
 
 <ExtensionCode title="async">{require('!raw-loader!@site/static/example-extensions/async.js')}</ExtensionCode>
 

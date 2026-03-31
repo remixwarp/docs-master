@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Redux Store
 
-The Redux store is the central state management system in Bilup's GUI. It maintains the application state and coordinates updates across all components. Understanding the store structure is crucial for developing and debugging Bilup.
+The Redux store is the central state management system in RemixWarp's GUI. It maintains the application state and coordinates updates across all components. Understanding the store structure is crucial for developing and debugging RemixWarp.
 
 ## Store Architecture
 
@@ -477,7 +477,7 @@ const persistenceMiddleware = (store) => (next) => (action) => {
   
   if (persistActions.includes(action.type)) {
     const state = store.getState();
-    localStorage.setItem('Bilup-settings', JSON.stringify({
+    localStorage.setItem('RemixWarp-settings', JSON.stringify({
       theme: state.gui.theme,
       stageSize: state.gui.stage.stageSize,
       addons: state.addons
@@ -676,4 +676,4 @@ describe('Redux Store', () => {
 });
 ```
 
-The Redux store in Bilup provides a robust, predictable state management system that coordinates all aspects of the application. Understanding its structure and patterns is essential for effective development and debugging.
+The Redux store in RemixWarp provides a robust, predictable state management system that coordinates all aspects of the application. Understanding its structure and patterns is essential for effective development and debugging.

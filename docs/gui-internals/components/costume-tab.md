@@ -1,6 +1,6 @@
 # Costume Management Components
 
-The costume management system in Bilup consists of containers and components that handle visual assets for sprites and the stage.
+The costume management system in RemixWarp consists of containers and components that handle visual assets for sprites and the stage.
 
 ## Overview
 
@@ -16,13 +16,13 @@ The costume management system allows users to:
 CostumeTab (Container)
   └── AssetPanel (Component)
       ├── Selector (for costume list)
-      │   └── SortableAsset (for each costume)
+      �?  └── SortableAsset (for each costume)
       ├── ActionMenu (add/edit/upload)
       └── PaintEditorWrapper (when editing)
 ```
-      │   ├── AddCostume
-      │   ├── UploadCostume
-      │   └── PaintCostume
+      �?  ├── AddCostume
+      �?  ├── UploadCostume
+      �?  └── PaintCostume
       └── CostumeEditor (when editing)
 ```
 
@@ -36,7 +36,7 @@ CostumeTab (Container)
 - Set costume center points
 
 ### Paint Editor Integration
-The Costume Tab integrates with Bilup's paint editor:
+The Costume Tab integrates with RemixWarp's paint editor:
 
 ```javascript
 openPaintEditor = (costumeId) => {
@@ -105,7 +105,7 @@ Each costume has configurable properties:
 
 ## Paint Editor Integration
 
-Bilup includes a sophisticated paint editor:
+RemixWarp includes a sophisticated paint editor:
 
 ### Vector Tools
 - Pen tool for freehand drawing
@@ -148,10 +148,10 @@ generateThumbnail = (costume) => {
 - Thumbnail caching
 - Progressive image loading
 
-## Bilup Enhancements
+## RemixWarp Enhancements
 
 ### Default Costumes
-Bilup ships with unique default costumes:
+RemixWarp ships with unique default costumes:
 - "Misty" sprite with multiple poses
 - Enhanced costume library
 - Custom vector graphics

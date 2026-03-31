@@ -10,7 +10,7 @@ Let's start by creating a very simple extension. This extension just adds a bloc
 
 <ExtensionCode title="hello-world">{require('!raw-loader!@site/static/example-extensions/hello-world.js')}</ExtensionCode>
 
-The above is a standard component we will use for showing extension code. Make note of the "Try this extension" button by the title -- that link will let you see what this extension does without having to do anything locally. Note that these extensions are primarily for demonstrating API features; they are not intended to be actually used in projects. There will almost always be another extension on [extensions.turbowarp.org](https://extensions.turbowarp.org/) that does the same thing, but better.
+The above is a standard component we will use for showing extension code. Make note of the "Try this extension" button by the title -- that link will let you see what this extension does without having to do anything locally. Note that these extensions are primarily for demonstrating API features; they are not intended to be actually used in projects. There will almost always be another extension on [extensions.turbowarp.org](https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js) that does the same thing, but better.
 
 If you're just using simple files to develop extensions, save this code into a file called "hello-world.js". If you're using a local HTTP server, save the code in a file called "hello-world.js" that the server will let you access.
 
@@ -30,7 +30,7 @@ Now, we will dissect what is going on in this file in the order it runs.
 class MyExtension {
 ```
 
-This is a standard [JavaScript class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). It is conventional to define your extension in the form of a class. The name of the class doesn't matter, but we suggest making it somehow based on the extension's name. It doesn't have to be unique at this stage.
+This is a standard [JavaScript class](https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js). It is conventional to define your extension in the form of a class. The name of the class doesn't matter, but we suggest making it somehow based on the extension's name. It doesn't have to be unique at this stage.
 
 ```js
 Scratch.extensions.register(new HelloWorld());
@@ -97,7 +97,7 @@ While other BlockTypes do exist, they do not work well and will not be discussed
 
 This defines the function that will run the block with the opcode "hello". In this case, our block is very simple and just returns a string. REPORTER blocks are expected to return a string, number, or boolean, and BOOLEAN blocks are expected to only return a boolean. Note that `null`, `undefined`, lists, and objects are not expected return values for these blocks.
 
-When you want to change the extension, simply modify the extension and reload the page. Here's a tip to make your life easier: You can use the `?extension=` URL parameter to load an extension automatically instead of requiring going into the library. For example, if your extension URL is http://localhost:8080/hello-world.js, you could use https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js to load it automatically.
+When you want to change the extension, simply modify the extension and reload the page. Here's a tip to make your life easier: You can use the `?extension=` URL parameter to load an extension automatically instead of requiring going into the library. For example, if your extension URL is https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js you could use https://turbowarp.org/editor?extension=http://localhost:8080/hello-world.js to load it automatically.
 
 If you observe that your changes aren't being applied when you refresh, try your browser's "hard refresh" or "refresh without cache" shortcuts.
 

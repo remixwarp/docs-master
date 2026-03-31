@@ -1,6 +1,6 @@
 # Menu Bar Component
 
-The Menu Bar provides the main navigation and top-level actions for Bilup. Many features can be enhanced or added by default-enabled addons.
+The Menu Bar provides the main navigation and top-level actions for RemixWarp. Many features can be enhanced or added by default-enabled addons.
 
 ## Overview
 
@@ -38,7 +38,7 @@ Appears when compilation errors occur:
 ### File Dropdown
 Project file operations:
 - **New Project**: Creates a blank project with default sprite
-- **New Window**: Opens Bilup in a new window (desktop app)
+- **New Window**: Opens RemixWarp in a new window (desktop app)
 - **Load from Computer**: Upload .sb3 or .sb2 files
 - **Save to Computer**: Download project as .sb3
 - **Save as Copy**: Create a copy of the project
@@ -117,23 +117,23 @@ const mapDispatchToProps = dispatch => ({
 });
 ```
 
-## Bilup Branding
+## RemixWarp Branding
 
-The Menu Bar prominently displays Bilup branding:
+The Menu Bar prominently displays RemixWarp branding:
 
 ```javascript
-const BilupBranding = () => (
-  <div className="Bilup-branding">
-    <img src="/static/Bilup-logo.svg" alt="Bilup" />
-    <span className="brand-text">Bilup</span>
-    <span className="version-info">v{Bilup_VERSION}</span>
+const RemixWarpBranding = () => (
+  <div className="RemixWarp-branding">
+    <img src="/static/RemixWarp-logo.svg" alt="RemixWarp" />
+    <span className="brand-text">RemixWarp</span>
+    <span className="version-info">v{RemixWarp_VERSION}</span>
   </div>
 );
 ```
 
 ## Language Support
 
-Bilup supports multiple languages:
+RemixWarp supports multiple languages:
 
 ```javascript
 const LanguageSelector = ({ currentLanguage, onLanguageChange }) => {
@@ -142,8 +142,8 @@ const LanguageSelector = ({ currentLanguage, onLanguageChange }) => {
     { code: 'es', name: 'Español' },
     { code: 'fr', name: 'Français' },
     { code: 'de', name: 'Deutsch' },
-    { code: 'zh-cn', name: '简体中文' },
-    { code: 'ja', name: '日本語' }
+    { code: 'zh-cn', name: '简体中�? },
+    { code: 'ja', name: '日本�? }
   ];
 
   return (

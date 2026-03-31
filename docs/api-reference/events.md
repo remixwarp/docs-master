@@ -5,7 +5,7 @@ sidebar_position: 5
 
 # Event System
 
-Bilup provides a comprehensive event system for communication between components, addons, and extensions.
+RemixWarp provides a comprehensive event system for communication between components, addons, and extensions.
 
 ## Overview
 

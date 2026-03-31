@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Advanced Settings
 
-Bilup provides extensive configuration options that allow you to customize performance, behavior, and appearance. This guide covers all advanced settings available in Bilup.
+RemixWarp provides extensive configuration options that allow you to customize performance, behavior, and appearance. This guide covers all advanced settings available in RemixWarp.
 
 ## Accessing Advanced Settings
 
@@ -18,7 +18,7 @@ Bilup provides extensive configuration options that allow you to customize perfo
 ### Via URL Parameters
 Many settings can be controlled via URL parameters:
 ```
-https://editor.bilup.org/?turbo&hqpen&fps=60
+https://editor.RemixWarp.org/?turbo&hqpen&fps=60
 ```
 
 ## Performance Settings
@@ -241,4 +241,4 @@ Load settings from configuration files or URLs.
 4. **Custom stage sizes** for specific use cases
 5. **Monitor memory usage** for large projects
 
-Bilup's advanced settings give you unprecedented control over your Scratch experience. Experiment with different configurations to find what works best for your projects!
+RemixWarp's advanced settings give you unprecedented control over your Scratch experience. Experiment with different configurations to find what works best for your projects!

@@ -1,10 +1,10 @@
 # Addons
 
-Bilup includes a powerful addon system that allows you to extend functionality with custom features and enhancements.
+RemixWarp includes a powerful addon system that allows you to extend functionality with custom features and enhancements.
 
 ## What are Addons?
 
-Addons are JavaScript modules that can modify or extend Bilup's behavior. They can:
+Addons are JavaScript modules that can modify or extend RemixWarp's behavior. They can:
 
 - Add new UI elements
 - Modify existing interfaces
@@ -14,7 +14,7 @@ Addons are JavaScript modules that can modify or extend Bilup's behavior. They c
 
 ## Built-in Addons
 
-Bilup comes with several built-in addons:
+RemixWarp comes with several built-in addons:
 
 ### Editor Enhancements
 - **Block Count**: Shows the number of blocks in your project
@@ -57,7 +57,7 @@ For information on creating your own addons, see:
 
 ## Popular Community Addons
 
-The Bilup community has created many useful addons:
+The RemixWarp community has created many useful addons:
 
 - **Project Notes**: Add notes and documentation to your projects
 - **Backup System**: Automatic project backups
@@ -69,7 +69,7 @@ The Bilup community has created many useful addons:
 If you're having issues with addons:
 
 1. Try disabling the problematic addon
-2. Check if the addon is compatible with your Bilup version
+2. Check if the addon is compatible with your RemixWarp version
 3. Clear your browser cache and reload
 4. Report issues to the addon developer
 

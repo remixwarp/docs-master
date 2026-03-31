@@ -39,7 +39,7 @@ import {APP_NAME} from '../brand';
 export default [
      {tag: 'scratch', intlLabel: 'Scratch'},
      {tag: 'tw', intlLabel: APP_NAME},
-     {tag: 'Bilup', intlLabel: 'Bilup'}
+     {tag: 'RemixWarp', intlLabel: 'RemixWarp'}
 ];
 ```
 

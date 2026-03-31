@@ -4,7 +4,7 @@ import CodeBlock from '@theme/CodeBlock';
 
 export const ExtensionCode = ({title, children}) => {
   const isBrowser = useIsBrowser();
-  const origin = isBrowser ? location.origin : `https://docs.turbowarp.org`;
+  const origin = isBrowser ? location.origin : `https://turbowarp.org/editor?extension=${origin}/example-extensions/${title}.js`
   return (
     <div>
       <CodeBlock
@@ -19,7 +19,7 @@ export const ExtensionCode = ({title, children}) => {
               rel="noopener noreferrer"
               href={
                 title.startsWith('unsandboxed/') ? (
-                  `https://turbowarp.org/editor?extension=https://extensions.turbowarp.org/docs-examples/${title}.js`
+                  `https://turbowarp.org/editor?extension=${origin}/example-extensions/${title}.js`
                 ) : (
                   `https://turbowarp.org/editor?extension=${origin}/example-extensions/${title}.js`
                 )

@@ -3,9 +3,9 @@ title: Projects
 sidebar_position: 3
 ---
 
-# Managing Projects in Bilup
+# Managing Projects in RemixWarp
 
-Bilup provides powerful project management capabilities that extend beyond standard Scratch functionality. Learn how to create, save, load, and organize your projects effectively.
+RemixWarp provides powerful project management capabilities that extend beyond standard Scratch functionality. Learn how to create, save, load, and organize your projects effectively.
 
 ## Creating Projects
 
@@ -26,7 +26,7 @@ New projects include:
 
 ### Project Templates
 
-Bilup offers several starting templates:
+RemixWarp offers several starting templates:
 
 #### Basic Templates
 - **Empty Project**: Completely blank slate
@@ -47,10 +47,10 @@ Bilup offers several starting templates:
 #### Supported Formats
 - **Scratch 3.0 (.sb3)**: Full compatibility
 - **Scratch 2.0 (.sb2)**: Automatic conversion
-- **Bilup Projects**: Enhanced format with addon data
+- **RemixWarp Projects**: Enhanced format with addon data
 
 #### Loading Process
-1. Click **File** → **Load from your computer**
+1. Click **File** �?**Load from your computer**
 2. Select your project file
 3. Wait for loading to complete
 4. Project opens in the editor
@@ -59,7 +59,7 @@ Bilup offers several starting templates:
 
 #### Direct URL Loading
 1. Copy a Scratch project URL
-2. Click **File** → **Load from Scratch**
+2. Click **File** �?**Load from Scratch**
 3. Paste the URL or enter project ID
 4. Project downloads and opens
 
@@ -72,7 +72,7 @@ Bilup offers several starting templates:
 
 #### Browser Storage
 - Projects auto-save to browser storage
-- Access via **File** → **Recent Projects**
+- Access via **File** �?**Recent Projects**
 - Persists between sessions
 
 #### External Services
@@ -90,7 +90,7 @@ Bilup offers several starting templates:
 - Includes addon configurations
 
 #### Export to Computer
-1. Click **File** → **Save to your computer**
+1. Click **File** �?**Save to your computer**
 2. Choose filename and location
 3. Downloads as `.sb3` file
 4. Compatible with standard Scratch
@@ -98,7 +98,7 @@ Bilup offers several starting templates:
 ### Cloud Saving
 
 #### Scratch Website Integration
-1. Click **File** → **Upload to Scratch**
+1. Click **File** �?**Upload to Scratch**
 2. Sign in to Scratch account
 3. Project uploads and becomes shareable
 4. Maintains compatibility
@@ -121,12 +121,12 @@ Bilup offers several starting templates:
 ```
 My Projects/
 ├── Games/
-│   ├── Platformer_v1.sb3
-│   ├── Platformer_v2.sb3
-│   └── Puzzle_Game.sb3
+�?  ├── Platformer_v1.sb3
+�?  ├── Platformer_v2.sb3
+�?  └── Puzzle_Game.sb3
 ├── Art/
-│   ├── Digital_Art_1.sb3
-│   └── Animation_Test.sb3
+�?  ├── Digital_Art_1.sb3
+�?  └── Animation_Test.sb3
 └── Learning/
     ├── Math_Practice.sb3
     └── Science_Demo.sb3
@@ -135,7 +135,7 @@ My Projects/
 ### Project Metadata
 
 #### Automatic Metadata
-Bilup tracks:
+RemixWarp tracks:
 - **Creation Date**: When project was started
 - **Last Modified**: Most recent edit time
 - **Edit Count**: Number of modifications
@@ -154,7 +154,7 @@ Add your own information:
 
 #### Uploading to Scratch
 1. Ensure project follows Scratch guidelines
-2. Use **File** → **Upload to Scratch**
+2. Use **File** �?**Upload to Scratch**
 3. Add title, description, and tags
 4. Share with the community
 
@@ -171,7 +171,7 @@ Add your own information:
 - Preserves all project data
 
 #### Web Embedding
-- Use Bilup Packager for web deployment
+- Use RemixWarp Packager for web deployment
 - Create standalone HTML files
 - Embed in websites and blogs
 
@@ -189,12 +189,12 @@ Add your own information:
 
 ## Project Migration
 
-### From Scratch to Bilup
+### From Scratch to RemixWarp
 
 #### Automatic Migration
 - Load any Scratch project directly
 - All blocks and sprites transfer perfectly
-- Enhanced with Bilup features immediately
+- Enhanced with RemixWarp features immediately
 
 #### Performance Optimization
 After loading Scratch projects:
@@ -203,15 +203,15 @@ After loading Scratch projects:
 3. Try **High Quality Pen** for better graphics
 4. Explore **Custom Stage Sizes**
 
-### Between Bilup Instances
+### Between RemixWarp Instances
 
 #### Project Portability
-- `.sb3` files work across all Bilup versions
+- `.sb3` files work across all RemixWarp versions
 - Addon data preserves when available
 - Settings transfer with project metadata
 
 #### Version Compatibility
-- Newer Bilup features gracefully degrade
+- Newer RemixWarp features gracefully degrade
 - Older projects work in newer versions
 - Clear warnings for incompatible features
 
@@ -245,7 +245,7 @@ For advanced users:
 ### Recovery Procedures
 
 #### Browser Crash Recovery
-1. Restart browser and return to Bilup
+1. Restart browser and return to RemixWarp
 2. Look for auto-recovery prompt
 3. Choose most recent backup
 4. Verify project integrity
@@ -317,8 +317,8 @@ For advanced users:
 - **Enterprise features**: Business solutions
 - **Custom development**: Specialized needs
 
-Projects are the heart of your Bilup experience. With proper organization and management, you can create amazing interactive content while maintaining efficiency and collaboration capabilities.
+Projects are the heart of your RemixWarp experience. With proper organization and management, you can create amazing interactive content while maintaining efficiency and collaboration capabilities.
 
 ---
 
-*Next: Explore [Advanced Settings](./advanced-settings.md) to unlock Bilup's full potential.*
+*Next: Explore [Advanced Settings](./advanced-settings.md) to unlock RemixWarp's full potential.*

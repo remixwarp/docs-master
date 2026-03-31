@@ -5,11 +5,11 @@ sidebar_position: 3
 
 # Patching the Compiler
 
-The core mechanism of compiled extensions is patching Bilup's compiler to inject custom code generation logic. This process involves modifying three key compiler phases to handle extension blocks.
+The core mechanism of compiled extensions is patching RemixWarp's compiler to inject custom code generation logic. This process involves modifying three key compiler phases to handle extension blocks.
 
 ## Understanding the Compilation Pipeline
 
-Bilup's compiler transforms Scratch blocks through several phases:
+RemixWarp's compiler transforms Scratch blocks through several phases:
 
 1. **Block Parsing**: Raw block data is processed
 2. **Script Tree Generation**: Blocks are organized into a tree structure

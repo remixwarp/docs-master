@@ -3,14 +3,14 @@ title: Development Testing
 sidebar_position: 5
 ---
 
-# Testing in Bilup Development
+# Testing in RemixWarp Development
 
-Testing is a crucial part of Bilup development, ensuring code quality, preventing regressions, and maintaining reliability across the platform. This guide covers testing strategies, tools, and best practices for Bilup development.
+Testing is a crucial part of RemixWarp development, ensuring code quality, preventing regressions, and maintaining reliability across the platform. This guide covers testing strategies, tools, and best practices for RemixWarp development.
 
 ## Testing Strategy
 
 ### Testing Pyramid
-Bilup follows a comprehensive testing pyramid:
+RemixWarp follows a comprehensive testing pyramid:
 
 1. **Unit Tests** (70%): Test individual functions and components
 2. **Integration Tests** (20%): Test component interactions
@@ -519,4 +519,4 @@ open coverage/lcov-report/index.html
 }
 ```
 
-Testing in Bilup ensures code quality and reliability across all components. Follow these practices to maintain a robust, well-tested codebase that users can depend on!
+Testing in RemixWarp ensures code quality and reliability across all components. Follow these practices to maintain a robust, well-tested codebase that users can depend on!

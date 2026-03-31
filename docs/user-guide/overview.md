@@ -3,25 +3,25 @@ title: User Guide Overview
 sidebar_position: 1
 ---
 
-# Bilup User Guide
+# RemixWarp User Guide
 
-Welcome to the comprehensive Bilup User Guide! This section covers everything you need to know to effectively use Bilup, from basic interface navigation to advanced features and customization options.
+Welcome to the comprehensive RemixWarp User Guide! This section covers everything you need to know to effectively use RemixWarp, from basic interface navigation to advanced features and customization options.
 
 ## What You'll Learn
 
-This guide is structured to take you from beginner to advanced Bilup user:
+This guide is structured to take you from beginner to advanced RemixWarp user:
 
 ### 🎯 [Interface](./interface.md)
-Master the Bilup interface, learn about all the panels, tools, and controls available to you.
+Master the RemixWarp interface, learn about all the panels, tools, and controls available to you.
 
 ### 📁 [Projects](./projects.md) 
-Learn how to create, save, load, and manage your Bilup projects effectively.
+Learn how to create, save, load, and manage your RemixWarp projects effectively.
 
 ### ⚙️ [Advanced Settings](./advanced-settings.md)
-Discover Bilup's powerful performance and customization settings.
+Discover RemixWarp's powerful performance and customization settings.
 
 ### 🧩 [Addons](./addons.md)
-Explore the extensive addon system that extends Bilup's functionality.
+Explore the extensive addon system that extends RemixWarp's functionality.
 
 ### 🌐 [Embedding](./embedding.md)
 Learn how to embed your projects in websites and other applications.
@@ -33,19 +33,19 @@ Understand how to use cloud variables for persistent data and multiplayer featur
 Discover how to integrate JavaScript into your projects for advanced functionality.
 
 ### 🔗 [URL Parameters](./url-parameters.md)
-Learn about URL parameters for customizing the Bilup experience.
+Learn about URL parameters for customizing the RemixWarp experience.
 
-### 🛠️ [Troubleshooting](./troubleshooting.md)
+### 🛠�?[Troubleshooting](./troubleshooting.md)
 Find solutions to common issues and learn debugging techniques.
 
 ## Key Differences from Scratch
 
-If you're coming from Scratch, here are the major enhancements you'll find in Bilup:
+If you're coming from Scratch, here are the major enhancements you'll find in RemixWarp:
 
 ### Performance Improvements
 - **🚀 Turbo Mode**: Projects run 2-10x faster
 - **📈 60+ FPS**: Smooth animations at higher frame rates
-- **⚡ Optimized Compiler**: Advanced code optimization
+- **�?Optimized Compiler**: Advanced code optimization
 - **🎮 Better Graphics**: Hardware-accelerated rendering
 
 ### Enhanced Interface
@@ -56,7 +56,7 @@ If you're coming from Scratch, here are the major enhancements you'll find in Bi
 
 ### Powerful Addons
 - **80+ Built-in Addons**: Extensive functionality extensions
-- **🎛️ Addon Manager**: Easy installation and configuration
+- **🎛�?Addon Manager**: Easy installation and configuration
 - **🔌 Extension System**: Load custom extensions
 - **🎨 Visual Enhancements**: Improved editor appearance
 
@@ -69,20 +69,20 @@ If you're coming from Scratch, here are the major enhancements you'll find in Bi
 ## Getting Started Quickly
 
 ### 1. First Steps
-1. **Open Bilup** at [https://editor.bilup.org/](https://editor.bilup.org/)
+1. **Open RemixWarp** at [https://discord.gg/RemixWarp)
 2. **Try the interface** - everything works just like Scratch!
-3. **Enable Turbo Mode** (⚡) to see the performance boost
+3. **Enable Turbo Mode** (�? to see the performance boost
 4. **Switch to Dark Mode** in settings for a modern look
 
 ### 2. Enable Essential Addons
 These addons will immediately improve your experience:
 
 ```
-✓ Mouse Position - See cursor coordinates
-✓ Block Count - Monitor project complexity  
-✓ FPS Counter - Track performance
-✓ Variable Manager - Better variable control
-✓ Find Bar - Search for blocks in scripts
+�?Mouse Position - See cursor coordinates
+�?Block Count - Monitor project complexity  
+�?FPS Counter - Track performance
+�?Variable Manager - Better variable control
+�?Find Bar - Search for blocks in scripts
 ```
 
 ### 3. Optimize Performance
@@ -90,10 +90,10 @@ Configure these settings for best performance:
 
 ```
 Advanced Settings:
-✓ Turbo Mode: ON
-✓ Framerate: 60 FPS
-✓ High Quality Pen: ON
-✓ Interpolation: ON
+�?Turbo Mode: ON
+�?Framerate: 60 FPS
+�?High Quality Pen: ON
+�?Interpolation: ON
 ```
 
 ## Quick Reference
@@ -119,7 +119,7 @@ Advanced Settings:
 |--------|----------|
 | 🟢 Green Flag | Start your project |
 | 🛑 Stop Sign | Stop all scripts |
-| ⚡ Turbo Mode | Faster execution |
+| �?Turbo Mode | Faster execution |
 | ⚙️ Settings | Advanced options |
 | 🧩 Addons | Manage addons |
 | 🎨 Themes | Change appearance |
@@ -159,7 +159,7 @@ Advanced Settings:
 ## Learning Resources
 
 ### Tutorial Projects
-Bilup includes example projects to help you learn:
+RemixWarp includes example projects to help you learn:
 
 - **Performance Demo** - See speed improvements
 - **Addon Showcase** - Explore addon capabilities
@@ -167,23 +167,23 @@ Bilup includes example projects to help you learn:
 - **Custom Blocks** - Advanced scripting techniques
 
 ### Video Tutorials
-- **Getting Started with Bilup** (5 min)
+- **Getting Started with RemixWarp** (5 min)
 - **Addon System Deep Dive** (15 min)
 - **Performance Optimization** (10 min)
 - **Custom Theme Creation** (12 min)
 
 ### Community Resources
-- **[GitHub Discussions](https://github.com/Bilup/scratch-gui/discussions)** - Ask questions and share projects
-- **[Discord Server](https://discord.gg/Bilup)** - Real-time community chat
-- **[Project Gallery](https://editor.bilup.org/gallery)** - Browse featured projects
-- **[Tutorial Collection](https://tutorials.mistium.com)** - Step-by-step guides
+- **[GitHub Discussions](https://discord.gg/RemixWarp)** - Ask questions and share projects
+- **[Discord Server](https://discord.gg/RemixWarp)** - Real-time community chat
+- **[Project Gallery](https://discord.gg/RemixWarp)** - Browse featured projects
+- **[Tutorial Collection](https://discord.gg/RemixWarp)** - Step-by-step guides
 
 ## Next Steps
 
 Ready to dive deeper? Here's what to explore next:
 
 ### For New Users
-1. **[Interface Guide](./interface.md)** - Master the Bilup interface
+1. **[Interface Guide](./interface.md)** - Master the RemixWarp interface
 2. **[Projects Guide](./projects.md)** - Learn project management
 3. **[Quick Start](/getting-started/quick-start.md)** - Create your first project
 
@@ -207,9 +207,9 @@ Need assistance? Here are your options:
 - **Check [Troubleshooting](./troubleshooting.md)** for common issues
 
 ### Community Support
-- **[GitHub Issues](https://github.com/Bilup/scratch-gui/issues)** - Report bugs
-- **[Discussions](https://github.com/Bilup/scratch-gui/discussions)** - Get help from the community
-- **[Discord](https://discord.gg/Bilup)** - Real-time chat support
+- **[GitHub Issues](https://discord.gg/RemixWarp)** - Report bugs
+- **[Discussions](https://discord.gg/RemixWarp)** - Get help from the community
+- **[Discord](https://discord.gg/RemixWarp)** - Real-time chat support
 
 ### Professional Support
 For schools, organizations, or commercial users:
@@ -221,4 +221,4 @@ Contact us at [support@mistium.com](mailto:support@mistium.com) for enterprise s
 
 ---
 
-*Ready to start exploring? Begin with our [Interface Guide](./interface.md) to learn the Bilup interface!*
+*Ready to start exploring? Begin with our [Interface Guide](./interface.md) to learn the RemixWarp interface!*

@@ -9,7 +9,7 @@ GUI themes control the overall interface appearance - backgrounds, text colors, 
 
 ## Available Themes
 
-Bilup includes three built-in GUI themes:
+RemixWarp includes three built-in GUI themes:
 
 - **light**: Default bright interface
 - **dark**: Dark interface with light text  

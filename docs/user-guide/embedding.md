@@ -3,18 +3,18 @@ title: Embedding
 sidebar_position: 6
 ---
 
-# Embedding Bilup Projects
+# Embedding RemixWarp Projects
 
-Bilup provides powerful embedding capabilities that allow you to integrate projects into websites, applications, and other platforms with enhanced features and customization options.
+RemixWarp provides powerful embedding capabilities that allow you to integrate projects into websites, applications, and other platforms with enhanced features and customization options.
 
 ## Basic Embedding
 
 ### Simple iframe Embedding
-The easiest way to embed a Bilup project:
+The easiest way to embed a RemixWarp project:
 
 ```html
 <iframe
-  src="https://editor.bilup.org/123456789/embed"
+  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
   width="480"
   height="360"
   frameborder="0"
@@ -28,7 +28,7 @@ Supported embed parameters include `autoplay`, `addons`, and standard runtime op
 
 ```html
 <iframe
-  src="https://editor.bilup.org/123456789/embed?autoplay&turbo&fps=60"
+  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;?autoplay&turbo&fps=60"
   width="800"
   height="600"
   frameborder="0"
@@ -72,7 +72,7 @@ Create responsive embeds that adapt to container size:
 ```html
 <div style="position: relative; padding-bottom: 75%; height: 0;">
   <iframe
-    src="https://editor.bilup.org/123456789/embed"
+    src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen>
@@ -90,10 +90,10 @@ Embeds accept `LOAD_SB3` messages for loading projects. See detailed guide: [/us
 
 ```javascript
 // Send SB3 to the embed (URL or binary)
-const iframe = document.getElementById('Bilup-embed');
+const iframe = document.getElementById('RemixWarp-embed');
 iframe.contentWindow.postMessage({
   type: 'LOAD_SB3',
-  data: 'https://example.com/project.sb3',
+  data: 'https://editor.RemixWarp.org/${projectId}/embed?${params}`;',
   title: 'Optional Title'
 }, '*');
 
@@ -111,9 +111,9 @@ Embeds do not emit general project events via `postMessage`. Use the VM API with
 ## Packager Integration
 
 ### Standalone Embeds
-Use the Bilup Packager for standalone embeds:
+Use the RemixWarp Packager for standalone embeds:
 
-1. Visit [packager.warp.mistium.com](https://packager.warp.mistium.com)
+1. Visit [packager.warp.mistium.com](https://editor.RemixWarp.org/${projectId}/embed?${params}`;)
 2. Enter your project URL or upload project file
 3. Configure embedding options
 4. Download generated HTML file
@@ -158,8 +158,8 @@ document.querySelectorAll('iframe[data-src]').forEach(iframe => {
 Preload critical resources:
 
 ```html
-<link rel="preload" href="https://editor.bilup.org/assets/scratch-vm.js" as="script">
-<link rel="preload" href="https://editor.bilup.org/assets/scratch-gui.js" as="script">
+<link rel="preload" href="https://editor.RemixWarp.org/${projectId}/embed?${params}`;" as="script">
+<link rel="preload" href="https://editor.RemixWarp.org/${projectId}/embed?${params}`;" as="script">
 ```
 
 ### Accessibility
@@ -169,7 +169,7 @@ Provide alternative content for screen readers:
 
 ```html
 <iframe
-  src="https://editor.bilup.org/123456789/embed"
+  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
   title="Interactive Math Game - Practice Addition and Subtraction"
   aria-label="Scratch game for practicing math skills">
   <p>This is an interactive math game that helps practice addition and subtraction.
@@ -187,7 +187,7 @@ Ensure embedded projects support keyboard navigation by focusing the iframe or p
 Configure CSP headers for embedded content:
 
 ```http
-Content-Security-Policy: frame-src https://warp.mistium.com;
+Content-Security-Policy: frame-src https://editor.RemixWarp.org/${projectId}/embed?${params}`;
 ```
 
 ### Sandbox Attributes
@@ -195,7 +195,7 @@ Use sandbox attributes for additional security:
 
 ```html
 <iframe
-  src="https://editor.bilup.org/123456789/embed"
+  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
   sandbox="allow-scripts allow-same-origin allow-fullscreen">
 </iframe>
 ```
@@ -206,8 +206,8 @@ Use sandbox attributes for additional security:
 Use WordPress shortcodes or embed blocks:
 
 ```php
-// Custom shortcode for Bilup embeds
-function Bilup_embed_shortcode($atts) {
+// Custom shortcode for RemixWarp embeds
+function RemixWarp_embed_shortcode($atts) {
   $atts = shortcode_atts([
     'id' => '',
     'width' => 480,
@@ -216,13 +216,13 @@ function Bilup_embed_shortcode($atts) {
     'turbo' => false
   ], $atts);
   
-  $src = "https://editor.bilup.org/{$atts['id']}/embed";
+  $src = "https://editor.RemixWarp.org/${projectId}/embed?${params}`;'id']}/embed";
   if ($atts['autoplay']) $src .= "?autoplay";
   if ($atts['turbo']) $src .= $atts['autoplay'] ? "&turbo" : "?turbo";
   
   return "<iframe src='{$src}' width='{$atts['width']}' height='{$atts['height']}' frameborder='0'></iframe>";
 }
-add_shortcode('Bilup', 'Bilup_embed_shortcode');
+add_shortcode('RemixWarp', 'RemixWarp_embed_shortcode');
 ```
 
 ### React/Vue.js
@@ -232,7 +232,7 @@ Create reusable components:
 // React component
 import React from 'react';
 
-const BilupEmbed = ({ 
+const RemixWarpEmbed = ({ 
   projectId, 
   width = 480, 
   height = 360, 
@@ -243,7 +243,7 @@ const BilupEmbed = ({
   if (autoplay) params.append('autoplay', '');
   if (turbo) params.append('turbo', '');
   
-  const src = `https://editor.bilup.org/${projectId}/embed?${params}`;
+  const src = `https://editor.RemixWarp.org/${projectId}/embed?${params}`;
   
   return (
     <iframe
@@ -256,7 +256,7 @@ const BilupEmbed = ({
   );
 };
 
-export default BilupEmbed;
+export default RemixWarpEmbed;
 ```
 
 ## Troubleshooting Embedding
@@ -284,4 +284,4 @@ export default BilupEmbed;
 ### Debugging
 Use the browser devtools console and network inspector. There is no `debug` URL parameter.
 
-Bilup's embedding capabilities make it easy to integrate interactive content into any website or application. Use these features to create engaging, interactive experiences for your users!
+RemixWarp's embedding capabilities make it easy to integrate interactive content into any website or application. Use these features to create engaging, interactive experiences for your users!

@@ -3,16 +3,16 @@ title: Project Structure
 sidebar_position: 3
 ---
 
-# Bilup Project Structure
+# RemixWarp Project Structure
 
-Understanding Bilup's project structure is essential for effective development. This guide explains how the codebase is organized and how different components interact.
+Understanding RemixWarp's project structure is essential for effective development. This guide explains how the codebase is organized and how different components interact.
 
 ## Repository Overview
 
-Bilup consists of several interconnected repositories:
+RemixWarp consists of several interconnected repositories:
 
 ```
-Bilup Ecosystem
+RemixWarp Ecosystem
 ├── scratch-gui/          # Main GUI application (React-based editor)
 ├── scratch-vm/           # Virtual machine and runtime engine
 ├── scratch-render/       # WebGL-based rendering engine  
@@ -30,46 +30,46 @@ The main GUI repository contains the React-based editor interface:
 ```
 scratch-gui/
 ├── src/                          # Source code
-│   ├── components/               # React UI components
-│   │   ├── gui/                  # Main GUI component
-│   │   ├── blocks/               # Block editor integration
-│   │   ├── stage/                # Stage display component
-│   │   ├── sprite-selector/      # Sprite management UI
-│   │   ├── menu-bar/             # Top menu bar
-│   │   └── ...                   # Other UI components
-│   ├── containers/               # Redux-connected containers
-│   │   ├── gui.jsx               # Main GUI container
-│   │   ├── blocks.jsx            # Blocks editor container
-│   │   ├── stage.jsx             # Stage container
-│   │   └── ...                   # Other containers
-│   ├── lib/                      # Utility libraries
-│   │   ├── themes/               # Theme system
-│   │   ├── storage.js            # Project storage
-│   │   ├── vm-manager-hoc.jsx    # VM integration
-│   │   └── ...                   # Other utilities
-│   ├── reducers/                 # Redux reducers
-│   │   ├── gui.js                # Main GUI state
-│   │   ├── project-state.js      # Project loading state
-│   │   ├── targets.js            # Sprite/stage state
-│   │   └── ...                   # Other reducers
-│   ├── addons/                   # Addon system
-│   │   ├── api.js                # Addon API implementation
-│   │   ├── hooks.js              # Integration hooks
-│   │   ├── generated/            # Generated addon files
-│   │   └── addons/               # Individual addon implementations
-│   ├── css/                      # Global stylesheets
-│   │   ├── colors.css            # Color definitions
-│   │   ├── units.css             # Size and spacing units
-│   │   └── ...                   # Other global styles
-│   └── index.js                  # Application entry point
+�?  ├── components/               # React UI components
+�?  �?  ├── gui/                  # Main GUI component
+�?  �?  ├── blocks/               # Block editor integration
+�?  �?  ├── stage/                # Stage display component
+�?  �?  ├── sprite-selector/      # Sprite management UI
+�?  �?  ├── menu-bar/             # Top menu bar
+�?  �?  └── ...                   # Other UI components
+�?  ├── containers/               # Redux-connected containers
+�?  �?  ├── gui.jsx               # Main GUI container
+�?  �?  ├── blocks.jsx            # Blocks editor container
+�?  �?  ├── stage.jsx             # Stage container
+�?  �?  └── ...                   # Other containers
+�?  ├── lib/                      # Utility libraries
+�?  �?  ├── themes/               # Theme system
+�?  �?  ├── storage.js            # Project storage
+�?  �?  ├── vm-manager-hoc.jsx    # VM integration
+�?  �?  └── ...                   # Other utilities
+�?  ├── reducers/                 # Redux reducers
+�?  �?  ├── gui.js                # Main GUI state
+�?  �?  ├── project-state.js      # Project loading state
+�?  �?  ├── targets.js            # Sprite/stage state
+�?  �?  └── ...                   # Other reducers
+�?  ├── addons/                   # Addon system
+�?  �?  ├── api.js                # Addon API implementation
+�?  �?  ├── hooks.js              # Integration hooks
+�?  �?  ├── generated/            # Generated addon files
+�?  �?  └── addons/               # Individual addon implementations
+�?  ├── css/                      # Global stylesheets
+�?  �?  ├── colors.css            # Color definitions
+�?  �?  ├── units.css             # Size and spacing units
+�?  �?  └── ...                   # Other global styles
+�?  └── index.js                  # Application entry point
 ├── static/                       # Static assets
-│   ├── favicon.ico               # Site favicon
-│   ├── blocks-media/             # Block icons and media
-│   └── example-extensions/       # Example extension files
+�?  ├── favicon.ico               # Site favicon
+�?  ├── blocks-media/             # Block icons and media
+�?  └── example-extensions/       # Example extension files
 ├── test/                         # Test files
-│   ├── unit/                     # Unit tests
-│   ├── integration/              # Integration tests
-│   └── fixtures/                 # Test data and mocks
+�?  ├── unit/                     # Unit tests
+�?  ├── integration/              # Integration tests
+�?  └── fixtures/                 # Test data and mocks
 ├── webpack.config.js             # Webpack build configuration
 ├── package.json                  # NPM dependencies and scripts
 └── README.md                     # Repository documentation
@@ -83,22 +83,22 @@ scratch-gui/
 App
 └── GUI (Main Interface)
     ├── MenuBar
-    │   ├── File Menu
-    │   ├── Edit Menu
-    │   ├── Settings
-    │   └── Theme Selector
+    �?  ├── File Menu
+    �?  ├── Edit Menu
+    �?  ├── Settings
+    �?  └── Theme Selector
     ├── GUI Body
-    │   ├── Editor Panel (Left)
-    │   │   ├── Tabs (Code/Costumes/Sounds)
-    │   │   ├── Blocks Workspace
-    │   │   ├── Costume Editor
-    │   │   └── Sound Editor
-    │   └── Stage Panel (Right)
-    │       ├── Stage Header
-    │       ├── Stage Canvas
-    │       └── Target Pane
-    │           ├── Sprite Selector
-    │           └── Stage Selector
+    �?  ├── Editor Panel (Left)
+    �?  �?  ├── Tabs (Code/Costumes/Sounds)
+    �?  �?  ├── Blocks Workspace
+    �?  �?  ├── Costume Editor
+    �?  �?  └── Sound Editor
+    �?  └── Stage Panel (Right)
+    �?      ├── Stage Header
+    �?      ├── Stage Canvas
+    �?      └── Target Pane
+    �?          ├── Sprite Selector
+    �?          └── Stage Selector
     └── Modals & Overlays
         ├── Extension Library
         ├── Costume Library
@@ -164,7 +164,7 @@ src/lib/
         theme: {                  // Theme state
             theme: 'dark'
         },
-        tw: {                     // Bilup-specific state
+        tw: {                     // RemixWarp-specific state
             customStageSize: { width: 480, height: 360 },
             isWindowFullScreen: false
         }
@@ -219,14 +219,14 @@ src/addons/
 ├── api.js                        # Addon API implementation
 ├── hooks.js                      # Integration hooks for addons
 ├── generated/                    # Auto-generated files
-│   ├── addon-entries.js          # Addon entry points
-│   └── addon-manifests.js        # Addon metadata
+�?  ├── addon-entries.js          # Addon entry points
+�?  └── addon-manifests.js        # Addon metadata
 └── addons/                       # Individual addon implementations
     ├── editor-devtools/           # Example addon
-    │   ├── addon.json             # Addon manifest
-    │   ├── _runtime_entry.js      # Runtime entry point
-    │   ├── userscript.js          # Main addon code
-    │   └── style.css              # Addon styles
+    �?  ├── addon.json             # Addon manifest
+    �?  ├── _runtime_entry.js      # Runtime entry point
+    �?  ├── userscript.js          # Main addon code
+    �?  └── style.css              # Addon styles
     └── ...                        # Other addons
 ```
 
@@ -353,9 +353,9 @@ For local development with linked packages:
 
 ```bash
 # Clone repositories
-git clone https://github.com/Bilup/scratch-gui.git
-git clone https://github.com/Bilup/scratch-vm.git
-git clone https://github.com/Bilup/scratch-render.git
+git clone http://localhost:8074
+git clone http://localhost:8074
+git clone http://localhost:8074
 
 # Link VM and Render to GUI
 cd scratch-vm && npm link
@@ -378,7 +378,7 @@ REACT_APP_DEBUG=true
 REACT_APP_ADDON_DEV_MODE=true
 
 # Optional package overrides
-REACT_APP_VM_ORIGIN=http://localhost:8073
+REACT_APP_VM_ORIGIN=http://localhost:8074
 REACT_APP_RENDER_ORIGIN=http://localhost:8074
 ```
 
@@ -407,21 +407,21 @@ if (process.env.NODE_ENV === 'development') {
 ```
 test/
 ├── unit/                         # Unit tests
-│   ├── components/               # Component tests
-│   ├── reducers/                 # Reducer tests
-│   └── lib/                      # Utility tests
+�?  ├── components/               # Component tests
+�?  ├── reducers/                 # Reducer tests
+�?  └── lib/                      # Utility tests
 ├── integration/                  # Integration tests
-│   ├── gui-integration.test.js   # Full GUI tests
-│   ├── vm-integration.test.js    # VM integration tests
-│   └── addon-integration.test.js # Addon system tests
+�?  ├── gui-integration.test.js   # Full GUI tests
+�?  ├── vm-integration.test.js    # VM integration tests
+�?  └── addon-integration.test.js # Addon system tests
 ├── e2e/                          # End-to-end tests
-│   ├── basic-functionality.test.js
-│   ├── project-loading.test.js
-│   └── addon-functionality.test.js
+�?  ├── basic-functionality.test.js
+�?  ├── project-loading.test.js
+�?  └── addon-functionality.test.js
 ├── fixtures/                     # Test data
-│   ├── projects/                 # Sample projects
-│   ├── assets/                   # Test assets
-│   └── mocks/                    # Mock data
+�?  ├── projects/                 # Sample projects
+�?  ├── assets/                   # Test assets
+�?  └── mocks/                    # Mock data
 └── setup/                        # Test configuration
     ├── jest.config.js
     ├── test-utils.js
@@ -455,12 +455,12 @@ This documentation site is built with Docusaurus and organized as:
 ```
 docs/
 ├── docs/                         # Documentation content
-│   ├── getting-started/          # Getting started guides
-│   ├── user-guide/               # User documentation
-│   ├── development/              # Development guides
-│   ├── gui-internals/            # Technical internals
-│   ├── api-reference/            # API documentation
-│   └── legacy/                   # Preserved old content
+�?  ├── getting-started/          # Getting started guides
+�?  ├── user-guide/               # User documentation
+�?  ├── development/              # Development guides
+�?  ├── gui-internals/            # Technical internals
+�?  ├── api-reference/            # API documentation
+�?  └── legacy/                   # Preserved old content
 ├── src/                          # Custom components and pages
 ├── static/                       # Static assets
 ├── docusaurus.config.js          # Site configuration
@@ -468,7 +468,7 @@ docs/
 └── package.json                  # Dependencies and scripts
 ```
 
-Understanding this structure will help you navigate the codebase effectively and contribute to Bilup development. Each part has a specific purpose and clear interfaces with other components.
+Understanding this structure will help you navigate the codebase effectively and contribute to RemixWarp development. Each part has a specific purpose and clear interfaces with other components.
 
 ---
 

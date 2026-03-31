@@ -1,6 +1,6 @@
 # VM API Reference
 
-The Bilup Virtual Machine (VM) is the core execution engine that powers Scratch projects. It provides comprehensive programmatic access to the runtime environment, allowing external code to control project execution, manipulate sprites and assets, listen for events, and configure runtime behavior.
+The RemixWarp Virtual Machine (VM) is the core execution engine that powers Scratch projects. It provides comprehensive programmatic access to the runtime environment, allowing external code to control project execution, manipulate sprites and assets, listen for events, and configure runtime behavior.
 
 ## Overview
 

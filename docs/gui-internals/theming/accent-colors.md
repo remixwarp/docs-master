@@ -5,11 +5,11 @@ sidebar_position: 2
 
 # Accent Colors
 
-Accent colors define the primary color scheme used throughout Bilup's interface. They're located in `src/lib/themes/accent/` and can be mixed with any GUI or block theme.
+Accent colors define the primary color scheme used throughout RemixWarp's interface. They're located in `src/lib/themes/accent/` and can be mixed with any GUI or block theme.
 
 ## Available Accents
 
-Bilup includes many built-in accent colors:
+RemixWarp includes many built-in accent colors:
 
 - **Basic Colors**: Red, Orange, Yellow, Green, Blue, Purple, Pink
 - **Pride Themes**: Rainbow, Trans, Gay, Rotur  

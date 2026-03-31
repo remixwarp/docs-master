@@ -1,6 +1,6 @@
 # GUI Container
 
-The GUI Container is the root container component that orchestrates the entire Bilup application interface.
+The GUI Container is the root container component that orchestrates the entire RemixWarp application interface.
 
 ## Overview
 
@@ -167,7 +167,7 @@ const handleKeyDown = useCallback((event) => {
   const { key, ctrlKey, metaKey, shiftKey } = event;
   const cmd = ctrlKey || metaKey;
   
-  // Prevent browser shortcuts when focused on Bilup
+  // Prevent browser shortcuts when focused on RemixWarp
   if (document.activeElement?.closest('.gui')) {
     switch (true) {
       case cmd && key === 'n':

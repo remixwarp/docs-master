@@ -1,6 +1,6 @@
 # Sprite Selector Component
 
-The Sprite Selector allows users to choose and manage sprites in their Bilup projects.
+The Sprite Selector allows users to choose and manage sprites in their RemixWarp projects.
 
 ## Overview
 
@@ -17,7 +17,7 @@ The Sprite Selector provides an interface for:
 SpriteSelectorContainer
   └── SpriteSelector
       ├── SpriteList
-      │   └── SpriteInfo (for each sprite)
+      �?  └── SpriteInfo (for each sprite)
       └── ActionButton
           ├── NewSprite
           ├── UploadSprite
@@ -39,9 +39,9 @@ SpriteSelectorContainer
 - Sprite names and rename functionality
 - Visibility toggles
 
-### Bilup Defaults
+### RemixWarp Defaults
 
-Bilup includes "Misty" as the default sprite instead of Scratch Cat:
+RemixWarp includes "Misty" as the default sprite instead of Scratch Cat:
 
 ```javascript
 // Default sprite when creating new projects

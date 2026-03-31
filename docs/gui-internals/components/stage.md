@@ -1,6 +1,6 @@
 # Stage Component
 
-The Stage component is the central visual element of Bilup that renders the project's stage and sprites.
+The Stage component is the central visual element of RemixWarp that renders the project's stage and sprites.
 
 ## Overview
 
@@ -57,7 +57,7 @@ interface StageProps {
 
 ## Integration with VM
 
-The Stage component closely integrates with the Bilup VM:
+The Stage component closely integrates with the RemixWarp VM:
 
 ```javascript
 // Listen for VM render events
@@ -74,9 +74,9 @@ The stage handles costume rendering for all sprites:
 - Manages layering (sprite order)
 - Handles costume switching animations
 
-## Bilup Enhancements
+## RemixWarp Enhancements
 
-Bilup adds several enhancements to the standard Scratch stage:
+RemixWarp adds several enhancements to the standard Scratch stage:
 
 ### Performance Mode
 - Reduced quality mode for slower devices

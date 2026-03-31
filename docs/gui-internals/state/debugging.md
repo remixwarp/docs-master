@@ -5,7 +5,7 @@ sidebar_position: 5
 
 # Redux Debugging & Testing
 
-Debugging and testing Redux state in Bilup requires understanding the store structure, using development tools effectively, and implementing comprehensive test coverage.
+Debugging and testing Redux state in RemixWarp requires understanding the store structure, using development tools effectively, and implementing comprehensive test coverage.
 
 ## Development Tools
 
@@ -108,7 +108,7 @@ const createStateInspector = (store) => {
 // Usage
 const inspector = createStateInspector(store);
 inspector.watchState('projectState.saveState', (current, previous) => {
-  console.log(`Save state changed: ${previous} â†’ ${current}`);
+  console.log(`Save state changed: ${previous} â†?${current}`);
 });
 ```
 
@@ -523,4 +523,4 @@ const useDebugSelector = (selector, equalityFn) => {
 };
 ```
 
-Redux debugging in Bilup requires systematic approaches to testing, monitoring, and error handling to ensure reliable state management across the application.
+Redux debugging in RemixWarp requires systematic approaches to testing, monitoring, and error handling to ensure reliable state management across the application.

@@ -4,7 +4,7 @@ title: Custom C Blocks
 
 # Custom C Blocks
 
-Bilup allows unsandboxed extensions to create custom C blocks (loops and conditionals) similar to Scratch's built-in `if`, `repeat`, and `forever` blocks.
+RemixWarp allows unsandboxed extensions to create custom C blocks (loops and conditionals) similar to Scratch's built-in `if`, `repeat`, and `forever` blocks.
 
 > **⚠️ Requirement:** Custom C blocks only work in **unsandboxed** extensions.
 
@@ -24,8 +24,8 @@ To define a C block, specify the appropriate `blockType` and (for conditionals) 
 
 ### Supported Block Types
 
-- `Scratch.BlockType.LOOP` — For repeating blocks. The loop is assumed to have exactly one child branch; `branchCount` is implied and not required.
-- `Scratch.BlockType.CONDITIONAL` — For if/else style blocks. Must specify `branchCount` to indicate how many branches the block controls.
+- `Scratch.BlockType.LOOP` �?For repeating blocks. The loop is assumed to have exactly one child branch; `branchCount` is implied and not required.
+- `Scratch.BlockType.CONDITIONAL` �?For if/else style blocks. Must specify `branchCount` to indicate how many branches the block controls.
 
 ## Implementing the Logic
 

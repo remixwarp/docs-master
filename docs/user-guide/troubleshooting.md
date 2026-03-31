@@ -5,7 +5,7 @@ sidebar_position: 11
 
 # Troubleshooting
 
-This comprehensive troubleshooting guide helps you resolve common issues when using Bilup. From project loading problems to performance issues, find solutions to get back to creating quickly.
+This comprehensive troubleshooting guide helps you resolve common issues when using RemixWarp. From project loading problems to performance issues, find solutions to get back to creating quickly.
 
 ## Project Loading Issues
 
@@ -20,8 +20,8 @@ This comprehensive troubleshooting guide helps you resolve common issues when us
 
 **Invalid Project ID**
 ```
-❌ Problem: Project ID doesn't exist or is private
-✅ Solution: Verify project ID and ensure it's shared publicly
+�?Problem: Project ID doesn't exist or is private
+�?Solution: Verify project ID and ensure it's shared publicly
 ```
 
 **Network Connectivity**
@@ -30,20 +30,20 @@ This comprehensive troubleshooting guide helps you resolve common issues when us
 ping warp.mistium.com
 
 # Check browser console for network errors
-# F12 → Console tab → Look for red errors
+# F12 �?Console tab �?Look for red errors
 ```
 
 **Browser Compatibility**
 ```
-❌ Problem: Outdated browser version
-✅ Solution: Update to latest Chrome, Firefox, Safari, or Edge
+�?Problem: Outdated browser version
+�?Solution: Update to latest Chrome, Firefox, Safari, or Edge
 Minimum versions: Chrome 80+, Firefox 74+, Safari 13+
 ```
 
 **Corrupted Project File**
 ```
-❌ Problem: Project file is damaged or corrupted
-✅ Solutions:
+�?Problem: Project file is damaged or corrupted
+�?Solutions:
 1. Try loading a backup version
 2. Re-download from original source
 3. Use project repair tools
@@ -55,7 +55,7 @@ Minimum versions: Chrome 80+, Firefox 74+, Safari 13+
 
 **Enable Turbo Mode**
 ```
-https://editor.bilup.org/123456789?turbo
+https://editor.RemixWarp.org/?unsafe
 ```
 
 **Reduce Project Size**
@@ -75,7 +75,7 @@ https://editor.bilup.org/123456789?turbo
 ### Low Frame Rate
 
 #### Diagnosis
-Check current FPS in Bilup:
+Check current FPS in RemixWarp:
 ```scratch
 when green flag clicked
 forever
@@ -87,19 +87,19 @@ end
 
 **Enable Performance Features**
 ```
-https://editor.bilup.org/?turbo&fps=60
+https://editor.RemixWarp.org/?unsafe
 ```
 
 **Optimize Project Code**
 ```scratch
-// ❌ Inefficient
+// �?Inefficient
 forever
   if <touching [Sprite1 v]?> then
     // Complex calculations every frame
   end
 end
 
-// ✅ Efficient  
+// �?Efficient  
 forever
   if <touching [Sprite1 v]?> then
     // Move complex code to separate script
@@ -136,12 +136,12 @@ console.log(performance.memory);
 
 **Code Optimization**
 ```scratch
-// ❌ Memory leak - lists grow infinitely
+// �?Memory leak - lists grow infinitely
 forever
   add [item] to [my list v]
 end
 
-// ✅ Proper cleanup
+// �?Proper cleanup
 forever
   add [item] to [my list v]
   if <(length of [my list v]) > (100)> then
@@ -156,8 +156,8 @@ end
 
 #### Blank Screen
 ```
-❌ Problem: Interface doesn't load
-✅ Solutions:
+�?Problem: Interface doesn't load
+�?Solutions:
 1. Disable browser extensions
 2. Clear cookies and cache
 3. Try incognito/private mode
@@ -166,8 +166,8 @@ end
 
 #### Controls Not Responding
 ```
-❌ Problem: Buttons don't work
-✅ Solutions:
+�?Problem: Buttons don't work
+�?Solutions:
 1. Refresh the page (F5)
 2. Check if JavaScript is enabled
 3. Try different browser
@@ -178,8 +178,8 @@ end
 
 #### Theme Not Loading
 ```
-❌ Problem: Theme appears broken or default
-✅ Solutions:
+�?Problem: Theme appears broken or default
+�?Solutions:
 1. Clear browser cache
 2. Use the settings menu to change theme
 3. Reset theme settings
@@ -188,8 +188,8 @@ end
 
 #### Custom Stage Size Problems
 ```
-❌ Problem: Stage size is wrong
-✅ Solutions:
+�?Problem: Stage size is wrong
+�?Solutions:
 1. Use valid size format: ?size=800x600
 2. Check browser zoom level (should be 100%)
 3. Use the fullscreen control in the player header
@@ -214,8 +214,8 @@ new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAg
 
 ### Distorted Audio
 ```
-❌ Problem: Audio sounds wrong or distorted
-✅ Solutions:
+�?Problem: Audio sounds wrong or distorted
+�?Solutions:
 1. Check audio sample rate (22050 Hz recommended)
 2. Try different audio format
 3. Reduce audio file size
@@ -236,8 +236,8 @@ new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAg
 
 #### Addon Conflicts
 ```
-❌ Problem: Addons interfere with each other
-✅ Solutions:
+�?Problem: Addons interfere with each other
+�?Solutions:
 1. Disable one addon at a time to identify conflict
 2. Check addon compatibility lists
 3. Report conflicts to addon developers
@@ -262,9 +262,9 @@ window.addEventListener('error', (e) => {
 #### Check Connection
 ```scratch
 // Test cloud variable connectivity
-set [☁ test v] to (timer)
+set [�?test v] to (timer)
 wait (1) seconds
-if <(☁ test) = (timer)> then
+if <(�?test) = (timer)> then
   say [Cloud variables working] for (2) seconds
 else
   say [Cloud variables offline] for (2) seconds
@@ -279,9 +279,9 @@ end
 
 ### Data Not Persisting
 ```
-❌ Problem: Cloud variables reset
-✅ Solutions:
-1. Check variable name has ☁ prefix
+�?Problem: Cloud variables reset
+�?Solutions:
+1. Check variable name has �?prefix
 2. Verify data size limits (100KB per variable)
 3. Check for special characters in data
 4. Ensure proper variable type (cloud variables only)
@@ -293,13 +293,13 @@ end
 
 #### Enable JavaScript
 ```
-https://editor.bilup.org/?unsafe
+https://editor.RemixWarp.org/?unsafe
 ```
 
 #### Security Warnings
 ```
-❌ Problem: "Unsafe scripts" warning
-✅ Solutions:
+�?Problem: "Unsafe scripts" warning
+�?Solutions:
 1. Only enable for trusted projects
 2. Review JavaScript code carefully
 3. Use sandboxed extensions when possible
@@ -308,10 +308,10 @@ https://editor.bilup.org/?unsafe
 
 #### Common JavaScript Errors
 ```javascript
-// ❌ Common mistake
+// �?Common mistake
 vm.runtime.targets[0].variables.myVar.value = 100;
 
-// ✅ Correct approach
+// �?Correct approach
 const stage = vm.runtime.getTargetForStage();
 const variable = stage.lookupVariableByNameAndType('myVar', '');
 if (variable) variable.value = 100;
@@ -362,8 +362,8 @@ Solutions:
 
 ### Touch Controls
 ```
-❌ Problem: Touch doesn't work properly
-✅ Solutions:
+�?Problem: Touch doesn't work properly
+�?Solutions:
 1. Use mobile-optimized projects
 2. Enable touch controls in settings
 3. Check for touch event conflicts
@@ -372,8 +372,8 @@ Solutions:
 
 ### Performance on Mobile
 ```
-❌ Problem: Slow performance on mobile
-✅ Solutions:
+�?Problem: Slow performance on mobile
+�?Solutions:
 1. Reduce project complexity
 2. Lower frame rate: ?fps=30
 3. Disable high-quality pen
@@ -384,8 +384,8 @@ Solutions:
 
 ### Loading Timeout
 ```
-❌ Problem: Projects timeout while loading
-✅ Solutions:
+�?Problem: Projects timeout while loading
+�?Solutions:
 1. Check internet speed
 2. Try different network
 3. Use mobile data as backup
@@ -394,8 +394,8 @@ Solutions:
 
 ### Firewall Issues
 ```
-❌ Problem: Corporate firewall blocks Bilup
-✅ Solutions:
+�?Problem: Corporate firewall blocks RemixWarp
+�?Solutions:
 1. Contact IT department
 2. Use alternative network
 3. Try a different browser
@@ -416,7 +416,7 @@ When reporting issues, include:
 
 ### Console Debugging
 ```javascript
-// Get Bilup version
+// Get RemixWarp version
 console.log(vm.runtime.platform);
 
 // Check for errors

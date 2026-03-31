@@ -1,14 +1,14 @@
 ---
 slug: /getting-started/
-title: Introduction to Bilup
+title: Introduction to RemixWarp
 sidebar_position: 1
 ---
 
-# Introduction to Bilup
+# Introduction to RemixWarp
 
-Bilup is a powerful, feature-rich modification of Scratch that enhances the original platform with advanced performance optimizations, extensive customization options, and a comprehensive addon system.
+RemixWarp is a powerful, feature-rich modification of Scratch that enhances the original platform with advanced performance optimizations, extensive customization options, and a comprehensive addon system.
 
-## What Makes Bilup Special?
+## What Makes RemixWarp Special?
 
 ### 🚀 Performance Enhancements
 - **Turbo Compilation**: Projects run significantly faster with our optimized compiler
@@ -36,7 +36,7 @@ Bilup is a powerful, feature-rich modification of Scratch that enhances the orig
 
 ## Key Differences from Scratch
 
-| Feature | Scratch | TurboWarp | Bilup |
+| Feature | Scratch | TurboWarp | RemixWarp |
 |---------|---------|----------|----------|
 | **Performance** | Slow | Fast | Highly optimized compiler |
 | **Themes** | Light only | Dark mode | Custom themes |
@@ -46,7 +46,7 @@ Bilup is a powerful, feature-rich modification of Scratch that enhances the orig
 
 ## Architecture Overview
 
-Bilup is built on a modular architecture consisting of several key components:
+RemixWarp is built on a modular architecture consisting of several key components:
 
 - **scratch-gui**: The user interface and editor
 - **scratch-vm**: The runtime engine that executes projects
@@ -59,17 +59,17 @@ Bilup is built on a modular architecture consisting of several key components:
 
 Ready to dive in? Here's what you can do next:
 
-1. **[Access Bilup](./installation.md)** - Get started with Bilup web app
+1. **[Access RemixWarp](./installation.md)** - Get started with RemixWarp web app
 2. **[Quick Start Guide](./quick-start.md)** - Understand key differences from Scratch
-3. **[Migration Guide](./migrating-from-scratch.md)** - Move from Scratch to Bilup
+3. **[Migration Guide](./migrating-from-scratch.md)** - Move from Scratch to RemixWarp
 4. **[GUI Internals](../gui-internals/home.md)** - Technical architecture documentation
 
 ## Development
 
-- **GitHub**: [https://github.com/Bilup](https://github.com/Bilup) - Source code and issue tracking
+- **GitHub**: [https://github.com/RemixWarp](https://github.com/RemixWarp) - Source code and issue tracking
 - **Issues**: Report technical problems and bugs
 - **Contributions**: Submit improvements and fixes
 
 ---
 
-*Continue to [Getting Started](./installation.md) to access Bilup.*
+*Continue to [Getting Started](./installation.md) to access RemixWarp.*

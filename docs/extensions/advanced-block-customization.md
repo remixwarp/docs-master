@@ -23,7 +23,7 @@ function injectCustomVisuals(categoryName) {
         if (block.opcode === 'myExtension_imageBlock') {
           // Replace the block's innerHTML with custom SVG
           g.innerHTML = `<svg id="customIcon" width="92" height="92" viewBox="0,0,92,92">
-            <image href="https://example.com/image.png" height="92" width="92" />
+            <image href="https://example.com/cat.png" height="92" width="92" />
           </svg><!--rotationCenter:46:46-->`;
         }
       }
@@ -50,8 +50,8 @@ You can embed video content using `foreignObject`:
 ```javascript
 g.innerHTML = `<svg width="300" height="200" viewBox="0,0,300,200">
   <foreignObject width="300" height="200">
-    <video xmlns="http://www.w3.org/1999/xhtml" width="300" height="200" autoplay loop muted>
-      <source src="https://example.com/video.mp4" type="video/mp4" />
+    <video xmlns="https://example.com/cat.png" width="300" height="200" autoplay loop muted>
+      <source src="https://example.com/cat.png" type="video/mp4" />
     </video>
   </foreignObject>
 </svg><!--rotationCenter:150:100-->`;
@@ -76,7 +76,7 @@ To create blocks that only show custom visuals, use an invisible character for t
 {
   blockType: 'reporter',
   opcode: 'imageBlock',
-  text: 'â€Ž', // Zero-width character (U+200E)
+  text: 'â€?, // Zero-width character (U+200E)
   disableReporter: true
 }
 ```
@@ -208,7 +208,7 @@ Here's a simplified version of an image block extension:
         blocks: [{
           blockType: 'reporter',
           opcode: 'cat',
-          text: 'â€Ž', // Zero-width character
+          text: 'â€?, // Zero-width character
           disableReporter: true
         }]
       };

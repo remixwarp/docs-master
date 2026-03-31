@@ -4,44 +4,44 @@ title: GUI Internals Overview
 sidebar_position: 1
 ---
 
-# Bilup GUI Internals
+# RemixWarp GUI Internals
 
-This section provides comprehensive documentation of Bilup's GUI architecture, internal systems, and component structure. Whether you're contributing to Bilup, building addons, or creating custom modifications, this guide will give you deep insight into how everything works.
+This section provides comprehensive documentation of RemixWarp's GUI architecture, internal systems, and component structure. Whether you're contributing to RemixWarp, building addons, or creating custom modifications, this guide will give you deep insight into how everything works.
 
 ## Architecture Overview
 
-Bilup's GUI follows a modern React-based architecture with several key layers:
+RemixWarp's GUI follows a modern React-based architecture with several key layers:
 
 ```
-┌─────────────────────────────────────────────┐
-│                 React App                   │
-├─────────────────────────────────────────────┤
-│               Redux Store                   │
-│         (State Management)                  │
-├─────────────────────────────────────────────┤
-│              HOCs & Containers              │
-│        (Data Flow & Side Effects)          │
-├─────────────────────────────────────────────┤
-│             React Components               │
-│           (UI & Presentation)              │
-├─────────────────────────────────────────────┤
-│              Addon System                  │
-│        (Extension & Customization)         │
-├─────────────────────────────────────────────┤
-│             Theme Engine                   │
-│          (Styling & Theming)               │
-└─────────────────────────────────────────────┘
+┌─────────────────────────────────────────────�?
+�?                React App                   �?
+├─────────────────────────────────────────────�?
+�?              Redux Store                   �?
+�?        (State Management)                  �?
+├─────────────────────────────────────────────�?
+�?             HOCs & Containers              �?
+�?       (Data Flow & Side Effects)          �?
+├─────────────────────────────────────────────�?
+�?            React Components               �?
+�?          (UI & Presentation)              �?
+├─────────────────────────────────────────────�?
+�?             Addon System                  �?
+�?       (Extension & Customization)         �?
+├─────────────────────────────────────────────�?
+�?            Theme Engine                   �?
+�?         (Styling & Theming)               �?
+└─────────────────────────────────────────────�?
 ```
 
 ## Core Packages
 
 ### Primary Repositories
 
-- **[scratch-gui](https://github.com/Bilup/scratch-gui)** - Main GUI implementation
-- **[scratch-vm](https://github.com/Bilup/scratch-vm)** - Virtual machine and runtime  
-- **[scratch-render](https://github.com/Bilup/scratch-render)** - Rendering engine
-- **[scratch-blocks](https://github.com/Bilup/scratch-blocks)** - Visual block editor
-- **[scratch-paint](https://github.com/Bilup/scratch-paint)** - Costume/backdrop editor
+- **[scratch-gui](https://github.com/RemixWarp/scratch-paint)** - Main GUI implementation
+- **[scratch-vm](https://github.com/RemixWarp/scratch-paint)** - Virtual machine and runtime  
+- **[scratch-render](https://github.com/RemixWarp/scratch-paint)** - Rendering engine
+- **[scratch-blocks](https://github.com/RemixWarp/scratch-paint)** - Visual block editor
+- **[scratch-paint](https://github.com/RemixWarp/scratch-paint)** - Costume/backdrop editor
 
 ### Package Dependencies
 
@@ -62,13 +62,13 @@ graph TD
 ```
 scratch-gui/
 ├── src/
-│   ├── components/          # React UI components
-│   ├── containers/          # Redux-connected containers
-│   ├── lib/                 # Utility libraries
-│   ├── reducers/            # Redux reducers
-│   ├── addons/              # Addon system
-│   ├── css/                 # Global styles
-│   └── index.js             # Entry point
+�?  ├── components/          # React UI components
+�?  ├── containers/          # Redux-connected containers
+�?  ├── lib/                 # Utility libraries
+�?  ├── reducers/            # Redux reducers
+�?  ├── addons/              # Addon system
+�?  ├── css/                 # Global styles
+�?  └── index.js             # Entry point
 ├── static/                  # Static assets
 ├── test/                    # Test files
 └── webpack.config.js        # Build configuration
@@ -88,7 +88,7 @@ The GUI follows a clear component hierarchy:
 
 ### State Management
 
-Bilup uses Redux for centralized state management:
+RemixWarp uses Redux for centralized state management:
 
 - **Project State** - Current project, loading status
 - **Editor State** - Active tab, selected sprite
@@ -99,7 +99,7 @@ Bilup uses Redux for centralized state management:
 ### Data Flow
 
 ```
-User Action → Component → Container → Action → Reducer → Store → Component
+User Action �?Component �?Container �?Action �?Reducer �?Store �?Component
 ```
 
 ### Event System
@@ -135,7 +135,7 @@ Performance monitoring, optimization techniques, and debugging tools.
 
 ### Component Design
 
-Bilup components follow these patterns:
+RemixWarp components follow these patterns:
 
 ```jsx
 // Functional component with hooks
@@ -209,7 +209,7 @@ export default class MyAddon {
 
 ### Webpack Configuration
 
-Bilup uses a sophisticated Webpack setup:
+RemixWarp uses a sophisticated Webpack setup:
 
 - **Development Server** - Hot reloading, source maps
 - **Production Build** - Minification, optimization  
@@ -280,17 +280,17 @@ window.addons // Addon system access
 ## Getting Started with Internals
 
 ### For Addon Developers
-Start with [Addon System Overview](/gui-internals/addons/home) to understand how to extend Bilup's functionality.
+Start with [Addon System Overview](/gui-internals/addons/home) to understand how to extend RemixWarp's functionality.
 
 ### For Contributors
 Begin with [Architecture Guide](/gui-internals/architecture) to understand the overall system design.
 
 ### For Theme Developers
-Explore [Theming System](/gui-internals/theming/home) to learn about customizing Bilup's appearance.
+Explore [Theming System](/gui-internals/theming/home) to learn about customizing RemixWarp's appearance.
 
 ### For Performance Engineers
-Learn optimization techniques and monitoring tools for improving Bilup performance.
+Learn optimization techniques and monitoring tools for improving RemixWarp performance.
 
 ---
 
-*This documentation is continuously updated as Bilup evolves. For the latest information, always refer to the source code and Git history.*
+*This documentation is continuously updated as RemixWarp evolves. For the latest information, always refer to the source code and Git history.*

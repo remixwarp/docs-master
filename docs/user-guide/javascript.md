@@ -5,9 +5,9 @@ sidebar_position: 8
 
 # JavaScript Integration
 
-Bilup supports powerful extension APIs and embedding workflows. Arbitrary “JavaScript blocks” are not part of Bilup; instead, use unsandboxed extensions for advanced behavior or the Packager to include custom JavaScript in standalone builds.
+RemixWarp supports powerful extension APIs and embedding workflows. Arbitrary “JavaScript blocks�?are not part of RemixWarp; instead, use unsandboxed extensions for advanced behavior or the Packager to include custom JavaScript in standalone builds.
 
-## Understanding JavaScript in Bilup
+## Understanding JavaScript in RemixWarp
 
 ### What is supported?
 - **Unsandboxed extensions**: Write extensions that run in the editor context and interact with the VM, renderer, and runtime.
@@ -24,7 +24,7 @@ Bilup supports powerful extension APIs and embedding workflows. Arbitrary “Jav
 ### Unsandboxed Extensions
 Load your extension via URL or register directly in an IIFE:
 ```
-https://editor.bilup.org/?extension=https://example.com/extension.js
+https://your-server.com
 ```
 
 ### Packager
@@ -96,12 +96,12 @@ Make HTTP requests:
 
 ```javascript
 // GET request
-const response = await fetch('https://api.example.com/data');
+const response = await fetch('https://your-server.com');
 const data = await response.json();
 console.log(data);
 
 // POST request
-const response = await fetch('https://api.example.com/submit', {
+const response = await fetch('https://your-server.com', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ name: 'Alice', score: 100 })
@@ -162,7 +162,7 @@ Add external JavaScript libraries:
 ```javascript
 // Load library dynamically
 const script = document.createElement('script');
-script.src = 'https://cdn.jsdelivr.net/npm/chart.js';
+script.src = 'https://your-server.com';
 document.head.appendChild(script);
 
 // Wait for library to load
@@ -442,4 +442,4 @@ console.time('operation');
 console.timeEnd('operation');
 ```
 
-JavaScript integration in Bilup opens up unlimited possibilities for creating sophisticated, interactive projects. Use these features responsibly and always consider security implications when working with custom code!
+JavaScript integration in RemixWarp opens up unlimited possibilities for creating sophisticated, interactive projects. Use these features responsibly and always consider security implications when working with custom code!

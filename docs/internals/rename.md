@@ -6,4 +6,4 @@ hide_table_of_contents: false
 # Renaming Your Mod
 
 Simply change the file below 🤷‍♀️ <br/>
-https://github.com/Bilup/scratch-gui/blob/develop/src/lib/constants/brand.js
+https://github.com/RemixWarp/scratch-gui/blob/develop/src/lib/constants/brand.js

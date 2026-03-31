@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 :::note
 ## Only "advanced" URL parameters are listed here {#only-hidden-url-parameters-are-listed-here}
-Bilup automatically stores common settings such as turbo mode, FPS, high quality pen, etc. in the URL. This page documents advanced options.
+RemixWarp automatically stores common settings such as turbo mode, FPS, high quality pen, etc. in the URL. This page documents advanced options.
 :::
 
 
@@ -16,17 +16,17 @@ Bilup automatically stores common settings such as turbo mode, FPS, high quality
 
 The `username` option controls the value of the username block.
 
-https://editor.bilup.org/443603478?username=ExampleUsername
+https://pages.github.com/
 
 ## Cloud host {#cloud_host}
 
-The `cloud_host` option lets you change the cloud variable server that Bilup will connect to, for example:
+The `cloud_host` option lets you change the cloud variable server that RemixWarp will connect to, for example:
 
-https://editor.bilup.org/12785898?cloud_host=wss://clouddata.turbowarp.org
+https://pages.github.com/
 
-Inclusion of `ws://` or `wss://` is optional but recommended. `wss://clouddata.turbowarp.org` is the default cloud data server used by Bilup. Insecure ws:// servers may not work because Bilup uses HTTPS.
+Inclusion of `ws://` or `wss://` is optional but recommended. `wss://clouddata.turbowarp.org` is the default cloud data server used by RemixWarp. Insecure ws:// servers may not work because RemixWarp uses HTTPS.
 
-It is not possible to use this to connect to Scratch's cloud variable server as it requires account credentials which Bilup can't support.
+It is not possible to use this to connect to Scratch's cloud variable server as it requires account credentials which RemixWarp can't support.
 
 ## Custom extensions {#extension}
 
@@ -38,19 +38,19 @@ The `extension` option loads a custom extension from a URL. See [Custom Extensio
 
 Controls the maximum relative scale of the player when in fullscreen mode.
 
-https://turbowarp.org/fullscreen?scale=2
+https://pages.github.com/
 -->
 
 ## Disable compiler {#nocompile}
 
 The `nocompile` option turns off the compiler. You probably shouldn't enable this.
 
-https://editor.bilup.org/?nocompile
+https://pages.github.com/
 
 ## Project URL {#project_url}
 
-The `project_url` option tells Bilup to download project data from an arbitrary URL. Do not use together with a regular project ID.
+The `project_url` option tells RemixWarp to download project data from an arbitrary URL. Do not use together with a regular project ID.
 
-https://editor.bilup.org/?project_url=https://example.com/example.sb3
+https://pages.github.com/
 
 https:// is implied if you don't include a protocol. http:// URLs generally will not work for security reasons. Note that the URL needs to be a direct download and must support CORS (`Access-Control-Allow-Origin: *`). [GitHub Pages](https://pages.github.com/) will do this automatically and is known to work well.

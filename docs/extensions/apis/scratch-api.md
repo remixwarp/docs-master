@@ -402,8 +402,8 @@ Unsandboxed extensions have access to various security-gated APIs:
 
 ```js
 // Check and make network requests
-if (await Scratch.canFetch('https://api.example.com')) {
-  const response = await Scratch.fetch('https://api.example.com/data');
+if (await Scratch.canFetch('https://example.com')) {
+  const response = await Scratch.fetch('https://example.com/data');
   const data = await response.json();
 }
 ```

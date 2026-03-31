@@ -3,9 +3,9 @@ title: Theming Overview
 sidebar_position: 1
 ---
 
-# Bilup Theming System
+# RemixWarp Theming System
 
-Bilup's theming system consists of three independent components that can be mixed and matched:
+RemixWarp's theming system consists of three independent components that can be mixed and matched:
 
 - **[Accent Colors](./accent-colors)** - Primary color scheme (red, blue, purple, etc.)
 - **[GUI Themes](./gui-themes)** - Interface appearance (light, dark, midnight)
@@ -31,7 +31,7 @@ class Theme {
 ## How It Works
 
 1. **Modular Design**: Each component (accent, GUI, blocks) is independent
-2. **Color Merging**: Colors are resolved with precedence: Accent → GUI → Base
+2. **Color Merging**: Colors are resolved with precedence: Accent �?GUI �?Base
 3. **CSS Variables**: Themes set CSS custom properties on the document root
 4. **Dynamic Application**: Themes can be changed at runtime
 
@@ -48,7 +48,7 @@ src/lib/themes/
 
 ## Preset Combinations
 
-Bilup includes these preset theme combinations:
+RemixWarp includes these preset theme combinations:
 
 ```javascript
 Theme.light = new Theme('red', 'light', 'three');
@@ -184,7 +184,7 @@ Components reference these variables:
 
 ## Preset Themes
 
-Bilup includes preset combinations:
+RemixWarp includes preset combinations:
 
 ```javascript
 Theme.light = new Theme('red', 'light', 'three');
@@ -200,13 +200,13 @@ src/lib/themes/
 ├── index.js              # Main theme system
 ├── guiHelpers.js         # Theme application logic
 ├── accent/               # Accent color definitions
-│   ├── red.js
-│   ├── blue.js
-│   └── ...
+�?  ├── red.js
+�?  ├── blue.js
+�?  └── ...
 ├── gui/                  # Interface themes
-│   ├── light.js
-│   ├── dark.js
-│   └── midnight.js
+�?  ├── light.js
+�?  ├── dark.js
+�?  └── midnight.js
 └── blocks/               # Block themes
     ├── three.js
     ├── dark.js

@@ -8,7 +8,7 @@ The Extension Library is a React component that displays a list of available ext
 
 ## Features
 
-- **Dynamic Extension Loading:** Fetches extension metadata from TurboWarp and Bilup extension repositories.
+- **Dynamic Extension Loading:** Fetches extension metadata from TurboWarp and RemixWarp extension repositories.
 - **Internationalization:** Supports multiple languages for extension names and descriptions.
 - **Credits and Documentation:** Displays credits for extension authors and links to documentation or sample projects if available.
 - **Integration with Scratch VM:** Loads extensions into the Scratch VM when selected.
@@ -17,7 +17,7 @@ The Extension Library is a React component that displays a list of available ext
 ## Data Flow
 
 1. **Fetching Extensions:**  
-   On mount, the component asynchronously fetches extension metadata from TurboWarp and Bilup endpoints. It processes and merges the results, caching them for future use.
+   On mount, the component asynchronously fetches extension metadata from TurboWarp and RemixWarp endpoints. It processes and merges the results, caching them for future use.
 
 2. **Displaying Extensions:**  
    The library combines built-in extensions with the fetched gallery extensions. Each extension is displayed with its icon, name, description, and credits.
@@ -37,7 +37,7 @@ The Extension Library is a React component that displays a list of available ext
 
 ## Related Files
 
-- `/src/containers/extension-library.jsx` â€” Main implementation.
-- `/src/lib/libraries/extensions/index.jsx` â€” Built-in extension definitions.
-- `/src/components/library/library.jsx` â€” Library UI component.
+- `/src/containers/extension-library.jsx` â€?Main implementation.
+- `/src/lib/libraries/extensions/index.jsx` â€?Built-in extension definitions.
+- `/src/components/library/library.jsx` â€?Library UI component.
 

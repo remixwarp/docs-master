@@ -1,21 +1,21 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Bilup Documentation',
-  tagline: 'A comprehensive guide to Bilup - the advanced Scratch modification platform',
+  title: 'RemixWarp Documentation',
+  tagline: 'A comprehensive guide to RemixWarp - the advanced Scratch modification platform',
   url: 'https://docs.warp.mistium.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'favicon.ico',
-  organizationName: 'Bilup',
+  organizationName: 'RemixWarp',
   projectName: 'docs',
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'Bilup Documentation',
+      title: 'RemixWarp Documentation',
       logo: {
-        alt: 'Bilup Logo',
-        src: 'favicon.ico',
+        alt: 'RemixWarp Logo',
+        src: 'desktop.png',
       },
       items: [
         {
@@ -44,12 +44,12 @@ module.exports = {
           position: 'left'
         },
         {
-          href: 'https://editor.bilup.org/',
-          label: 'Bilup',
+          href: 'https://editor.RemixWarp.org/',
+          label: 'RemixWarp',
           position: 'right'
         },
         {
-          href: 'https://github.com/Bilup',
+          href: 'https://github.com/RemixWarp',
           label: 'GitHub',
           position: 'right',
         },
@@ -59,7 +59,7 @@ module.exports = {
       // This is all supposed to be public
       appId: 'HORQ9E5CCA',
       apiKey: 'c3873ce4208edb896a31bb3e7c2cbdad',
-      indexName: 'Bilup',
+      indexName: 'RemixWarp',
     },
     colorMode: {
       respectPrefersColorScheme: true,
@@ -76,7 +76,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/Bilup/docs/edit/master/',
+          editUrl: 'https://github.com/RemixWarp/docs/edit/master/',
           breadcrumbs: true,
         },
         theme: {

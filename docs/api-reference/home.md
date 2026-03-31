@@ -4,9 +4,9 @@ title: API Reference Overview
 sidebar_position: 1
 ---
 
-# Bilup API Reference
+# RemixWarp API Reference
 
-This section provides comprehensive documentation for all APIs available in Bilup, including the Virtual Machine API, GUI API, Extension API, and Addon API.
+This section provides comprehensive documentation for all APIs available in RemixWarp, including the Virtual Machine API, GUI API, Extension API, and Addon API.
 
 ## API Categories
 
@@ -20,22 +20,22 @@ The GUI API allows interaction with the user interface, including components, mo
 The Extension API enables creation of custom blocks and extensions that integrate with the Scratch programming environment.
 
 ### 🔌 [Addon API](./addon-api.md)
-The Addon API provides tools for modifying and extending the Bilup interface and behavior.
+The Addon API provides tools for modifying and extending the RemixWarp interface and behavior.
 
 ### 📡 [Events](./events.md)
-Comprehensive event system documentation for listening to and dispatching events throughout Bilup.
+Comprehensive event system documentation for listening to and dispatching events throughout RemixWarp.
 
 ### 🧵 [Threads API](./threads.md)
 Advanced thread management for controlling script execution, monitoring threads, and managing execution flow.
 
-### 🛠️ [Utilities](./utilities.md)
-Collection of utility functions and helpers available throughout the Bilup codebase.
+### 🛠�?[Utilities](./utilities.md)
+Collection of utility functions and helpers available throughout the RemixWarp codebase.
 
 ## Quick Start
 
 ### Accessing APIs
 
-Bilup exposes several global objects for API access:
+RemixWarp exposes several global objects for API access:
 
 ```javascript
 // Virtual Machine instance
@@ -128,7 +128,7 @@ export default async function ({ addon, msg }) {
 ## API Design Principles
 
 ### Consistency
-All Bilup APIs follow consistent patterns:
+All RemixWarp APIs follow consistent patterns:
 
 - **Naming**: camelCase for methods, kebab-case for events
 - **Parameters**: Objects for complex parameters, primitives for simple ones
@@ -136,7 +136,7 @@ All Bilup APIs follow consistent patterns:
 - **Error Handling**: Consistent error types and messages
 
 ### Backwards Compatibility
-Bilup maintains backwards compatibility:
+RemixWarp maintains backwards compatibility:
 
 - **Deprecation Warnings**: Old APIs show warnings before removal
 - **Transition Periods**: Adequate time provided for migration
@@ -183,7 +183,7 @@ class PowerfulExtension {
 ```
 
 ### Addon Security
-Addons have controlled access to Bilup internals:
+Addons have controlled access to RemixWarp internals:
 
 ```javascript
 // Addon manifest security settings
@@ -270,7 +270,7 @@ vm.on('ERROR', (error) => {
 ### Efficient API Usage
 
 ```javascript
-// ❌ Inefficient: Multiple separate calls
+// �?Inefficient: Multiple separate calls
 sprites.forEach(sprite => {
     // Note: vm.runtime.setEditingTarget doesn't exist
     // Use proper target selection methods instead
@@ -281,7 +281,7 @@ sprites.forEach(sprite => {
     });
 });
 
-// ✅ Efficient: Single iteration
+// �?Efficient: Single iteration
 vm.runtime.targets.forEach(target => {
     if (!target.isStage) {
         // Perform sprite operations
@@ -292,10 +292,10 @@ vm.runtime.targets.forEach(target => {
 ### Memory Management
 
 ```javascript
-// ❌ Memory leak: Not removing listeners
+// �?Memory leak: Not removing listeners
 vm.on('PROJECT_START', myHandler);
 
-// ✅ Proper cleanup
+// �?Proper cleanup
 vm.on('PROJECT_START', myHandler);
 // Later...
 vm.off('PROJECT_START', myHandler);
@@ -342,11 +342,11 @@ window.guiDebug = {
 
 ## API Versioning
 
-Bilup uses semantic versioning for API changes:
+RemixWarp uses semantic versioning for API changes:
 
 ```javascript
 // Check API version
-const apiVersion = window.Bilup.API_VERSION; // "2.1.0"
+const apiVersion = window.RemixWarp.API_VERSION; // "2.1.0"
 
 // Version compatibility check
 if (semver.gte(apiVersion, '2.0.0')) {

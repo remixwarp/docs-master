@@ -5,11 +5,11 @@ sidebar_position: 3
 
 # Extension API
 
-The Extension API allows developers to create custom blocks and functionality that integrates with the Scratch programming environment in Bilup.
+The Extension API allows developers to create custom blocks and functionality that integrates with the Scratch programming environment in RemixWarp.
 
 ## Overview
 
-Extensions in Bilup provide:
+Extensions in RemixWarp provide:
 - Custom blocks with unique functionality
 - Integration with external services and hardware
 - Advanced programming constructs beyond standard Scratch blocks

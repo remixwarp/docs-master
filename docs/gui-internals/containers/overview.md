@@ -1,10 +1,10 @@
 # Containers & HOCs Overview
 
-Bilup uses container components and Higher-Order Components (HOCs) to separate concerns between presentation and business logic.
+RemixWarp uses container components and Higher-Order Components (HOCs) to separate concerns between presentation and business logic.
 
 ## Container Pattern
 
-Container components in Bilup follow the pattern:
+Container components in RemixWarp follow the pattern:
 - Connect to Redux store for state management
 - Handle side effects and API calls
 - Pass data and callbacks to presentation components
@@ -72,7 +72,7 @@ const SpriteList = ({ sprites, selectedSpriteId, onSelectSprite, onDeleteSprite 
 ## Key Container Components
 
 ### GUI Container
-The main application container that orchestrates the entire Bilup interface.
+The main application container that orchestrates the entire RemixWarp interface.
 
 ### Stage Wrapper
 Manages stage state, events, and VM integration.
@@ -284,10 +284,10 @@ describe('SpriteListContainer', () => {
 - Mock external dependencies in container tests
 - Focus on state-to-props mapping in container tests
 
-## Bilup-Specific Patterns
+## RemixWarp-Specific Patterns
 
 ### VM Integration
-Most containers need to interact with the Bilup VM:
+Most containers need to interact with the RemixWarp VM:
 
 ```javascript
 const BlocksContainer = () => {

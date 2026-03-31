@@ -13,7 +13,7 @@ The reason for this is called **CORS**, a security feature that limits how websi
 
 ## What is CORS? {#cors}
 
-It stands for Cross-Origin Resource Sharing, but we're not going to dive into the [internal details](https://developer.mozilla.org/en-US/docs/Glossary/CORS) very much -- other places have already done that. The core problem that CORS solves is simple to understand:
+It stands for Cross-Origin Resource Sharing, but we're not going to dive into the [internal details](https://desktop.turbowarp.org/) very much -- other places have already done that. The core problem that CORS solves is simple to understand:
 
  - Some websites want to **block** access from other websites
  - Other websites want to **allow** access from other websites

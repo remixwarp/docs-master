@@ -1,6 +1,6 @@
 # Modal Components
 
-Bilup uses various modal dialogs for user interactions and confirmations.
+RemixWarp uses various modal dialogs for user interactions and confirmations.
 
 ## Overview
 
@@ -173,7 +173,7 @@ const SettingsModal = ({ isOpen, onClose }) => {
 };
 ```
 
-## Specialized Bilup Modals
+## Specialized RemixWarp Modals
 
 ### New Project Modal
 
@@ -184,7 +184,7 @@ const NewProjectModal = ({ isOpen, onClose, onCreateProject }) => {
 
   const templates = [
     { id: 'blank', name: 'Blank Project', description: 'Start with empty stage and Misty sprite' },
-    { id: 'tutorial', name: 'Tutorial', description: 'Guided introduction to Bilup' },
+    { id: 'tutorial', name: 'Tutorial', description: 'Guided introduction to RemixWarp' },
     { id: 'game', name: 'Game Template', description: 'Pre-built game framework' }
   ];
 

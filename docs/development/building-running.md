@@ -3,9 +3,9 @@ title: Building and Running
 sidebar_position: 4
 ---
 
-# Building and Running Bilup
+# Building and Running RemixWarp
 
-This guide covers how to build Bilup from source code and run it locally for development, testing, or contribution purposes.
+This guide covers how to build RemixWarp from source code and run it locally for development, testing, or contribution purposes.
 
 ## Prerequisites
 
@@ -41,26 +41,26 @@ git --version  # Any recent version
 ## Repository Setup
 
 ### Clone Repositories
-Bilup consists of multiple repositories that work together:
+RemixWarp consists of multiple repositories that work together:
 
 ```bash
 # Create main directory
-mkdir Bilup-dev
-cd Bilup-dev
+mkdir RemixWarp-dev
+cd RemixWarp-dev
 
 # Clone main repositories
-git clone https://github.com/Bilup/scratch-gui.git
-git clone https://github.com/Bilup/scratch-vm.git
-git clone https://github.com/Bilup/scratch-blocks.git
+git clone http://localhost:8601
+git clone http://localhost:8601
+git clone http://localhost:8601
 
 # Optional: Clone additional repos
-git clone https://github.com/Bilup/packager.git
-git clone https://github.com/Bilup/docs.git
+git clone http://localhost:8601
+git clone http://localhost:8601
 ```
 
 ### Repository Structure
 ```
-Bilup-dev/
+RemixWarp-dev/
 ├── scratch-gui/        # Main interface
 ├── scratch-vm/         # Virtual machine
 ├── scratch-blocks/     # Block definitions
@@ -249,10 +249,10 @@ ls build/
 #### Deployment Preparation
 ```bash
 # Create deployment package
-tar -czf Bilup-build.tar.gz -C build .
+tar -czf RemixWarp-build.tar.gz -C build .
 
 # Or zip file
-cd build && zip -r ../Bilup-build.zip .
+cd build && zip -r ../RemixWarp-build.zip .
 ```
 
 ## Testing
@@ -342,7 +342,7 @@ global.vm = require('scratch-vm');
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Bilup",
+      "name": "Debug RemixWarp",
       "type": "node",
       "request": "launch",
       "program": "${workspaceFolder}/node_modules/.bin/webpack-dev-server",
@@ -525,4 +525,4 @@ npm test         # Run tests
 npm run build    # Build project
 ```
 
-Building and running Bilup locally gives you full control over the development environment and enables you to contribute effectively to the project. Follow these guidelines to set up a robust development workflow!
+Building and running RemixWarp locally gives you full control over the development environment and enables you to contribute effectively to the project. Follow these guidelines to set up a robust development workflow!

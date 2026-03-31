@@ -1,6 +1,6 @@
 # Sound Management Components
 
-The sound management system in Bilup consists of containers and components that handle audio assets for sprites and the stage.
+The sound management system in RemixWarp consists of containers and components that handle audio assets for sprites and the stage.
 
 ## Overview
 
@@ -16,13 +16,13 @@ The sound management system enables users to:
 SoundTab (Container)
   └── AssetPanel (Component)
       ├── Selector (for sound list)
-      │   └── SortableAsset (for each sound)
+      �?  └── SortableAsset (for each sound)
       ├── ActionMenu (add/record/upload)
       └── SoundEditor (when editing)
 ```
-      │   ├── AddSound
-      │   ├── UploadSound
-      │   └── RecordSound
+      �?  ├── AddSound
+      �?  ├── UploadSound
+      �?  └── RecordSound
       └── SoundEditor (when editing)
 ```
 
@@ -36,7 +36,7 @@ SoundTab (Container)
 - Trim sound length
 
 ### Audio Format Support
-Bilup supports multiple audio formats:
+RemixWarp supports multiple audio formats:
 - **WAV**: Uncompressed audio (highest quality)
 - **MP3**: Compressed audio (smaller file size)
 - **OGG**: Open source compressed format
@@ -90,7 +90,7 @@ Multiple methods to add sounds:
 
 ### Recording Interface
 
-Bilup includes a built-in sound recorder:
+RemixWarp includes a built-in sound recorder:
 
 ```javascript
 const SoundRecorder = () => {
@@ -123,7 +123,7 @@ const SoundRecorder = () => {
 ## Audio Engine Integration
 
 ### Web Audio API
-Bilup uses the Web Audio API for audio processing:
+RemixWarp uses the Web Audio API for audio processing:
 
 ```javascript
 class AudioEngine {
@@ -277,7 +277,7 @@ describe('SoundTab', () => {
 });
 ```
 
-## Bilup Enhancements
+## RemixWarp Enhancements
 
 ### Enhanced Sound Library
 - Expanded collection of built-in sounds

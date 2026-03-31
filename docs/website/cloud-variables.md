@@ -28,13 +28,13 @@ We allow and encourage developing bots and custom clients. However, due to persi
 
 ### Protocol {#protocol}
 
-The protocol is the [same as Scratch's cloud variables](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md). We provide a [barebones reference library for Node.js](https://www.npmjs.com/package/@turbowarp/mist). As the protocol is fully open, you do not need to use our library if you don't want to.
+The protocol is the [same as Scratch's cloud variables](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client). We provide a [barebones reference library for Node.js](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client). As the protocol is fully open, you do not need to use our library if you don't want to.
 
 ### User-Agent is required {#user-agent}
 
-Bots must provide a valid [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) header in their connection. That includes contact information (such as a Scratch profile link, email address, GitHub issue page, etc.) and the name and version of the cloud variable library being used (if applicable). Exact syntax does not matter; just needs to be human readable. Some examples of good User-Agents:
+Bots must provide a valid [User-Agent](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client) header in their connection. That includes contact information (such as a Scratch profile link, email address, GitHub issue page, etc.) and the name and version of the cloud variable library being used (if applicable). Exact syntax does not matter; just needs to be human readable. Some examples of good User-Agents:
 
- - `multiplayer leaderboard bot by https://scratch.mit.edu/users/TestMuffin`
+ - `multiplayer leaderboard bot by https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client
  - `cloud-variable-library/1.0.1 contact@example.com`
 
 The only exception is if your bot is running in a browser where you can't control the User-Agent. In this case, your browser will automatically include other headers like Origin with the name of your website anyway. Pretending to be a browser is not okay and is easy to detect.
@@ -66,7 +66,7 @@ Your library will see the `contactInformation` option and concatenate it with th
 
 If someone does not specify `contactInformation`, you should not let them continue anyways. User-Agents that are lacking information will be blocked, and you will end up with nonsense bug reports from users saying "cloud variable wont connect" with no further details. Good luck diagnosing that! Instead, give them a nice error message so they can figure it out without bothering you.
 
-To actually set the User-Agent, look at the documentation for the WebSocket library you use. They probably won't mention User-Agent specifically, but they should mention how to set headers in general. For example, using the Node.js [ws](https://www.npmjs.com/package/ws) client, you would do:
+To actually set the User-Agent, look at the documentation for the WebSocket library you use. They probably won't mention User-Agent specifically, but they should mention how to set headers in general. For example, using the Node.js [ws](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client) client, you would do:
 
 ```js
 const ws = new WebSocket("wss://clouddata.turbowarp.org", {
@@ -110,7 +110,7 @@ while True:
     print(f"{variable_name} is {value}")
 ```
 
-Where `cloudlibrary.get_var` is implemented by opening a connection and then closing it immediately. Instead, libraries should offer [event-driven](https://en.wikipedia.org/wiki/Event-driven_programming) APIs. Instead of constantly asking the server for the latest values, open exactly one WebSocket, and let the server send updates as they happen. WebSockets are very efficient: If no variables are changing, the connection remains idle. If there are a lot of variables changing, you'll get the updates as soon as possible. Equivalent code might instead be:
+Where `cloudlibrary.get_var` is implemented by opening a connection and then closing it immediately. Instead, libraries should offer [event-driven](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client) APIs. Instead of constantly asking the server for the latest values, open exactly one WebSocket, and let the server send updates as they happen. WebSockets are very efficient: If no variables are changing, the connection remains idle. If there are a lot of variables changing, you'll get the updates as soon as possible. Equivalent code might instead be:
 
 ```py
 def on_set(name, value):
@@ -126,11 +126,11 @@ For performance, the server will buffer up several cloud variable updates to sen
 
 ### Respond to pings {#pings}
 
-The server will periodically send a [WebSocket ping frame](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#pings_and_pongs_the_heartbeat_of_websockets), and you must respond with a pong or else the connection will drop. Refer to the documentation for your WebSocket library to see how to enable ping/pong support if it isn't enabled by default.
+The server will periodically send a [WebSocket ping frame](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client), and you must respond with a pong or else the connection will drop. Refer to the documentation for your WebSocket library to see how to enable ping/pong support if it isn't enabled by default.
 
 ### Important debug information {#debug}
 
 To make things easier for us, you, and anyone using your library, please log these things somewhere (such as in error messages) instead of silently ignoring them:
 
- - WebSocket close codes. All of the 4XXX codes are [listed in this table](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client). Would you rather see `connection closed` or `connection closed with code 4002`? Looking up the latter's code in the table makes it clear that the username is the problem.
+ - WebSocket close codes. All of the 4XXX codes are [listed in this table](https://github.com/TurboWarp/cloud-server/blob/master/doc/protocol.md#server---client#server---client). Would you rather see `connection closed` or `connection closed with code 4002`? Looking up the latter's code in the table makes it clear that the username is the problem.
  - Invalid JSON received from the server. If the server has something to tell you beyond just what the close code table says, it might send you a plain English sentence instead of a JSON object. When your JSON parser throws an error, you should log the actual raw text received from the server so you get error messages like `Received invalid JSON from server: The cloud data library you are using is putting your Scratch account at risk by sending us your login token for no reason` instead of `JSON.parse: unexpected character at line 1 column 1 of the JSON data`. Which of those would you rather see?

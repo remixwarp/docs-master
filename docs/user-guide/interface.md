@@ -3,32 +3,32 @@ title: Interface Guide
 sidebar_position: 2
 ---
 
-# Bilup Interface Guide
+# RemixWarp Interface Guide
 
-Bilup's interface is designed to be both familiar to Scratch users and enhanced with powerful new features. This guide will help you navigate and customize the interface effectively.
+RemixWarp's interface is designed to be both familiar to Scratch users and enhanced with powerful new features. This guide will help you navigate and customize the interface effectively.
 
 ## Main Interface Layout
 
 ### Overall Structure
 
 ```
-┌─────────────────────────────────────────────────────┐
-│                   Menu Bar                          │
-├─────────────────────┬───────────────────────────────┤
-│                     │         Stage Header          │
-│                     ├───────────────────────────────┤
-│    Blocks Panel     │                               │
-│                     │          Stage               │
-│   ┌─────────────┐   │                               │
-│   │ Code   │    │   │                               │
-│   │ Costumes│    │   ├───────────────────────────────┤
-│   │ Sounds  │    │   │        Target Pane            │
-│   └─────────────┘   │                               │
-│                     │    ┌─────────┬─────────────┐   │
-│   Blocks Workspace  │    │ Sprites │   Stage     │   │
-│                     │    │         │   Selector  │   │
-│                     │    └─────────┴─────────────┘   │
-└─────────────────────┴───────────────────────────────┘
+┌─────────────────────────────────────────────────────�?
+�?                  Menu Bar                          �?
+├─────────────────────┬───────────────────────────────�?
+�?                    �?        Stage Header          �?
+�?                    ├───────────────────────────────�?
+�?   Blocks Panel     �?                              �?
+�?                    �?         Stage               �?
+�?  ┌─────────────�?  �?                              �?
+�?  �?Code   �?   �?  �?                              �?
+�?  �?Costumes�?   �?  ├───────────────────────────────�?
+�?  �?Sounds  �?   �?  �?       Target Pane            �?
+�?  └─────────────�?  �?                              �?
+�?                    �?   ┌─────────┬─────────────�?  �?
+�?  Blocks Workspace  �?   �?Sprites �?  Stage     �?  �?
+�?                    �?   �?        �?  Selector  �?  �?
+�?                    �?   └─────────┴─────────────�?  �?
+└─────────────────────┴───────────────────────────────�?
 ```
 
 ## Menu Bar
@@ -116,7 +116,7 @@ The stage shows your project in action:
 - **Full Screen**: Expand stage to full window
 
 #### Stage Controls
-- **Turbo Mode**: ⚡ button for faster execution
+- **Turbo Mode**: �?button for faster execution
 - **Framerate Display**: Shows current FPS
 - **Custom Size**: Resize beyond standard dimensions
 
@@ -284,7 +284,7 @@ Advanced users can inject custom styles:
 - **Community Discord**: Get real-time help
 - **Documentation Search**: Find specific solutions
 
-The Bilup interface is designed to be powerful yet approachable. Take time to explore the features and customize the layout to match your workflow preferences.
+The RemixWarp interface is designed to be powerful yet approachable. Take time to explore the features and customize the layout to match your workflow preferences.
 
 ---
 

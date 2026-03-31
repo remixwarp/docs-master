@@ -4,7 +4,7 @@ title: Window System
 
 # Window System
 
-Bilup includes a window system used by addons and some UI features. It provides draggable, resizable windows with a consistent look and API.
+RemixWarp includes a window system used by addons and some UI features. It provides draggable, resizable windows with a consistent look and API.
 
 ## Creating a Window
 
@@ -45,12 +45,12 @@ win.show();
 - `onClose`, `onMinimize`, `onMaximize`, `onRestore`, `onResize`, `onMove` (function)
 
 ## Methods
-- `show()` â€” display window
-- `hide()` â€” hide window
-- `bringToFront()` â€” raise z-index
-- `minimize()` â€” minimize window
-- `toggleMaximize()` â€” maximize/restore
-- `getContentElement()` â€” returns the content DOM element to append your UI
+- `show()` â€?display window
+- `hide()` â€?hide window
+- `bringToFront()` â€?raise z-index
+- `minimize()` â€?minimize window
+- `toggleMaximize()` â€?maximize/restore
+- `getContentElement()` â€?returns the content DOM element to append your UI
 
 ## Notes
 - Windows are appended to `document.body`

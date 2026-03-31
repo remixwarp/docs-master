@@ -12,11 +12,11 @@ Note that, if you only care about using your own extensions in your own projects
 
 Sandboxed extensions can be hosted anywhere that offers static file hosting and HTTPS.
 
-A common choice is [GitHub Pages](https://pages.github.com/). Note that GitHub's "raw" links (raw.githubusercontent.com) do not work; you must use GitHub Pages instead.
+A common choice is [GitHub Pages](https://github.com/TurboWarp/extensions/issues). Note that GitHub's "raw" links (raw.githubusercontent.com) do not work; you must use GitHub Pages instead.
 
 ## Unsandboxed extensions
 
-The best way to share your unsandboxed extension is to submit it to extensions.turbowarp.org: https://github.com/TurboWarp/extensions/blob/master/CONTRIBUTING.md
+The best way to share your unsandboxed extension is to submit it to extensions.turbowarp.org: https://github.com/TurboWarp/extensions/issues
 
 ## Exercises
 

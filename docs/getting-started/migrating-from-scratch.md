@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Migrating from Scratch
 
-Bilup can run most Scratch projects with enhanced performance and additional features.
+RemixWarp can run most Scratch projects with enhanced performance and additional features.
 
 ## Project Compatibility
 
@@ -24,8 +24,8 @@ Bilup can run most Scratch projects with enhanced performance and additional fea
 ## Loading Scratch Projects
 
 1. Download `.sb3` file from Scratch website
-2. Open Bilup at [warp.mistium.com](https://editor.bilup.org/)
-3. File → Load from your computer
+2. Open RemixWarp at [warp.mistium.com](https://editor.RemixWarp.org/)
+3. File �?Load from your computer
 4. Select the `.sb3` file
 
 ## Notable Differences
@@ -56,5 +56,5 @@ Bilup can run most Scratch projects with enhanced performance and additional fea
 
 ## Next Steps
 
-- [GUI Internals](../gui-internals/home.md) - Understand Bilup's architecture
-- [Development Guide](../development/home.md) - Contributing to Bilup
+- [GUI Internals](../gui-internals/home.md) - Understand RemixWarp's architecture
+- [Development Guide](../development/home.md) - Contributing to RemixWarp

@@ -34,7 +34,7 @@ Start with the basic extension structure:
 
 ### Accessing Compiler APIs
 
-Get references to the necessary Bilup components:
+Get references to the necessary RemixWarp components:
 
 ```javascript
   const { vm, BlockType, ArgumentType } = Scratch;
@@ -215,7 +215,7 @@ Add some debugging to verify your extension is working:
 
 ### Testing Procedure
 
-1. Load your extension in Bilup
+1. Load your extension in RemixWarp
 2. Create a simple project using your "square" block
 3. Try different input types:
    - Direct numbers: `square of (5)`

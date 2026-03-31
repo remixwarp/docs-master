@@ -9,7 +9,7 @@ Get started with RemixWarp in minutes! This guide will help you create your firs
 
 ## Creating Your First Project
 
-1. **Open RemixWarp** - Navigate to [warp.mistium.com](https://editor.remixwarp.org/)
+1. **Open RemixWarp** - Navigate to [warp.mistium.com](https://github.com/RemixWarp/scratch-gui/issues)
 2. **Familiarize yourself** - The interface is similar to Scratch with some enhancements
 3. **Start Creating** - Begin adding sprites and blocks just like in Scratch
 
@@ -71,7 +71,7 @@ Create custom blocks with JavaScript:
 ### Saving and Sharing
 
 **Save Locally:**
-- File â†’ Save to your computer
+- File â†?Save to your computer
 - Projects save as `.sb3` files compatible with Scratch
 
 **Save to Cloud:**
@@ -83,7 +83,7 @@ Create custom blocks with JavaScript:
 
 ### Importing Scratch Projects
 1. Download your `.sb3` file from Scratch
-2. In RemixWarp: File â†’ Load from your computer
+2. In RemixWarp: File â†?Load from your computer
 3. Select the `.sb3` file
 4. Your project loads with all sprites and code intact
 
@@ -111,7 +111,7 @@ Create custom blocks with JavaScript:
 If you encounter issues or have questions:
 
 - **Documentation** - Browse the [full documentation](/)
-- **Community Forums** - Visit [community.mistium.com](https://community.mistium.com/)
+- **Community Forums** - Visit [community.mistium.com](https://github.com/RemixWarp/scratch-gui/issues)
 - **GitHub Issues** - Report bugs at [github.com/RemixWarp/scratch-gui/issues](https://github.com/RemixWarp/scratch-gui/issues)
 - **Troubleshooting** - Check the [Troubleshooting Guide](../user-guide/troubleshooting.md)
 

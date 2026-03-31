@@ -11,7 +11,7 @@ In this tutorial, we will describe how to build custom extensions. The pages can
 :::info
 **We just rewrote this entire tutorial from the ground up.**
 
-It uses a completely different structure and style. We hope it's easier to follow. There's a good chance there are some errors and omissions in this tutorial. [Let me know what you think](https://scratch.mit.edu/users/xiaoxlang/). Thanks!
+It uses a completely different structure and style. We hope it's easier to follow. There's a good chance there are some errors and omissions in this tutorial. [Let me know what you think](http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.js). Thanks!
 :::
 
 When people refer to "extensions", there are a few things they could be referring to:
@@ -28,7 +28,7 @@ We will discuss the difference between sandboxed and unsandboxed extensions at [
 
 ## Compatibility
 
-Custom extensions are not compatible with Scratch. Projects made using custom extensions cannot be uploaded to the Scratch website. They can, however, be packaged using the [Bilup Packager](https://packager.warp.mistium.com/).
+Custom extensions are not compatible with Scratch. Projects made using custom extensions cannot be uploaded to the Scratch website. They can, however, be packaged using the [RemixWarp Packager](http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.js).
 
 ## Prerequisites
 
@@ -61,13 +61,13 @@ cd path/to/where/you/will/store/your/extensions
 python3 -m http.server 8080
 ```
 
-This starts a local HTTP server on http://localhost:8080/ in whatever folder you ran that command in.
+This starts a local HTTP server on http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.js in whatever folder you ran that command in.
 
 We will [eventually](./better-development-server) introduce the official development server, but we recommend starting with the most primitive setup possible for now.
 
 For now, you should use a port **other than 8000**. We will talk more about this later, but currently we want the extensions you write to run in the sandbox. Extensions that run outside of the sandbox have some extra responsibilities that we will discuss [later](./unsandboxed).
 
-To test that your server works, create a file called `hello-world.js` and put any text in it. Make sure you're able to read the contents of the file in your browser by visiting a link like [http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.js).
+To test that your server works, create a file called `hello-world.js` and put any text in it. Make sure you're able to read the contents of the file in your browser by visiting a link like [http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.jshello-world.js](http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.jshello-world.js).
 
 ## Next steps
 
