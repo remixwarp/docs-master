@@ -1,0 +1,36 @@
+{
+  "title": "RemixWarp 文档",
+  "logo": {
+    "alt": "RemixWarp 标志"
+  },
+  "items": [
+    {
+      "label": "入门指南",
+      "to": "/getting-started/"
+    },
+    {
+      "label": "开发指南",
+      "to": "/development/"
+    },
+    {
+      "label": "GUI 内部结构",
+      "to": "/gui-internals/"
+    },
+    {
+      "label": "打包工具",
+      "to": "/packager/"
+    },
+    {
+      "label": "API 参考",
+      "to": "/api-reference/"
+    },
+    {
+      "label": "RemixWarp",
+      "href": "https://editor.RemixWarp.org/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/RemixWarp"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "title": "文档",
+      "items": [
+        {
+          "label": "入门指南",
+          "to": "/getting-started/"
+        },
+        {
+          "label": "开发指南",
+          "to": "/development/"
+        },
+        {
+          "label": "API 参考",
+          "to": "/api-reference/"
+        }
+      ]
+    },
+    {
+      "title": "社区",
+      "items": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/RemixWarp"
+        }
+      ]
+    },
+    {
+      "title": "更多",
+      "items": [
+        {
+          "label": "RemixWarp 编辑器",
+          "href": "https://editor.RemixWarp.org/"
+        }
+      ]
+    }
+  ],
+  "copyright": "© 2026 RemixWarp. 保留所有权利。"
+}

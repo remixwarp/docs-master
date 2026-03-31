@@ -10,12 +10,24 @@ module.exports = {
   organizationName: 'RemixWarp',
   projectName: 'docs',
   trailingSlash: false,
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      zh: {
+        label: '中文',
+      },
+    },
+  },
   themeConfig: {
     navbar: {
       title: 'RemixWarp Documentation',
       logo: {
         alt: 'RemixWarp Logo',
-        src: 'desktop.png',
+        src: '/static/desktop.png',
       },
       items: [
         {
@@ -42,6 +54,10 @@ module.exports = {
           to: '/api-reference/',
           label: 'API Reference',
           position: 'left'
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://editor.RemixWarp.org/',
