@@ -55,7 +55,7 @@ Minimum versions: Chrome 80+, Firefox 74+, Safari 13+
 
 **Enable Turbo Mode**
 ```
-https://editor.RemixWarp.org/?unsafe
+https://remixwarp.pages.dev/?unsafe
 ```
 
 **Reduce Project Size**
@@ -87,7 +87,7 @@ end
 
 **Enable Performance Features**
 ```
-https://editor.RemixWarp.org/?unsafe
+https://remixwarp.pages.dev/?unsafe
 ```
 
 **Optimize Project Code**
@@ -293,7 +293,7 @@ end
 
 #### Enable JavaScript
 ```
-https://editor.RemixWarp.org/?unsafe
+https://remixwarp.pages.dev/?unsafe
 ```
 
 #### Security Warnings

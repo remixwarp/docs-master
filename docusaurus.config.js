@@ -60,7 +60,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://editor.RemixWarp.org/',
+          href: 'https://remixwarp.pages.dev/',
           label: 'RemixWarp',
           position: 'right'
         },

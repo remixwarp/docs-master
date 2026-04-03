@@ -176,7 +176,7 @@ end
 ### Custom Cloud Host
 Override the cloud server with a URL parameter:
 ```
-https://editor.RemixWarp.org/?cloud_host=wss://clouddata.turbowarp.org
+https://remixwarp.pages.dev/?cloud_host=wss://clouddata.turbowarp.org
 ```
 
 RemixWarp uses `wss://` by default. Insecure `ws://` hosts may not work in HTTPS environments.

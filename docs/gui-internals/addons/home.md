@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Addons System
 
-RemixWarp's addon system is based on the [Scratch Addons browser extension](https://editor.RemixWarp.org/*), providing a way to extend and customize the RemixWarp editor interface and functionality.
+RemixWarp's addon system is based on the [Scratch Addons browser extension](https://remixwarp.pages.dev/*), providing a way to extend and customize the RemixWarp editor interface and functionality.
 
 ## Architecture Overview
 
@@ -69,13 +69,13 @@ Each addon requires an `addon.json` manifest file:
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["https://editor.RemixWarp.org/*"]
+      "matches": ["https://remixwarp.pages.dev/*"]
     }
   ],
   "userstyles": [
     {
       "url": "userstyle.css", 
-      "matches": ["https://editor.RemixWarp.org/*"],
+      "matches": ["https://remixwarp.pages.dev/*"],
       "if": {
         "settings": {
           "dark": true

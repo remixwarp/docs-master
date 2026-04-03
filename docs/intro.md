@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 # RemixWarp Documentation
 
-Technical documentation for [RemixWarp](https://editor.RemixWarp.org/) - a modified Scratch environment for developers.
+Technical documentation for [RemixWarp](https://remixwarp.pages.dev/) - a modified Scratch environment for developers.
 
 ## What is RemixWarp?
 
@@ -34,7 +34,7 @@ Programming interfaces and technical specifications.
 
 ## Related Projects
 
-- **[RemixWarp Web](https://editor.RemixWarp.org/)** - Main web application
+- **[RemixWarp Web](https://remixwarp.pages.dev/)** - Main web application
 - **[RemixWarp Packager](https://packager.warp.mistium.com/)** - Package projects for web deployment
 - **[TurboWarp](https://turbowarp.org/)** - Base project that RemixWarp is built on
 

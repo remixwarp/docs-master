@@ -18,7 +18,7 @@ RemixWarp provides extensive configuration options that allow you to customize p
 ### Via URL Parameters
 Many settings can be controlled via URL parameters:
 ```
-https://editor.RemixWarp.org/?turbo&hqpen&fps=60
+https://remixwarp.pages.dev/?turbo&hqpen&fps=60
 ```
 
 ## Performance Settings

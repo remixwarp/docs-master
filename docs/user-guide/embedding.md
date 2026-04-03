@@ -14,7 +14,7 @@ The easiest way to embed a RemixWarp project:
 
 ```html
 <iframe
-  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
   width="480"
   height="360"
   frameborder="0"
@@ -28,7 +28,7 @@ Supported embed parameters include `autoplay`, `addons`, and standard runtime op
 
 ```html
 <iframe
-  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;?autoplay&turbo&fps=60"
+  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;?autoplay&turbo&fps=60"
   width="800"
   height="600"
   frameborder="0"
@@ -72,7 +72,7 @@ Create responsive embeds that adapt to container size:
 ```html
 <div style="position: relative; padding-bottom: 75%; height: 0;">
   <iframe
-    src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
+    src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen>
@@ -93,7 +93,7 @@ Embeds accept `LOAD_SB3` messages for loading projects. See detailed guide: [/us
 const iframe = document.getElementById('RemixWarp-embed');
 iframe.contentWindow.postMessage({
   type: 'LOAD_SB3',
-  data: 'https://editor.RemixWarp.org/${projectId}/embed?${params}`;',
+  data: 'https://remixwarp.pages.dev/${projectId}/embed?${params}`;',
   title: 'Optional Title'
 }, '*');
 
@@ -113,7 +113,7 @@ Embeds do not emit general project events via `postMessage`. Use the VM API with
 ### Standalone Embeds
 Use the RemixWarp Packager for standalone embeds:
 
-1. Visit [packager.warp.mistium.com](https://editor.RemixWarp.org/${projectId}/embed?${params}`;)
+1. Visit [packager.warp.mistium.com](https://remixwarp.pages.dev/${projectId}/embed?${params}`;)
 2. Enter your project URL or upload project file
 3. Configure embedding options
 4. Download generated HTML file
@@ -158,8 +158,8 @@ document.querySelectorAll('iframe[data-src]').forEach(iframe => {
 Preload critical resources:
 
 ```html
-<link rel="preload" href="https://editor.RemixWarp.org/${projectId}/embed?${params}`;" as="script">
-<link rel="preload" href="https://editor.RemixWarp.org/${projectId}/embed?${params}`;" as="script">
+<link rel="preload" href="https://remixwarp.pages.dev/${projectId}/embed?${params}`;" as="script">
+<link rel="preload" href="https://remixwarp.pages.dev/${projectId}/embed?${params}`;" as="script">
 ```
 
 ### Accessibility
@@ -169,7 +169,7 @@ Provide alternative content for screen readers:
 
 ```html
 <iframe
-  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
   title="Interactive Math Game - Practice Addition and Subtraction"
   aria-label="Scratch game for practicing math skills">
   <p>This is an interactive math game that helps practice addition and subtraction.
@@ -187,7 +187,7 @@ Ensure embedded projects support keyboard navigation by focusing the iframe or p
 Configure CSP headers for embedded content:
 
 ```http
-Content-Security-Policy: frame-src https://editor.RemixWarp.org/${projectId}/embed?${params}`;
+Content-Security-Policy: frame-src https://remixwarp.pages.dev/${projectId}/embed?${params}`;
 ```
 
 ### Sandbox Attributes
@@ -195,7 +195,7 @@ Use sandbox attributes for additional security:
 
 ```html
 <iframe
-  src="https://editor.RemixWarp.org/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
   sandbox="allow-scripts allow-same-origin allow-fullscreen">
 </iframe>
 ```
@@ -216,7 +216,7 @@ function RemixWarp_embed_shortcode($atts) {
     'turbo' => false
   ], $atts);
   
-  $src = "https://editor.RemixWarp.org/${projectId}/embed?${params}`;'id']}/embed";
+  $src = "https://remixwarp.pages.dev/${projectId}/embed?${params}`;'id']}/embed";
   if ($atts['autoplay']) $src .= "?autoplay";
   if ($atts['turbo']) $src .= $atts['autoplay'] ? "&turbo" : "?turbo";
   
@@ -243,7 +243,7 @@ const RemixWarpEmbed = ({
   if (autoplay) params.append('autoplay', '');
   if (turbo) params.append('turbo', '');
   
-  const src = `https://editor.RemixWarp.org/${projectId}/embed?${params}`;
+  const src = `https://remixwarp.pages.dev/${projectId}/embed?${params}`;
   
   return (
     <iframe

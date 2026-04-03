@@ -24,7 +24,7 @@ RemixWarp can run most Scratch projects with enhanced performance and additional
 ## Loading Scratch Projects
 
 1. Download `.sb3` file from Scratch website
-2. Open RemixWarp at [warp.mistium.com](https://editor.RemixWarp.org/)
+2. Open RemixWarp at [warp.mistium.com](https://remixwarp.pages.dev/)
 3. File �?Load from your computer
 4. Select the `.sb3` file
 

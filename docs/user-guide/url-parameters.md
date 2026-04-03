@@ -12,13 +12,13 @@ RemixWarp supports URL parameters that let you load projects and adjust runtime 
 ### URL Parameter Syntax
 Add parameters using standard query string format:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Multiple Parameters
 Combine multiple parameters with `&`:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ## Project Loading
@@ -26,25 +26,25 @@ https://editor.RemixWarp.org/${projectId}`
 ### Load by ID
 Load a Scratch project by its ID:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Load from URL
 Load a project from a direct URL:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Auto-start (embed only)
 Automatically start the project in embeds:
 ```
-https://editor.RemixWarp.org/${projectId}`?autoplay
+https://remixwarp.pages.dev/${projectId}`?autoplay
 ```
 
 ### Username
 Set the username used by cloud variables and blocks:
 ```
-https://editor.RemixWarp.org/${projectId}`?username=alice
+https://remixwarp.pages.dev/${projectId}`?username=alice
 ```
 
 ## Performance
@@ -52,33 +52,33 @@ https://editor.RemixWarp.org/${projectId}`?username=alice
 ### Turbo Mode
 Enable high-speed execution:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Frame Rate
 Set custom frame rate:
 ```
-https://editor.RemixWarp.org/${projectId}`     # 60 FPS
-https://editor.RemixWarp.org/${projectId}`    # 120 FPS
-https://editor.RemixWarp.org/${projectId}`     # 30 FPS (default)
+https://remixwarp.pages.dev/${projectId}`     # 60 FPS
+https://remixwarp.pages.dev/${projectId}`    # 120 FPS
+https://remixwarp.pages.dev/${projectId}`     # 30 FPS (default)
 ```
 
 ### High Quality Pen
 Enable anti-aliased pen rendering:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Interpolation
 Enable frame interpolation for smoother motion:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Remove Misc Limits
 Disable certain runtime limits:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ## Display
@@ -86,26 +86,26 @@ https://editor.RemixWarp.org/${projectId}`
 ### Custom Stage Size
 Set custom stage dimensions:
 ```
-https://editor.RemixWarp.org/${projectId}`
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Fullscreen Background (player-only)
 Control fullscreen background color:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Offscreen Fencing
 Disable offscreen fencing:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Clone Limit
 Set maximum clones:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ## Extensions
@@ -113,14 +113,14 @@ https://editor.RemixWarp.org/${projectId}`
 ### Load Extensions
 Load custom extensions by URL (unsandboxed recommended):
 ```
-https://editor.RemixWarp.org/${projectId}`
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Addons (embed only)
 Enable specific addons in embeds:
 ```
-https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
+https://remixwarp.pages.dev/${projectId}`/embed?addons=pause,gamepad
 ```
 
 ## Embedding
@@ -128,8 +128,8 @@ https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
 ### Autoplay and Addons
 Embed-specific options:
 ```
-https://editor.RemixWarp.org/${projectId}`/embed?autoplay
-https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
+https://remixwarp.pages.dev/${projectId}`/embed?autoplay
+https://remixwarp.pages.dev/${projectId}`/embed?addons=pause,gamepad
 ```
 
 ## Development
@@ -137,19 +137,19 @@ https://editor.RemixWarp.org/${projectId}`/embed?addons=pause,gamepad
 ### Disable Compiler
 Turn off the compiler (for debugging):
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Project URL
 Load project data from a direct URL:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ### Cloud Host (embed/player)
 Override cloud server:
 ```
-https://editor.RemixWarp.org/${projectId}`
+https://remixwarp.pages.dev/${projectId}`
 ```
 
 ## Reference
@@ -195,25 +195,25 @@ https://editor.RemixWarp.org/${projectId}`
 ### Gaming Setup
 Optimized for games:
 ```
-https://editor.RemixWarp.org/${projectId}`?turbo&fps=60&interpolate
+https://remixwarp.pages.dev/${projectId}`?turbo&fps=60&interpolate
 ```
 
 ### Educational Embedding
 Clean embed for education:
 ```
-https://editor.RemixWarp.org/${projectId}`/embed?autoplay&size=800x600
+https://remixwarp.pages.dev/${projectId}`/embed?autoplay&size=800x600
 ```
 
 ### Development Testing
 Development environment:
 ```
-https://editor.RemixWarp.org/${projectId}`&fps=120&hqpen
+https://remixwarp.pages.dev/${projectId}`&fps=120&hqpen
 ```
 
 ### High Performance
 Maximum performance:
 ```
-https://editor.RemixWarp.org/${projectId}`&fps=120&hqpen
+https://remixwarp.pages.dev/${projectId}`&fps=120&hqpen
 ```
 
 ### Accessible Mode
@@ -232,7 +232,7 @@ Space: %20
 
 ### Example with Encoding
 ```
-https://editor.RemixWarp.org/${projectId}`&hqpen
+https://remixwarp.pages.dev/${projectId}`&hqpen
 ```
 
 ## JavaScript URL Manipulation
@@ -255,7 +255,7 @@ window.history.pushState({}, '', url);
 ### Building URLs Programmatically
 ```javascript
 function buildRemixWarpURL(projectId, options = {}) {
-  const url = new URL(`https://editor.RemixWarp.org/${projectId}`);
+  const url = new URL(`https://remixwarp.pages.dev/${projectId}`);
   
   Object.entries(options).forEach(([key, value]) => {
     if (value === true) {
