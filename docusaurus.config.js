@@ -27,7 +27,7 @@ module.exports = {
       title: 'RemixWarp Documentation',
       logo: {
         alt: 'RemixWarp Logo',
-        src: '/static/desktop.png',
+        src: '/static/favicon.ico',
       },
       items: [
         {
