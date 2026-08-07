@@ -4,36 +4,36 @@ title: renderer.getBounds()
 
 # renderer.getBounds()
 
-Gets the tight bounding box of a drawable in Scratch coordinates.
+以 Scratch 坐标获取可绘制对象的紧致包围盒。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.getBounds(drawableID)
 ```
 
-## Parameters
+## 参数
 
 ### drawableID
-**Type:** `number`
+**类型：** `number`
 
-The ID of the drawable.
+可绘制对象的 ID。
 
-## Returns
+## 返回值
 
-**Type:** `object`
+**类型：** `object`
 
-An object with properties:
-- `left`, `right`, `top`, `bottom` (Scratch coordinates)
-- `width`, `height`
+一个包含以下属性的对象：
+- `left`、`right`、`top`、`bottom`（Scratch 坐标）
+- `width`、`height`
 
-## Example
+## 示例
 
 ```javascript
 const bounds = renderer.getBounds(drawableId);
 console.log(`Left: ${bounds.left}, Top: ${bounds.top}`);
 ```
 
-## See Also
+## 另请参阅
 
 - [getBoundsForBubble()](./getBoundsForBubble.md)

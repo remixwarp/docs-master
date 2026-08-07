@@ -1,174 +1,174 @@
 ---
-title: Getting Started
+title: 快速入门
 sidebar_position: 2
 ---
 
-# Getting Started
+# 快速入门
 
-RemixWarp is a web-based application that runs directly in your browser. No installation is required!
+RemixWarp 是一个基于 Web 的应用，可直接在浏览器中运行。无需安装！
 
-## Accessing RemixWarp
+## 访问 RemixWarp
 
-RemixWarp is exclusively available as a web application and can be accessed at:
+RemixWarp 仅作为 Web 应用提供，可通过以下地址访问：
 
 **🌐 [https://github.com/RemixWarp/scratch-gui/issues)**
 
-Simply open the link in any modern web browser and you're ready to start creating!
+只需在任何现代浏览器中打开该链接，即可开始创建！
 
-## System Requirements
+## 系统要求
 
-RemixWarp works in any modern web browser that supports JavaScript and WebGL:
+RemixWarp 可在任何支持 JavaScript 和 WebGL 的现代浏览器中运行：
 
-### Supported Browsers
-- **Chrome 80+** (recommended for best performance)
+### 支持的浏览器
+- **Chrome 80+**（推荐，性能最佳）
 - **Firefox 78+**
-- **Safari 14+** (macOS/iOS)
+- **Safari 14+**（macOS/iOS）
 - **Edge 80+**
 
-### Hardware Requirements
-- **RAM**: 2GB minimum, 4GB+ recommended for complex projects
-- **Internet**: Stable connection required for loading and saving projects
-- **Storage**: Projects are saved to your browser's local storage or cloud storage
+### 硬件要求
+- **内存**：最低 2GB，复杂项目建议 4GB+
+- **网络**：加载和保存项目需要稳定连接
+- **存储**：项目保存在浏览器的本地存储或云端存储中
 
-### Recommended Setup
-- **RAM**: 4GB+ for large projects with many sprites and scripts
-- **Processor**: Modern multi-core processor for smooth performance
-- **Internet**: Broadband connection for faster project loading
-- **Graphics**: WebGL 2.0 support for optimal rendering
+### 推荐配置
+- **内存**：对于包含大量角色和脚本的大型项目建议 4GB+
+- **处理器**：现代多核处理器以获得流畅性能
+- **网络**：宽带连接以加快项目加载速度
+- **显卡**：支持 WebGL 2.0 以获得最佳渲染效果
 
-## Browser Compatibility
+## 浏览器兼容性
 
-| Browser | Minimum Version | Recommended |
+| 浏览器 | 最低版本 | 推荐版本 |
 |---------|----------------|-------------|
-| Chrome | 80+ | Latest |
-| Firefox | 78+ | Latest |
-| Safari | 14+ | Latest |
-| Edge | 80+ | Latest |
+| Chrome | 80+ | 最新版 |
+| Firefox | 78+ | 最新版 |
+| Safari | 14+ | 最新版 |
+| Edge | 80+ | 最新版 |
 
-### Required Features
-- ES2020 support
-- WebGL 1.0 (WebGL 2.0 recommended)
+### 必需功能
+- ES2020 支持
+- WebGL 1.0（推荐 WebGL 2.0）
 - Web Audio API
-- Local Storage
-- WebAssembly (for optimal performance)
+- 本地存储
+- WebAssembly（以获得最佳性能）
 
-## First Time Setup
+## 首次设置
 
-When you first visit RemixWarp:
+首次访问 RemixWarp 时：
 
-1. **Open your browser** and navigate to [remixwarp.pages.dev](https://github.com/RemixWarp/scratch-gui/issues)
-2. **Allow JavaScript** if prompted (required for RemixWarp to function)
-3. **Accept camera/microphone permissions** if you plan to use sensing blocks
-4. **Create an account** (optional) to save projects to the cloud
+1. **打开浏览器**并导航至 [remixwarp.pages.dev](https://github.com/RemixWarp/scratch-gui/issues)
+2. **允许 JavaScript**（如果提示，RemixWarp 运行必需）
+3. **接受摄像头/麦克风权限**（如果计划使用侦测积木）
+4. **创建账户**（可选）以将项目保存到云端
 
-## Browser Configuration
+## 浏览器配置
 
-### Enable Required Features
+### 启用所需功能
 
-For the best RemixWarp experience, ensure these browser features are enabled:
+为获得最佳 RemixWarp 体验，请确保以下浏览器功能已启用：
 
-- **JavaScript**: Required for all functionality
-- **WebGL**: Needed for stage rendering and effects
-- **Local Storage**: Used for saving projects locally
-- **Camera/Microphone**: Required for sensing blocks (optional)
+- **JavaScript**：所有功能必需
+- **WebGL**：舞台渲染和特效需要
+- **本地存储**：用于在本地保存项目
+- **摄像头/麦克风**：侦测积木需要（可选）
 
-### Performance Tips
+### 性能提示
 
-- **Close unnecessary tabs** to free up RAM
-- **Use hardware acceleration** if available in browser settings
-- **Clear browser cache** occasionally if RemixWarp becomes slow
-- **Disable browser extensions** that might interfere with performance
+- **关闭不必要的标签页**以释放内存
+- **启用硬件加速**（如果浏览器设置中可用）
+- **定期清除浏览器缓存**（如果 RemixWarp 变慢）
+- **禁用可能干扰性能的浏览器扩展**
 
-## Development Setup
+## 开发设置
 
-For developers who want to modify or contribute to RemixWarp:
+对于想要修改或为 RemixWarp 做贡献的开发者：
 
-### Prerequisites
+### 前提条件
 - Node.js 18+ 
-- npm or yarn
+- npm 或 yarn
 - Git
 
-### Clone and Build
+### 克隆和构建
 
 ```bash
-# Clone the repository
+# 克隆仓库
 git clone https://github.com/RemixWarp/scratch-gui/issues
 cd scratch-gui
 
-# Install dependencies
+# 安装依赖
 npm ci
 
-# Start development server
+# 启动开发服务器
 npm start
 ```
 
-The development server will be available at `https://github.com/RemixWarp/scratch-gui/issues
+开发服务器将在 `https://github.com/RemixWarp/scratch-gui/issues
 
-### Building Other Components
+### 构建其他组件
 
-To work on the full RemixWarp stack:
+要处理完整的 RemixWarp 技术栈：
 
 ```bash
-# Clone all repositories
+# 克隆所有仓库
 git clone https://github.com/RemixWarp/scratch-gui/issues
 git clone https://github.com/RemixWarp/scratch-gui/issues  
 git clone https://github.com/RemixWarp/scratch-gui/issues
 
-# Link local packages (from each directory)
+# 链接本地包（在每个目录中）
 cd scratch-vm && npm link
 cd ../scratch-render && npm link
 cd ../scratch-gui && npm link scratch-vm scratch-render
 
-# Start development
+# 开始开发
 cd scratch-gui && npm start
 ```
 
-## Troubleshooting
+## 故障排查
 
-### Common Issues
+### 常见问题
 
-**RemixWarp won't load:**
-1. Check your internet connection
-2. Disable browser extensions temporarily
-3. Clear browser cache and cookies
-4. Try a different browser
+**RemixWarp 无法加载：**
+1. 检查网络连接
+2. 临时禁用浏览器扩展
+3. 清除浏览器缓存和 Cookie
+4. 尝试其他浏览器
 
-**Poor performance:**
-1. Close other browser tabs
-2. Restart your browser
-3. Check available RAM
-4. Try using Chrome for best performance
-5. Enable hardware acceleration in browser settings
+**性能不佳：**
+1. 关闭其他浏览器标签页
+2. 重启浏览器
+3. 检查可用内存
+4. 尝试使用 Chrome 以获得最佳性能
+5. 在浏览器设置中启用硬件加速
 
-**Projects won't save:**
-1. Check browser local storage isn't full
-2. Enable third-party cookies if using cloud saves
-3. Create an account for cloud storage
+**项目无法保存：**
+1. 检查浏览器本地存储是否已满
+2. 如果使用云保存，请启用第三方 Cookie
+3. 创建账户以进行云端存储
 
-**Blocks are missing or behave strangely:**
-1. Refresh the page
-2. Clear browser cache
-3. Check for browser console errors
+**积木缺失或行为异常：**
+1. 刷新页面
+2. 清除浏览器缓存
+3. 检查浏览器控制台错误
 
-**Graphics/rendering issues:**
-1. Update your graphics drivers
-2. Enable WebGL in browser settings
-3. Try a different browser
+**图形/渲染问题：**
+1. 更新显卡驱动程序
+2. 在浏览器设置中启用 WebGL
+3. 尝试其他浏览器
 
-### Getting Help
+### 获取帮助
 
-If you encounter issues:
-- Check the [Troubleshooting Guide](../user-guide/troubleshooting.md)
-- Visit our [Community Forums](https://github.com/RemixWarp/scratch-gui/issues)
-- Report bugs on [GitHub Issues](https://github.com/RemixWarp/scratch-gui/issues)
+如果遇到问题：
+- 查看[故障排查指南](../user-guide/troubleshooting.md)
+- 访问我们的[社区论坛](https://github.com/RemixWarp/scratch-gui/issues)
+- 在 [GitHub Issues](https://github.com/RemixWarp/scratch-gui/issues) 上报告缺陷
 
-## What's Next?
+## 接下来做什么？
 
-Now that you can access RemixWarp:
+现在你可以访问 RemixWarp 了：
 
-1. **[Quick Start Guide](./quick-start.md)** - Create your first project
-2. **[User Interface](../user-guide/interface.md)** - Learn the interface
-3. **[Project Management](../user-guide/projects.md)** - Save and share projects
-4. **[Migration Guide](./migrating-from-scratch.md)** - Import existing Scratch projects
+1. **[快速入门指南](./quick-start.md)** - 创建你的第一个项目
+2. **[用户界面](../user-guide/interface.md)** - 了解界面
+3. **[项目管理](../user-guide/projects.md)** - 保存和分享项目
+4. **[迁移指南](./migrating-from-scratch.md)** - 导入现有的 Scratch 项目
 
-*Continue to [Quick Start](./quick-start.md) to create your first project.*
+*继续阅读[快速入门](./quick-start.md)以创建你的第一个项目。*

@@ -4,33 +4,33 @@ title: renderer.createSVGSkin()
 
 # renderer.createSVGSkin()
 
-Creates a new SVG skin from SVG markup.
+根据 SVG 标记创建一个新的 SVG 皮肤。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.createSVGSkin(svgData, rotationCenter)
 ```
 
-## Parameters
+## 参数
 
 ### svgData
-**Type:** `string`
+**类型：** `string`
 
-The SVG markup as a string.
+以字符串形式表示的 SVG 标记。
 
 ### rotationCenter
-**Type:** `Array<number>` (optional)  
+**类型：** `Array<number>`（可选）  
 
-The `[x, y]` rotation center point. If not provided, the center of the SVG is used.
+`[x, y]` 旋转中心点。如果未提供，则使用 SVG 的中心。
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The ID of the newly created skin.
+新创建的皮肤 ID。
 
-## Example
+## 示例
 
 ```javascript
 class SVGExtension {
@@ -51,15 +51,15 @@ class SVGExtension {
 }
 ```
 
-## Notes
+## 说明
 
-- SVG skins load asynchronously - see [SVG Loading](../../concepts/svg-loading.md)
-- SVG content should include proper xmlns attribute
-- Rotation center coordinates are relative to SVG viewBox
+- SVG 皮肤是异步加载的 - 请参阅 [SVG 加载](../../concepts/svg-loading.md)
+- SVG 内容应包含正确的 xmlns 属性
+- 旋转中心坐标相对于 SVG 的 viewBox
 
-## See Also
+## 另请参阅
 
-- [updateSVGSkin()](./updateSVGSkin.md) - Update an existing SVG skin
-- [createBitmapSkin()](./createBitmapSkin.md) - Create a bitmap skin
-- [destroySkin()](./destroySkin.md) - Destroy a skin
-- [SVG Loading Patterns](../../concepts/svg-loading.md) - Handle async SVG loading
+- [updateSVGSkin()](./updateSVGSkin.md) - 更新已有的 SVG 皮肤
+- [createBitmapSkin()](./createBitmapSkin.md) - 创建位图皮肤
+- [destroySkin()](./destroySkin.md) - 销毁皮肤
+- [SVG 加载模式](../../concepts/svg-loading.md) - 处理异步 SVG 加载

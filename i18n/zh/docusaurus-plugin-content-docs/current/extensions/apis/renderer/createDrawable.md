@@ -4,32 +4,32 @@ title: renderer.createDrawable()
 
 # renderer.createDrawable()
 
-Creates a new drawable and adds it to the scene in the specified layer group.
+创建一个新的可绘制对象（drawable），并将其添加到指定图层组中的场景里。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.createDrawable(group)
 ```
 
-## Parameters
+## 参数
 
 ### group
-**Type:** `string`
+**类型：** `string`
 
-The layer group to add the drawable to. Common values:
-- `'background'` - Behind all sprites
-- `'video'` - Camera/video layer
-- `'pen'` - Pen layer
-- `'sprite'` - Sprite layer
+要添加可绘制对象的图层组。常用值：
+- `'background'` - 位于所有角色之后
+- `'video'` - 摄像头/视频图层
+- `'pen'` - 画笔图层
+- `'sprite'` - 角色图层
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The ID of the newly created drawable.
+新创建的可绘制对象 ID。
 
-## Example
+## 示例
 
 ```javascript
 class CustomGraphicsExtension {
@@ -59,16 +59,16 @@ class CustomGraphicsExtension {
 }
 ```
 
-## Layer Groups
+## 图层组
 
-Layer groups determine rendering order:
-1. `background` - Rendered first (behind everything)
-2. `video` - Video/camera layer
-3. `pen` - Pen layer
-4. `sprite` - Rendered last (sprites)
+图层组决定了渲染顺序：
+1. `background` - 最先渲染（位于所有内容之后）
+2. `video` - 视频/摄像头图层
+3. `pen` - 画笔图层
+4. `sprite` - 最后渲染（角色）
 
-## See Also
+## 另请参阅
 
-- [destroyDrawable()](./destroyDrawable.md) - Destroy a drawable
-- [updateDrawableProperties()](./updateDrawableProperties.md) - Modify drawable properties
-- [setDrawableOrder()](./setDrawableOrder.md) - Change drawable z-order
+- [destroyDrawable()](./destroyDrawable.md) - 销毁可绘制对象
+- [updateDrawableProperties()](./updateDrawableProperties.md) - 修改可绘制对象属性
+- [setDrawableOrder()](./setDrawableOrder.md) - 更改可绘制对象的 z 轴顺序

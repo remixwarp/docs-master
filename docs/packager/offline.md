@@ -1,29 +1,29 @@
 ---
+title: Offline Packager
+sidebar_position: 6
 slug: /packager/offline
-hide_table_of_contents: true
-sidebar_label: Offline Packager
 ---
 
-# Offline Packager
+# Offline packager
 
-There are ways to use the [RemixWarp Packager](https://packager.02engine.org/) offline which can be useful in various circumstances (for example, perhaps your school blocks remixwarp.pages.dev).
+The [RemixWarp Packager](/packager/overview) runs entirely in your browser, and there are ways to run it with no internet connection, which helps when a network blocks `remixwarp.pages.dev` or when you are offline.
 
-We aim to update the offline packager about once a month.
+Large runtime assets (Electron, NW.js, and WKWebView executables used for native builds) are **not** bundled into the packager. They download separately when a given output format needs them, and the packager caches them after the first download, so you only fetch each once. These downloads usually still work even where `remixwarp.pages.dev` is blocked.
 
-Large assets such as Electron, NW.js, or WKWebView executables are *not* included in the offline packager and will be downloaded separately as needed. The packager will try to cache these files offline after you download them the first time, so they should only have to be downloaded once. Usually these downloads will still work even if your school blocks remixwarp.pages.dev.
+## Standalone HTML build
 
-## Web-Based Packaging
+For fully offline use, download a standalone copy of the packager itself:
 
-RemixWarp's packager is available online at [packager.02engine.org](https://packager.02engine.org/) and works entirely in your browser.
+1. Go to [github.com/RemixWarp/packager/releases](https://github.com/RemixWarp/packager/releases).
+2. Under the latest release's Assets, download the standalone HTML file (its name contains `standalone`).
+3. Open that HTML file in your browser.
 
-Large assets such as runtime libraries are downloaded separately as needed. The packager will try to cache these files after you download them the first time, so they should only have to be downloaded once.
+This file has no update checker, so check for newer releases yourself when you want updates.
 
-## Standalone HTML {#html}
+## Installable web app
 
-For offline use, you can download standalone HTML versions from GitHub. Visit https://packager.02engine.org/ and download "RemixWarp-packager-standalone-x.x.x.html" under "Assets" from the latest release. You can simply open the HTML file in your browser.
+[packager.02engine.org](https://packager.02engine.org/) is a web app that tries to keep working offline after you load it once. This is experimental, so do not rely on it for anything important; prefer the standalone HTML build for guaranteed offline use.
 
-The HTML file does not include any update checker. You will have to check for and handle updates on your own.
+## See also
 
-## Web App {#pwa}
-
-The https://packager.02engine.org/ is a web app that tries to function offline after loading it once. This is still experimental and we do not recommend relying on this.
+- [Packager overview](/packager/overview)

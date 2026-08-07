@@ -4,34 +4,34 @@ title: renderer.getDrawableOrder()
 
 # renderer.getDrawableOrder()
 
-Returns the position of a drawable in the draw list.
+返回可绘制对象在绘制列表中的位置。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.getDrawableOrder(drawableID)
 ```
 
-## Parameters
+## 参数
 
 ### drawableID
-**Type:** `number`
+**类型：** `number`
 
-The ID of the drawable.
+可绘制对象的 ID。
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The position in the draw list (absolute, not relative to layer group).
+在绘制列表中的位置（绝对位置，不是相对于图层组的）。
 
-## Example
+## 示例
 
 ```javascript
 const position = renderer.getDrawableOrder(drawableId);
 console.log(`Drawable is at position ${position}`);
 ```
 
-## See Also
+## 另请参阅
 
 - [setDrawableOrder()](./setDrawableOrder.md)

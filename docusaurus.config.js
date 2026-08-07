@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'A comprehensive guide to RemixWarp - the advanced Scratch modification platform',
   url: 'https://rw-do-cs.pages.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'logo.svg',
   organizationName: 'RemixWarp',

@@ -4,38 +4,38 @@ title: renderer.createBitmapSkin()
 
 # renderer.createBitmapSkin()
 
-Creates a new bitmap skin from image data.
+根据图像数据创建一个新的位图皮肤。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.createBitmapSkin(bitmapData, costumeResolution, rotationCenter)
 ```
 
-## Parameters
+## 参数
 
 ### bitmapData
-**Type:** `ImageData | HTMLImageElement | HTMLCanvasElement | HTMLVideoElement`
+**类型：** `ImageData | HTMLImageElement | HTMLCanvasElement | HTMLVideoElement`
 
-The source image data for the skin.
+皮肤使用的源图像数据。
 
 ### costumeResolution  
-**Type:** `number` (optional, default: `1`)
+**类型：** `number`（可选，默认值：`1`）
 
-Resolution multiplier for the bitmap. Higher values indicate higher resolution costumes.
+位图的分辨率倍数。数值越高表示分辨率越高的造型。
 
 ### rotationCenter
-**Type:** `Array<number>` (optional)
+**类型：** `Array<number>`（可选）
 
-The `[x, y]` rotation center point. If not provided, the center of the image is used.
+`[x, y]` 旋转中心点。如果未提供，则使用图像的中心。
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The ID of the newly created skin.
+新创建的皮肤 ID。
 
-## Example
+## 示例
 
 ```javascript
 class MyExtension {
@@ -56,8 +56,8 @@ class MyExtension {
 }
 ```
 
-## See Also
+## 另请参阅
 
-- [updateBitmapSkin()](./updateBitmapSkin.md) - Update an existing bitmap skin
-- [createSVGSkin()](./createSVGSkin.md) - Create an SVG skin
-- [destroySkin()](./destroySkin.md) - Destroy a skin
+- [updateBitmapSkin()](./updateBitmapSkin.md) - 更新已有的位图皮肤
+- [createSVGSkin()](./createSVGSkin.md) - 创建 SVG 皮肤
+- [destroySkin()](./destroySkin.md) - 销毁皮肤

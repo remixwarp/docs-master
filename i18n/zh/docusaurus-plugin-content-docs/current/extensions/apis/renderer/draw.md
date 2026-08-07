@@ -4,26 +4,26 @@ title: renderer.draw()
 
 # renderer.draw()
 
-Manually triggers a render of the stage.
+手动触发舞台的一次渲染。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.draw()
 ```
 
-## Parameters
+## 参数
 
-None.
+无。
 
-## Returns
+## 返回值
 
-**Type:** `void`
+**类型：** `void`
 
-## Notes
+## 说明
 
-The renderer usually handles drawing automatically. You rarely need to call this manually unless you are doing custom off-screen rendering or need to force an update immediately after a change.
+渲染器通常会自动处理绘制。除非你在进行自定义的离屏渲染，或需要在更改后立即强制更新，否则很少需要手动调用此方法。
 
-## See Also
+## 另请参阅
 
 - [requestSnapshot()](./requestSnapshot.md)

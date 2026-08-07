@@ -4,27 +4,27 @@ title: renderer.getBoundsForBubble()
 
 # renderer.getBoundsForBubble()
 
-Gets the bounding box for a text bubble associated with a drawable.
+获取与某个可绘制对象关联的文本气泡的包围盒。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.getBoundsForBubble(drawableID)
 ```
 
-## Parameters
+## 参数
 
 ### drawableID
-**Type:** `number`
+**类型：** `number`
 
-The ID of the drawable that owns the bubble.
+拥有该气泡的可绘制对象 ID。
 
-## Returns
+## 返回值
 
-**Type:** `object`
+**类型：** `object`
 
-Bounding box object (left, right, top, bottom, width, height).
+包围盒对象（left、right、top、bottom、width、height）。
 
-## See Also
+## 另请参阅
 
 - [getBounds()](./getBounds.md)

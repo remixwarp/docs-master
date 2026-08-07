@@ -4,33 +4,33 @@ title: renderer.getCurrentSkinSize()
 
 # renderer.getCurrentSkinSize()
 
-Gets the size of the skin currently assigned to a drawable.
+获取当前分配给某个可绘制对象的皮肤的大小。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.getCurrentSkinSize(drawableID)
 ```
 
-## Parameters
+## 参数
 
 ### drawableID
-**Type:** `number`
+**类型：** `number`
 
-The ID of the drawable.
+可绘制对象的 ID。
 
-## Returns
+## 返回值
 
-**Type:** `Array<number>`
+**类型：** `Array<number>`
 
-An array `[width, height]` representing the skin's size.
+一个表示皮肤大小的数组 `[width, height]`。
 
-## Example
+## 示例
 
 ```javascript
 const [width, height] = renderer.getCurrentSkinSize(drawableId);
 ```
 
-## See Also
+## 另请参阅
 
 - [getSkinSize()](./getSkinSize.md)

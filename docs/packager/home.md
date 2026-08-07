@@ -1,18 +1,11 @@
 ---
+title: RemixWarp Packager
 slug: /packager/
 hide_table_of_contents: true
 ---
 
 # RemixWarp Packager
 
-:::info
-Use the RemixWarp Packager here: https://packager.02engine.org/
-:::
+This page has moved. See the [Packager overview](/packager/overview).
 
-The RemixWarp Packager converts Scratch projects into HTML files, zip archives, or executable programs for Windows, macOS, and Linux. It's like HTMLifier and the forkphorus packager.
-
-This is the place where some extra documentation goes. Use the sidebar on the left to navigate.
-
-See also:
-- [Embedding](/packager/embedding)
-- [Editor Integration](/packager/editor-integration)
+Use the packager at [packager.02engine.org](https://packager.02engine.org/).

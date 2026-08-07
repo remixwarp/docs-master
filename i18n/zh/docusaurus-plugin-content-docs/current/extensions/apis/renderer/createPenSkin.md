@@ -4,32 +4,32 @@ title: renderer.createPenSkin()
 
 # renderer.createPenSkin()
 
-Creates a new PenSkin, which implements a Scratch pen layer.
+创建一个新的 PenSkin，它实现了 Scratch 的画笔图层。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.createPenSkin()
 ```
 
-## Parameters
+## 参数
 
-None.
+无。
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The ID of the new pen skin.
+新的画笔皮肤 ID。
 
-## Example
+## 示例
 
 ```javascript
 const penSkinId = renderer.createPenSkin();
 // Pen skins are automatically managed by the renderer for pen operations
 ```
 
-## See Also
+## 另请参阅
 
 - [createBitmapSkin()](./createBitmapSkin.md)
 - [createSVGSkin()](./createSVGSkin.md)

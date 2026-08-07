@@ -4,44 +4,44 @@ title: renderer.createTextSkin()
 
 # renderer.createTextSkin()
 
-Creates a new SVG skin using the text bubble creator (like "Say" or "Think" bubbles).
+使用文本气泡创建器（如"说"或"思考"气泡）创建一个新的 SVG 皮肤。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.createTextSkin(type, text, pointsLeft)
 ```
 
-## Parameters
+## 参数
 
 ### type
-**Type:** `string`
+**类型：** `string`
 
-The type of bubble: `'say'` or `'think'`.
+气泡类型：`'say'` 或 `'think'`。
 
 ### text
-**Type:** `string`
+**类型：** `string`
 
-The text content of the bubble.
+气泡的文本内容。
 
 ### pointsLeft
-**Type:** `boolean`
+**类型：** `boolean`
 
-If `true`, the bubble tail points to the left. If `false`, it points to the right.
+如果为 `true`，气泡尾部指向左侧；如果为 `false`，则指向右侧。
 
-## Returns
+## 返回值
 
-**Type:** `number`
+**类型：** `number`
 
-The ID of the new skin.
+新皮肤的 ID。
 
-## Example
+## 示例
 
 ```javascript
 const skinId = renderer.createTextSkin('say', 'Hello World!', true);
 ```
 
-## See Also
+## 另请参阅
 
 - [updateTextSkin()](./updateTextSkin.md)
 - [createSVGSkin()](./createSVGSkin.md)

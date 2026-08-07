@@ -4,26 +4,26 @@ title: renderer.destroySkin()
 
 # renderer.destroySkin()
 
-Destroys a skin and frees its resources. Do not use the skin or its ID after calling this.
+销毁一个皮肤并释放其资源。调用此方法后，请勿再使用该皮肤或其 ID。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.destroySkin(skinId)
 ```
 
-## Parameters
+## 参数
 
 ### skinId
-**Type:** `number`
+**类型：** `number`
 
-The ID of the skin to destroy.
+要销毁的皮肤 ID。
 
-## Returns
+## 返回值
 
-**Type:** `void`
+**类型：** `void`
 
-## Example
+## 示例
 
 ```javascript
 class SkinManagerExtension {
@@ -50,14 +50,14 @@ class SkinManagerExtension {
 }
 ```
 
-## Important Notes
+## 重要说明
 
-- **Memory Management** - Always destroy skins when no longer needed
-- **Drawable References** - Destroying a skin used by drawables can cause rendering issues
-- **Best Practice** - Restore drawable skins before destroying them
+- **内存管理** - 不再需要时一定要销毁皮肤
+- **可绘制对象引用** - 销毁被可绘制对象使用的皮肤可能导致渲染问题
+- **最佳实践** - 在销毁皮肤之前，先恢复（还原）使用该皮肤的可绘制对象
 
-## See Also
+## 另请参阅
 
-- [createBitmapSkin()](./createBitmapSkin.md) - Create a bitmap skin
-- [createSVGSkin()](./createSVGSkin.md) - Create an SVG skin
-- [Resource Management](../../concepts/resource-management.md) - Best practices for cleanup
+- [createBitmapSkin()](./createBitmapSkin.md) - 创建位图皮肤
+- [createSVGSkin()](./createSVGSkin.md) - 创建 SVG 皮肤
+- [资源管理](../../concepts/resource-management.md) - 清理的最佳实践

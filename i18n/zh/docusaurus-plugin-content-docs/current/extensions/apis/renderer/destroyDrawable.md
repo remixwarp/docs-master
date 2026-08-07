@@ -4,31 +4,31 @@ title: renderer.destroyDrawable()
 
 # renderer.destroyDrawable()
 
-Destroys a drawable and removes it from the scene. Frees associated resources.
+销毁一个可绘制对象，并将其从场景中移除。释放关联的资源。
 
-## Syntax
+## 语法
 
 ```javascript
 renderer.destroyDrawable(drawableID, group)
 ```
 
-## Parameters
+## 参数
 
 ### drawableID
-**Type:** `number`
+**类型：** `number`
 
-The ID of the drawable to destroy.
+要销毁的可绘制对象 ID。
 
 ### group
-**Type:** `string`
+**类型：** `string`
 
-The layer group the drawable belongs to (`'background'`, `'video'`, `'pen'`, or `'sprite'`).
+该可绘制对象所属的图层组（`'background'`、`'video'`、`'pen'` 或 `'sprite'`）。
 
-## Returns
+## 返回值
 
-**Type:** `void`
+**类型：** `void`
 
-## Example
+## 示例
 
 ```javascript
 class DrawableManagerExtension {
@@ -44,7 +44,7 @@ class DrawableManagerExtension {
 }
 ```
 
-## See Also
+## 另请参阅
 
 - [createDrawable()](./createDrawable.md)
 - [updateDrawableProperties()](./updateDrawableProperties.md)
