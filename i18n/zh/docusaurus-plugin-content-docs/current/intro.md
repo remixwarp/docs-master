@@ -1,50 +1,50 @@
 ---
 slug: /
-title: 简介
+title: Intro
 hide_table_of_contents: true
 ---
 
-# RemixWarp 文档
+# RemixWarp Documentation
 
-[RemixWarp](https://remixwarp.pages.dev/) 的技术文档 - 一个为开发者设计的 Scratch 环境修改版。
+Technical documentation for [RemixWarp](https://remixwarp.pages.dev/) - a modified Scratch environment for developers.
 
-## 什么是 RemixWarp？
+## What is RemixWarp?
 
-RemixWarp 是基于 TurboWarp 构建的 Scratch 修改版，专为开发者和高级用户设计：
+RemixWarp is a Scratch modification built on TurboWarp, designed for developers and advanced users:
 
-- **增强型虚拟机** - 带有开发者功能的修改版虚拟机
-- **无云存储** - 仅本地执行
-- **JavaScript 集成** - 增强的扩展能力
-- **开发者工具** - 技术文档和 API
-- **修改的界面** - 使用 "Misty" 作为默认角色
+- **Enhanced VM** - Modified virtual machine with developer features
+- **No Cloud Storage** - Local execution only
+- **JavaScript Integration** - Enhanced extension capabilities
+- **Developer Tools** - Technical documentation and APIs
+- **Modified Interface** - Uses "Misty" as default sprite
 
-## 快速导航
+## Quick Navigation
 
-### 🚀 [入门指南](./getting-started)
-访问 RemixWarp 并了解与 Scratch 的技术差异。
+### 🚀 [Getting Started](./getting-started)
+Access RemixWarp and understand the technical differences from Scratch.
 
-### 🛠️ [开发指南](./development)
-为 RemixWarp 开发做出贡献并了解代码库。
+### 🛠️ [Development](./development)
+Contribute to RemixWarp development and understand the codebase.
 
-### ⚙️ [GUI 内部结构](./gui-internals)
-用户界面架构的技术文档。
+### ⚙️ [GUI Internals](./gui-internals)
+Technical documentation of the user interface architecture.
 
-### 📖 [API 参考](./api-reference)
-编程接口和技术规范。
+### 📖 [API Reference](./api-reference)
+Programming interfaces and technical specifications.
 
-## 相关项目
+## Related Projects
 
-- **[RemixWarp Web](https://remixwarp.pages.dev/)** - 主要 Web 应用
-- **[RemixWarp Packager](https://packager.warp.mistium.com/)** - 打包项目用于 Web 部署
-- **[TurboWarp](https://turbowarp.org/)** - RemixWarp 基于的基础项目
+- **[RemixWarp Web](https://remixwarp.pages.dev/)** - Main web application
+- **[RemixWarp Packager](https://packager.02engine.org/)** - Package projects for web deployment
+- **[TurboWarp](https://turbowarp.org/)** - Base project that RemixWarp is built on
 
-## 开发
+## Development
 
 - **GitHub**: [https://github.com/RemixWarp](https://github.com/RemixWarp)
-- **问题**: 报告技术问题和 bug
-- **贡献**: 提交改进的拉取请求
+- **Issues**: Report technical issues and bugs
+- **Contributions**: Submit pull requests for improvements
 ---
 
-*开发者技术文档。有关一般 Scratch 帮助，请参阅 [Scratch 文档](https://scratch.mit.edu/help/)。*
+*Technical documentation for developers. For general Scratch help, see [Scratch documentation](https://scratch.mit.edu/help/).*
 
-这些页面是 [开源的](https://github.com/RemixWarp/docs)。欢迎贡献。
+These pages are [open source](https://github.com/RemixWarp/docs). Contributions are welcome.

@@ -2,11 +2,11 @@
 module.exports = {
   title: 'RemixWarp Documentation',
   tagline: 'A comprehensive guide to RemixWarp - the advanced Scratch modification platform',
-  url: 'https://docs.warp.mistium.com',
+  url: 'https://rw-do-cs.pages.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'favicon.ico',
+  favicon: 'logo.svg',
   organizationName: 'RemixWarp',
   projectName: 'docs',
   trailingSlash: false,
@@ -27,7 +27,8 @@ module.exports = {
       title: 'RemixWarp Documentation',
       logo: {
         alt: 'RemixWarp Logo',
-        src: '/static/favicon.ico',
+        src: 'logo-dark.svg',
+        srcDark: 'logo.svg',
       },
       items: [
         {

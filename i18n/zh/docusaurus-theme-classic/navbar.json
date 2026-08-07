@@ -1,36 +1,38 @@
 {
-  "title": "RemixWarp 文档",
-  "logo": {
-    "alt": "RemixWarp 标志"
+  "title": {
+    "message": "RemixWarp 文档",
+    "description": "The title in the navbar"
   },
-  "items": [
-    {
-      "label": "入门指南",
-      "to": "/getting-started/"
-    },
-    {
-      "label": "开发指南",
-      "to": "/development/"
-    },
-    {
-      "label": "GUI 内部结构",
-      "to": "/gui-internals/"
-    },
-    {
-      "label": "打包工具",
-      "to": "/packager/"
-    },
-    {
-      "label": "API 参考",
-      "to": "/api-reference/"
-    },
-    {
-      "label": "RemixWarp",
-      "href": "https://remixwarp.pages.dev/"
-    },
-    {
-      "label": "GitHub",
-      "href": "https://github.com/RemixWarp"
-    }
-  ]
+  "logo.alt": {
+    "message": "RemixWarp Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Getting Started": {
+    "message": "入门指南",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Development": {
+    "message": "开发指南",
+    "description": "Navbar item with label Development"
+  },
+  "item.label.GUI Internals": {
+    "message": "GUI 内部结构",
+    "description": "Navbar item with label GUI Internals"
+  },
+  "item.label.Packager": {
+    "message": "打包工具",
+    "description": "Navbar item with label Packager"
+  },
+  "item.label.API Reference": {
+    "message": "API 参考",
+    "description": "Navbar item with label API Reference"
+  },
+  "item.label.RemixWarp": {
+    "message": "RemixWarp",
+    "description": "Navbar item with label RemixWarp"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
 }
