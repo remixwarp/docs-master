@@ -253,6 +253,25 @@ module.exports = {
         'api-reference/events',
         'api-reference/utilities'
       ]
+    },
+    {
+      type: 'category',
+      label: 'RemixWarp 独有功能',
+      collapsed: true,
+      items: [
+        'exclusive/overview',
+        'exclusive/ai-assistant',
+        'exclusive/achievements',
+        'exclusive/ae-features',
+        'exclusive/theme-marketplace',
+        'exclusive/shared-backpack',
+        'exclusive/editor-tools',
+        'exclusive/debugging-tools',
+        'exclusive/extension-tools',
+        'exclusive/account-security',
+        'exclusive/versioning',
+        'exclusive/misc-addons'
+      ]
     }
   ]
 };

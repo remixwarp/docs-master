@@ -30,6 +30,7 @@ The editor and the community site ship from one build. You can use RemixWarp ent
 - [Advanced](/advanced/javascript) explains performance settings, URL parameters, embedding, and cloud variables.
 - [Packager](/packager/overview) turns a project into a standalone app or web page.
 - [Building extensions](/building-extensions/introduction) and the [API reference](/api-reference/overview) are for developers writing custom blocks and tooling.
+- [RemixWarp exclusive features](/exclusive/overview) documents the features that exist in the RemixWarp editor but not in the Bilup editor (in Chinese).
 
 ## Related sites
 
