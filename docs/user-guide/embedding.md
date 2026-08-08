@@ -14,7 +14,7 @@ The easiest way to embed a RemixWarp project:
 
 ```html
 <iframe
-  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/414716080/embed"
   width="480"
   height="360"
   frameborder="0"
@@ -23,12 +23,14 @@ The easiest way to embed a RemixWarp project:
 </iframe>
 ```
 
+Replace `414716080` with your project ID and adjust URL parameters as needed.
+
 ### Enhanced Embedding
 Supported embed parameters include `autoplay`, `addons`, and standard runtime options like `turbo`, `fps`, `hqpen`, `interpolate`, and `size`:
 
 ```html
 <iframe
-  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;?autoplay&turbo&fps=60"
+  src="https://remixwarp.pages.dev/414716080/embed?autoplay&turbo&fps=60"
   width="800"
   height="600"
   frameborder="0"
@@ -72,7 +74,7 @@ Create responsive embeds that adapt to container size:
 ```html
 <div style="position: relative; padding-bottom: 75%; height: 0;">
   <iframe
-    src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
+    src="https://remixwarp.pages.dev/414716080/embed"
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
     frameborder="0"
     allowfullscreen>
@@ -90,10 +92,10 @@ Embeds accept `LOAD_SB3` messages for loading projects. See detailed guide: [/us
 
 ```javascript
 // Send SB3 to the embed (URL or binary)
-const iframe = document.getElementById('RemixWarp-embed');
+const iframe = document.getElementById('remixwarp-embed');
 iframe.contentWindow.postMessage({
   type: 'LOAD_SB3',
-  data: 'https://remixwarp.pages.dev/${projectId}/embed?${params}`;',
+  data: 'https://remixwarp.pages.dev/414716080/embed',
   title: 'Optional Title'
 }, '*');
 
@@ -111,9 +113,9 @@ Embeds do not emit general project events via `postMessage`. Use the VM API with
 ## Packager Integration
 
 ### Standalone Embeds
-Use the 02Engine Packager for standalone embeds:
+Use the [02Engine Packager](https://packager.02engine.org/) for standalone embeds:
 
-1. Visit [packager.02engine.org](https://remixwarp.pages.dev/${projectId}/embed?${params}`;)
+1. Visit [packager.02engine.org](https://packager.02engine.org/)
 2. Enter your project URL or upload project file
 3. Configure embedding options
 4. Download generated HTML file
@@ -158,8 +160,8 @@ document.querySelectorAll('iframe[data-src]').forEach(iframe => {
 Preload critical resources:
 
 ```html
-<link rel="preload" href="https://remixwarp.pages.dev/${projectId}/embed?${params}`;" as="script">
-<link rel="preload" href="https://remixwarp.pages.dev/${projectId}/embed?${params}`;" as="script">
+<link rel="preload" href="https://remixwarp.pages.dev/" as="document">
+<link rel="preconnect" href="https://remixwarp.pages.dev">
 ```
 
 ### Accessibility
@@ -169,7 +171,7 @@ Provide alternative content for screen readers:
 
 ```html
 <iframe
-  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/414716080/embed"
   title="Interactive Math Game - Practice Addition and Subtraction"
   aria-label="Scratch game for practicing math skills">
   <p>This is an interactive math game that helps practice addition and subtraction.
@@ -187,7 +189,7 @@ Ensure embedded projects support keyboard navigation by focusing the iframe or p
 Configure CSP headers for embedded content:
 
 ```http
-Content-Security-Policy: frame-src https://remixwarp.pages.dev/${projectId}/embed?${params}`;
+Content-Security-Policy: frame-src https://remixwarp.pages.dev
 ```
 
 ### Sandbox Attributes
@@ -195,7 +197,7 @@ Use sandbox attributes for additional security:
 
 ```html
 <iframe
-  src="https://remixwarp.pages.dev/${projectId}/embed?${params}`;"
+  src="https://remixwarp.pages.dev/414716080/embed"
   sandbox="allow-scripts allow-same-origin allow-fullscreen">
 </iframe>
 ```
@@ -207,7 +209,7 @@ Use WordPress shortcodes or embed blocks:
 
 ```php
 // Custom shortcode for RemixWarp embeds
-function RemixWarp_embed_shortcode($atts) {
+function remixwarp_embed_shortcode($atts) {
   $atts = shortcode_atts([
     'id' => '',
     'width' => 480,
@@ -216,13 +218,13 @@ function RemixWarp_embed_shortcode($atts) {
     'turbo' => false
   ], $atts);
   
-  $src = "https://remixwarp.pages.dev/${projectId}/embed?${params}`;'id']}/embed";
+  $src = "https://remixwarp.pages.dev/" . $atts['id'] . "/embed";
   if ($atts['autoplay']) $src .= "?autoplay";
   if ($atts['turbo']) $src .= $atts['autoplay'] ? "&turbo" : "?turbo";
   
   return "<iframe src='{$src}' width='{$atts['width']}' height='{$atts['height']}' frameborder='0'></iframe>";
 }
-add_shortcode('RemixWarp', 'RemixWarp_embed_shortcode');
+add_shortcode('remixwarp', 'remixwarp_embed_shortcode');
 ```
 
 ### React/Vue.js

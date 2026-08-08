@@ -208,6 +208,7 @@ module.exports = {
       items: [
         'website/how-it-works',
         'website/embedding',
+        'website/stage-embedding',
         'website/javascript',
         'website/turbowarp-blocks',
         'website/url-parameters',
