@@ -35,7 +35,7 @@ RemixWarp 是基于 TurboWarp 构建的 Scratch 修改版，专为开发者和�
 ## 相关项目
 
 - **[RemixWarp Web](https://remixwarp.pages.dev/)** - 主 Web 应用
-- **[RemixWarp Packager](https://packager.02engine.org/)** - 打包项目用于 Web 部署
+- **[Bilup](https://www.bilup.org)** - RemixWarp 所基于的内核项目
 - **[TurboWarp](https://turbowarp.org/)** - RemixWarp 所基于的基础项目
 
 ## 开发
