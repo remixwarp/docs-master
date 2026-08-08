@@ -14,7 +14,7 @@ slug: /packager/offline
 
 要完全离线使用，请下载打包器本身的独立副本：
 
-1. 前往 [github.com/02Engine/packager/releases](https://github.com/02Engine/packager/releases)。
+1. 前往 [github.com/RemixWarp/packager/releases](https://github.com/RemixWarp/packager/releases)。
 2. 在最新版本的 Assets 下，下载独立 HTML 文件（其名称包含 `standalone`）。
 3. 在浏览器中打开该 HTML 文件。
 
