@@ -5,14 +5,14 @@ sidebar_position: 9
 
 # 账号与安全
 
-RemixWarp 提供了账号登录与 Bilup 社区接入相关的功能，这是 Bilup 中没有的。
+RemixWarp 提供了账号登录与 RemixWarp 社区接入相关的功能，这是 RemixWarp 中没有的。
 
-## 1. Bilup 社区账号登录
+## 1. RemixWarp 社区账号登录
 
-Bilup/RemixWarp 账号登录弹窗，支持云同步、动态发布与编辑状态分享。
+RemixWarp/RemixWarp 账号登录弹窗，支持云同步、动态发布与编辑状态分享。
 
 **功能：**
-- 登录 Bilup/RemixWarp 账号
+- 登录 RemixWarp/RemixWarp 账号
 - 云同步设置
 - 动态发布
 - 编辑状态分享
@@ -47,7 +47,7 @@ Bilup/RemixWarp 账号登录弹窗，支持云同步、动态发布与编辑状�
 
 ## 5. 关于窗口与免责声明
 
-"关于 RemixWarp"信息弹窗，说明与 Bilup 的关系及免责声明。
+"关于 RemixWarp"信息弹窗，说明与 RemixWarp 的关系及免责声明。
 
 ## 相关代码位置
 

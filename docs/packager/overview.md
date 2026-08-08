@@ -3,9 +3,9 @@ title: Overview
 sidebar_position: 1
 ---
 
-# RemixWarp Packager
+# 02Engine Packager
 
-The RemixWarp Packager turns a Scratch or RemixWarp project into a standalone program: a single HTML file, a zip, or a native executable for Windows, macOS, or Linux. The output does not need the editor or an internet connection to run, and it bundles RemixWarp's fast compiled runtime.
+The 02Engine Packager turns a Scratch or RemixWarp project into a standalone program: a single HTML file, a zip, or a native executable for Windows, macOS, or Linux. The output does not need the editor or an internet connection to run, and it bundles RemixWarp's fast compiled runtime.
 
 Use it at [packager.02engine.org](https://packager.02engine.org/).
 

@@ -111,7 +111,7 @@ Embeds do not emit general project events via `postMessage`. Use the VM API with
 ## Packager Integration
 
 ### Standalone Embeds
-Use the RemixWarp Packager for standalone embeds:
+Use the 02Engine Packager for standalone embeds:
 
 1. Visit [packager.02engine.org](https://remixwarp.pages.dev/${projectId}/embed?${params}`;)
 2. Enter your project URL or upload project file

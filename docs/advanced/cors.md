@@ -25,7 +25,7 @@ It depends on why you are fetching the URL.
 
 ## Desktop and packaged projects
 
-Projects packaged to Electron apps with the [RemixWarp Packager](/packager/overview) bypass CORS by default, the same way a native app would, so fetch blocks can reach any URL.
+Projects packaged to Electron apps with the [02Engine Packager](/packager/overview) bypass CORS by default, the same way a native app would, so fetch blocks can reach any URL.
 
 Packaged projects that run as a plain HTML file in a browser are still subject to normal browser CORS rules, because they are still a website.
 
@@ -36,4 +36,4 @@ If you control the server being fetched and you want websites to be able to read
 ## See also
 
 - [Pen extension](/extensions/pen) and other [extensions](/extensions/overview)
-- [RemixWarp Packager](/packager/overview)
+- [02Engine Packager](/packager/overview)

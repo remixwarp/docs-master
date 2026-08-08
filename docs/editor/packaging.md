@@ -7,7 +7,7 @@ The **packager** turns a project into a standalone application: an HTML file, a 
 
 ## Opening the packager
 
-**File, Package project** (`Ctrl+P`) opens the [RemixWarp packager](/packager/overview) with the project you have open loaded and ready. You can also visit the packager on its own at [packager.02engine.org](https://packager.02engine.org/) and load an `.sb3` there.
+**File, Package project** (`Ctrl+P`) opens the [02Engine packager](/packager/overview) with the project you have open loaded and ready. You can also visit the packager on its own at [packager.02engine.org](https://packager.02engine.org/) and load an `.sb3` there.
 
 ## What packaging is for
 

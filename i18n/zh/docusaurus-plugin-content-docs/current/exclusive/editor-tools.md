@@ -5,7 +5,7 @@ sidebar_position: 7
 
 # 编辑器增强工具
 
-RemixWarp 提供了一系列编辑器增强工具，这是 Bilup 中没有的。
+RemixWarp 提供了一系列编辑器增强工具，这是 RemixWarp 中没有的。
 
 ## 1. 积木计数器（Block Counter）
 

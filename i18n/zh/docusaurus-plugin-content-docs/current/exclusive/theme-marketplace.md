@@ -5,11 +5,11 @@ sidebar_position: 5
 
 # 主题商城
 
-RemixWarp 内置了两个主题商城，允许用户在编辑器中搜索、下载并应用其他用户分享的主题。这是 Bilup 中没有的功能。
+RemixWarp 内置了两个主题商城，允许用户在编辑器中搜索、下载并应用其他用户分享的主题。这是 RemixWarp 中没有的功能。
 
 ## 1. Bilme Marketplace
 
-从 `https://theme.bilup.org/api/theme/export` 拉取像素主题的主题商城。
+从 `https://theme.remixwarp.pages.dev/api/theme/export` 拉取像素主题的主题商城。
 
 **功能：**
 - 搜索、排序、筛选主题

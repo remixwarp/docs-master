@@ -8,7 +8,7 @@ hide_table_of_contents: true
 RemixWarp can be embedded with a standard iframe:
 
 ```html
-<iframe src="https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE" width="482" height="412" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://packager.02engine.org/" width="482" height="412" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ```
 
 Replace `414716080` with the ID of your project. You can change the width and height of the iframe and the player will automatically resize to fit (482x412 will result in the stage rendering at an undistorted 480x360).
@@ -17,7 +17,7 @@ Embeds have a transparent background and a fullscreen button when allowed by the
 
 ## Unshared projects can't be embedded {#unshared-projects}
 
-Unshared projects [can not be shown in embeds](unshared-projects). Make sure the projects you embed are shared or use the [RemixWarp Packager](https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE) instead.
+Unshared projects [can not be shown in embeds](unshared-projects). Make sure the projects you embed are shared or use the [02Engine Packager](https://packager.02engine.org/) instead.
 
 ## URL parameters {#url-parameters}
 
@@ -27,13 +27,13 @@ There are also some special parameters only available in embeds:
 
 ### Autoplay {#autoplay}
 
-Embeds support the `autoplay` parameter, which will automatically hit the green flag when the project loads. For example:https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE
+Embeds support the `autoplay` parameter, which will automatically hit the green flag when the project loads. For example:https://packager.02engine.org/
 
 Note that sound blocks may not work until the user interacts with the project (for example, by clicking). This is a restriction imposed by browsers. There is nothing TurboWarp can do to work around this.
 
 ### Settings button {#settings-button}
 
-You can optionally enable a settings button in embeds with the `settings-button` parameter that opens a similar menu to the "Advanced settings" menu found in the website and editor. For example:https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE&settings-button
+You can optionally enable a settings button in embeds with the `settings-button` parameter that opens a similar menu to the "Advanced settings" menu found in the website and editor. For example:https://packager.02engine.org/&settings-button
 
 ### Fullscreen background color {#fullscreen-background}
 
@@ -41,13 +41,13 @@ Outside of fullscreen mode, the embed is transparent so you can style the parent
 
 In fullscreen mode, the embed will either use a white or an almost black color depending on whether the user's computer is configured to dark mode or not.
 
-To override this behavior, set the `fullscreen-background` parameter to a CSS color value like `black` or `rgb(50,90,100)`. For example:https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE
+To override this behavior, set the `fullscreen-background` parameter to a CSS color value like `black` or `rgb(50,90,100)`. For example:https://packager.02engine.org/
 
 You can also use hex colors if you escape the `#` with percent encoding: `%23abc123`.
 
 ### Addons {#addons}
 
-By default, embeds have no addons enabled. This can be overridden with the `addons` parameter, which is a comma separated list of addon IDs to enable. For example:https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE
+By default, embeds have no addons enabled. This can be overridden with the `addons` parameter, which is a comma separated list of addon IDs to enable. For example:https://packager.02engine.org/
 
 Useful addons and their IDs:
 
@@ -67,7 +67,7 @@ If you use user-supplied information to generate embed links, you should sanitiz
 
 ## Need more control? {#packager}
 
-Use the [RemixWarp Packager](https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE) for more control over the loading screen and UI. You can also [embed the output of the packager](/packager/embedding) very easily.
+Use the [02Engine Packager](https://packager.02engine.org/) for more control over the loading screen and UI. You can also [embed the output of the packager](/packager/embedding) very easily.
 
 ## Donations {#donations}
 
@@ -75,4 +75,4 @@ If you use a RemixWarp embed in a commercial website, consider [donating](/donat
 
 ## License {#license}
 
-TurboWarp is licensed under the [GPLv3.0](https://github.com/TurboWarp/scratch-gui/blob/develop/LICENSE). We believe that an `<iframe>` of a GPLv3.0 work doesn't create a derivative work under the GPLv3.0, rather it creates an "aggregate work" which is not subject to the same requirements as derivative works. However, we are not lawyers and this is not legal advice. Talk to a lawyer if this matters to you.
+TurboWarp is licensed under the [GPLv3.0](https://packager.02engine.org/). We believe that an `<iframe>` of a GPLv3.0 work doesn't create a derivative work under the GPLv3.0, rather it creates an "aggregate work" which is not subject to the same requirements as derivative works. However, we are not lawyers and this is not legal advice. Talk to a lawyer if this matters to you.

@@ -6,7 +6,7 @@ slug: /packager/offline
 
 # Offline packager
 
-The [RemixWarp Packager](/packager/overview) runs entirely in your browser, and there are ways to run it with no internet connection, which helps when a network blocks `remixwarp.pages.dev` or when you are offline.
+The [02Engine Packager](/packager/overview) runs entirely in your browser, and there are ways to run it with no internet connection, which helps when a network blocks `remixwarp.pages.dev` or when you are offline.
 
 Large runtime assets (Electron, NW.js, and WKWebView executables used for native builds) are **not** bundled into the packager. They download separately when a given output format needs them, and the packager caches them after the first download, so you only fetch each once. These downloads usually still work even where `remixwarp.pages.dev` is blocked.
 
@@ -14,7 +14,7 @@ Large runtime assets (Electron, NW.js, and WKWebView executables used for native
 
 For fully offline use, download a standalone copy of the packager itself:
 
-1. Go to [github.com/RemixWarp/packager/releases](https://github.com/RemixWarp/packager/releases).
+1. Go to [github.com/02Engine/packager/releases](https://github.com/02Engine/packager/releases).
 2. Under the latest release's Assets, download the standalone HTML file (its name contains `standalone`).
 3. Open that HTML file in your browser.
 

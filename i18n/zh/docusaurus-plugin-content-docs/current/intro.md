@@ -1,50 +1,40 @@
 ---
 slug: /
-title: 简介
+title: RemixWarp 文档
 hide_table_of_contents: true
 ---
 
 # RemixWarp 文档
 
-面向开发者的 [RemixWarp](https://remixwarp.pages.dev/) 技术文档——一个修改版 Scratch 环境。
+[RemixWarp](https://remixwarp.pages.dev/) 是一个基于 TurboWarp 的 Scratch 修改版。它保留了您熟悉的 Scratch 编辑器，并添加了一个将积木编译为 JavaScript 的编译器、大量插件与主题、项目打包器、调试器、git 版本控制、实时协作，以及完整的社区平台与账户系统。
 
-## 什么是 RemixWarp？
+编辑器和社区站点由同一个构建提供。您可以直接在浏览器中访问 [remixwarp.pages.dev](https://remixwarp.pages.dev/)，无需账户、无需安装即可使用 RemixWarp。当您想发布项目、关注他人并在设备间同步设置时，可以使用 Rotur 账户登录。
 
-RemixWarp 是基于 TurboWarp 构建的 Scratch 修改版，专为开发者和高级用户设计：
+## 从这里开始
 
-- **增强版 VM** - 带有开发者功能的修改版虚拟机
-- **无云端存储** - 仅本地运行
-- **JavaScript 集成** - 增强的扩展能力
-- **开发者工具** - 技术文档和 API
-- **修改版界面** - 默认使用 "Misty" 作为角色
+- [简介](/getting-started/introduction) 介绍 RemixWarp 是什么以及面向哪些用户。
+- [安装](/getting-started/installation) 说明如何在网页端、桌面端或通过打包器使用 RemixWarp。
+- [快速开始](/getting-started/quick-start) 带您构建第一个项目。
+- [编辑器导览](/getting-started/editor-tour) 标注编辑器的每个区域并链接到对应的参考页面。
 
-## 快速导航
+## 从 Scratch 或 TurboWarp 迁移
 
-### 🚀 [快速入门](./getting-started)
-访问 RemixWarp 并了解与 Scratch 的技术差异。
+- [从 Scratch 迁移](/getting-started/migrating-from-scratch) 适用于刚接触修改版的新用户。
+- [从 TurboWarp 迁移](/getting-started/migrating-from-turbowarp) 适用于已经熟悉 TurboWarp、想了解 RemixWarp 新增功能的用户。
 
-### 🛠️ [开发](./development)
-为 RemixWarp 开发做出贡献并理解代码库。
+## 浏览文档
 
-### ⚙️ [GUI 内部机制](./gui-internals)
-用户界面架构的技术文档。
+- [编辑器](/user-guide/interface) 是编辑器各个界面的参考。
+- [积木](/user-guide/overview) 介绍每个积木分类。
+- [扩展](/extensions/overview) 涵盖内置和可加载的扩展。
+- [高级](/website/javascript) 介绍性能设置、URL 参数、嵌入和云变量。
+- [打包器](/packager/overview) 将项目打包为独立应用或网页。
+- [构建扩展](/extensions/introduction) 和 [API 参考](/api-reference/overview) 面向编写自定义积木和工具的开发者。
 
-### 📖 [API 参考](./api-reference)
-编程接口和技术规范。
+## 相关站点
 
-## 相关项目
+- [RemixWarp 编辑器](https://remixwarp.pages.dev/)
+- [02Engine Packager](https://packager.02engine.org/)
+- [RemixWarp GitHub](https://github.com/RemixWarp)
 
-- **[RemixWarp Web](https://remixwarp.pages.dev/)** - 主 Web 应用
-- **[Bilup](https://www.bilup.org)** - RemixWarp 所基于的内核项目
-- **[TurboWarp](https://turbowarp.org/)** - RemixWarp 所基于的基础项目
-
-## 开发
-
-- **GitHub**： [https://github.com/RemixWarp](https://github.com/RemixWarp)
-- **问题反馈**：报告技术问题和缺陷
-- **贡献**：提交拉取请求以进行改进
----
-
-*面向开发者的技术文档。如需一般的 Scratch 帮助，请参阅 [Scratch 文档](https://scratch.mit.edu/help/)。*
-
-这些页面是[开源的](https://github.com/RemixWarp/docs)。欢迎贡献。
+RemixWarp 是免费开源的。本文档托管在 [GitHub](https://github.com/RemixWarp/docs) 上，欢迎贡献。有关 Scratch 的一般帮助，请参阅 [Scratch 帮助页面](https://scratch.mit.edu/help/)。

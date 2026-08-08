@@ -23,7 +23,7 @@ These pages cover only **custom** extensions (the sandboxed and unsandboxed kind
 
 ## Compatibility
 
-Custom extensions are a RemixWarp and TurboWarp feature. Projects that use them cannot be uploaded to the Scratch website. They work in the RemixWarp editor and can be bundled into a standalone app or web page with the [RemixWarp Packager](/packager/overview), which always runs extensions unsandboxed.
+Custom extensions are a RemixWarp and TurboWarp feature. Projects that use them cannot be uploaded to the Scratch website. They work in the RemixWarp editor and can be bundled into a standalone app or web page with the [02Engine Packager](/packager/overview), which always runs extensions unsandboxed.
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ cd path/to/your/extensions
 python3 -m http.server 8080
 ```
 
-That serves the current folder at `http://localhost:8080/`. Put a file called `hello-world.js` in that folder and confirm you can open [http://localhost:8080/hello-world.js](http://localhost:8080/hello-world.js) in your browser before continuing.
+That serves the current folder at `http://localhost:8080/`. Put a file called `hello-world.js` in that folder and confirm you can open [https://packager.02engine.org/](https://packager.02engine.org/) in your browser before continuing.
 
 For now use a port **other than 8000**. Port 8000 is special: it is one of the URLs RemixWarp trusts to run [unsandboxed](/building-extensions/unsandboxed), which comes with extra responsibilities we are not ready for yet. Start sandboxed.
 

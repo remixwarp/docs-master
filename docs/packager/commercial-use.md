@@ -10,7 +10,7 @@ slug: /packager/commercial-use
 We are not lawyers and this is not legal advice. If this matters to you, talk to a real lawyer.
 :::
 
-Yes. If you have the rights to everything inside the project (its costumes, sounds, scripts, and extensions), you can sell a project packaged with the [RemixWarp Packager](/packager/overview).
+Yes. If you have the rights to everything inside the project (its costumes, sounds, scripts, and extensions), you can sell a project packaged with the [02Engine Packager](/packager/overview).
 
 The open-source components of Scratch and RemixWarp that the packager bundles are released under licenses that let you use, modify, distribute, and sell packaged projects without fees or royalties. Those licenses also come with no warranty. Some parts use a "weak" copyleft license such as the [Mozilla Public License 2.0](https://mozilla.org/MPL/2.0/): grossly simplified, if you modify those specific files, you must share that specific code under the same license. Simply packaging a project does not trigger this.
 

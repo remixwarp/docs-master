@@ -3,18 +3,18 @@ const path = require('path');
 
 const DOCS_DIR = 'E:/RemixWarp/docs-master/docs';
 const I18N_DIR = 'E:/RemixWarp/docs-master/i18n/zh/docusaurus-plugin-content-docs/current';
-const BILUP_I18N = 'E:/RemixWarp/bilup-docs-temp/i18n/zh-CN/docusaurus-plugin-content-docs/current';
+const BILUP_I18N = 'E:/RemixWarp/docs-bilup/i18n/zh-CN/docusaurus-plugin-content-docs/current';
 
 // 品牌词替换表
 const BRAND_REPLACEMENTS = [
   [/Bilup 文档/g, 'RemixWarp 文档'],
   [/Bilup 编辑器/g, 'RemixWarp 编辑器'],
-  [/Bilup 打包器/g, 'RemixWarp 打包器'],
+  [/Bilup 打包器/g, '02Engine Packager'],
   [/Bilup 社区/g, 'RemixWarp 社区'],
   [/Bilup 网站/g, 'RemixWarp 网站'],
   [/Bilup/g, 'RemixWarp'],
   [/editor\.bilup\.org/g, 'remixwarp.pages.dev'],
-  [/packager\.bilup\.org/g, 'packager.warp.mistium.com'],
+  [/packager\.bilup\.org/g, 'packager.02engine.org'],
   [/github\.com\/Bilup/g, 'github.com/RemixWarp'],
   [/bilup\.org/g, 'remixwarp.pages.dev'],
 ];

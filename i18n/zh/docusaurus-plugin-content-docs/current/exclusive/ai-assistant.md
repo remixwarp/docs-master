@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # AI 助手
 
-RemixWarp 内置了多种 AI 辅助编程能力，这是 Bilup 中不具备的功能。主要包括四套 AI 组件。
+RemixWarp 内置了多种 AI 辅助编程能力，这是 RemixWarp 中不具备的功能。主要包括四套 AI 组件。
 
 ## 1. 02agent（AI 智能体）
 

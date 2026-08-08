@@ -5,7 +5,7 @@ sidebar_position: 8
 
 # 扩展开发工具
 
-RemixWarp 提供了一套完整的扩展开发工具链，这是 Bilup 中没有的。
+RemixWarp 提供了一套完整的扩展开发工具链，这是 RemixWarp 中没有的。
 
 ## 1. 扩展编辑器（Extension Editor Window）
 

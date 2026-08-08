@@ -1,10 +1,10 @@
 ---
-title: RemixWarp Packager
+title: 02Engine Packager
 slug: /packager/
 hide_table_of_contents: true
 ---
 
-# RemixWarp Packager
+# 02Engine Packager
 
 This page has moved. See the [Packager overview](/packager/overview).
 

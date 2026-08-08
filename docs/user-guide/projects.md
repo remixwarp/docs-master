@@ -50,7 +50,7 @@ RemixWarp offers several starting templates:
 - **RemixWarp Projects**: Enhanced format with addon data
 
 #### Loading Process
-1. Click **File** �?**Load from your computer**
+1. Click **File** �?**Load from your computer**
 2. Select your project file
 3. Wait for loading to complete
 4. Project opens in the editor
@@ -59,7 +59,7 @@ RemixWarp offers several starting templates:
 
 #### Direct URL Loading
 1. Copy a Scratch project URL
-2. Click **File** �?**Load from Scratch**
+2. Click **File** �?**Load from Scratch**
 3. Paste the URL or enter project ID
 4. Project downloads and opens
 
@@ -72,7 +72,7 @@ RemixWarp offers several starting templates:
 
 #### Browser Storage
 - Projects auto-save to browser storage
-- Access via **File** �?**Recent Projects**
+- Access via **File** �?**Recent Projects**
 - Persists between sessions
 
 #### External Services
@@ -90,7 +90,7 @@ RemixWarp offers several starting templates:
 - Includes addon configurations
 
 #### Export to Computer
-1. Click **File** �?**Save to your computer**
+1. Click **File** �?**Save to your computer**
 2. Choose filename and location
 3. Downloads as `.sb3` file
 4. Compatible with standard Scratch
@@ -98,7 +98,7 @@ RemixWarp offers several starting templates:
 ### Cloud Saving
 
 #### Scratch Website Integration
-1. Click **File** �?**Upload to Scratch**
+1. Click **File** �?**Upload to Scratch**
 2. Sign in to Scratch account
 3. Project uploads and becomes shareable
 4. Maintains compatibility
@@ -121,12 +121,12 @@ RemixWarp offers several starting templates:
 ```
 My Projects/
 ├── Games/
-�?  ├── Platformer_v1.sb3
-�?  ├── Platformer_v2.sb3
-�?  └── Puzzle_Game.sb3
+�?  ├── Platformer_v1.sb3
+�?  ├── Platformer_v2.sb3
+�?  └── Puzzle_Game.sb3
 ├── Art/
-�?  ├── Digital_Art_1.sb3
-�?  └── Animation_Test.sb3
+�?  ├── Digital_Art_1.sb3
+�?  └── Animation_Test.sb3
 └── Learning/
     ├── Math_Practice.sb3
     └── Science_Demo.sb3
@@ -154,7 +154,7 @@ Add your own information:
 
 #### Uploading to Scratch
 1. Ensure project follows Scratch guidelines
-2. Use **File** �?**Upload to Scratch**
+2. Use **File** �?**Upload to Scratch**
 3. Add title, description, and tags
 4. Share with the community
 
@@ -171,7 +171,7 @@ Add your own information:
 - Preserves all project data
 
 #### Web Embedding
-- Use RemixWarp Packager for web deployment
+- Use 02Engine Packager for web deployment
 - Create standalone HTML files
 - Embed in websites and blogs
 

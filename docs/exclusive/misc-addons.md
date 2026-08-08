@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # 其他独有插件
 
-RemixWarp 还提供了一系列 Bilup 中不存在的独立插件（Addons）。
+RemixWarp 还提供了一系列 RemixWarp 中不存在的独立插件（Addons）。
 
 ## 1. 批量颜色替换（Batch Color Replace）
 

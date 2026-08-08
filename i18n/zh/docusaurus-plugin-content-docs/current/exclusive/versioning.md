@@ -5,7 +5,7 @@ sidebar_position: 11
 
 # 版本管理
 
-RemixWarp 提供了版本管理功能，这是 Bilup 中没有的。
+RemixWarp 提供了版本管理功能，这是 RemixWarp 中没有的。
 
 ## 1. 版本管理（Version Manager）
 

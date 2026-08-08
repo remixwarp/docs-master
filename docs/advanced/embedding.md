@@ -34,7 +34,7 @@ The ID in the URL can be either kind of project:
 Both use the same `/embed` path, parameters, and postMessage API described below.
 
 :::note
-Unshared projects cannot be embedded. Share the project first, or package it with the [RemixWarp Packager](/packager/overview) and [embed the packaged file](/packager/embedding) instead. See [Unshared Projects](/advanced/unshared-projects).
+Unshared projects cannot be embedded. Share the project first, or package it with the [02Engine Packager](/packager/overview) and [embed the packaged file](/packager/embedding) instead. See [Unshared Projects](/advanced/unshared-projects).
 :::
 
 ## URL parameters
@@ -143,7 +143,7 @@ If you build embed links from user-supplied data, sanitize the inputs. A user wh
 
 ## When you need more control
 
-For control over the loading screen, controls, and packaging as a single file, use the [RemixWarp Packager](/packager/overview). Packaged projects can also be [embedded](/packager/embedding).
+For control over the loading screen, controls, and packaging as a single file, use the [02Engine Packager](/packager/overview). Packaged projects can also be [embedded](/packager/embedding).
 
 ## See also
 

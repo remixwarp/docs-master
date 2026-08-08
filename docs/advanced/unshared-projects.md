@@ -23,7 +23,7 @@ This was a deliberate change by the Scratch Team to make unshared projects actua
 
 **Collaborating.** Share the project on Scratch. It is fine to share unfinished work. If you want live editing with others, RemixWarp also has built-in [collaboration](/editor/collaboration) that does not depend on Scratch at all.
 
-**Embedding.** Share the project on Scratch, or download the `.sb3` and use the [RemixWarp Packager](/packager/overview) to turn it into a standalone file you [can embed](/packager/embedding).
+**Embedding.** Share the project on Scratch, or download the `.sb3` and use the [02Engine Packager](/packager/overview) to turn it into a standalone file you [can embed](/packager/embedding).
 
 ## For tool developers
 
@@ -37,5 +37,5 @@ Browsers cannot call `api.scratch.mit.edu` directly because it does not send [CO
 ## See also
 
 - [Collaboration](/editor/collaboration)
-- [RemixWarp Packager](/packager/overview)
+- [02Engine Packager](/packager/overview)
 - [CORS](/advanced/cors)

@@ -30,12 +30,12 @@ The editor and the community site ship from one build. You can use RemixWarp ent
 - [Advanced](/advanced/javascript) explains performance settings, URL parameters, embedding, and cloud variables.
 - [Packager](/packager/overview) turns a project into a standalone app or web page.
 - [Building extensions](/building-extensions/introduction) and the [API reference](/api-reference/overview) are for developers writing custom blocks and tooling.
-- [RemixWarp exclusive features](/exclusive/overview) documents the features that exist in the RemixWarp editor but not in the Bilup editor (in Chinese).
+- [RemixWarp exclusive features](/exclusive/overview) documents the features that exist in the RemixWarp editor but not in the RemixWarp editor (in Chinese).
 
 ## Related sites
 
 - [RemixWarp editor](https://remixwarp.pages.dev/)
-- [RemixWarp packager](https://packager.02engine.org/)
+- [02Engine packager](https://packager.02engine.org/)
 - [RemixWarp on GitHub](https://github.com/RemixWarp)
 
 RemixWarp is free and open source. These docs are on [GitHub](https://github.com/RemixWarp/docs) and contributions are welcome. For general Scratch help, see the [Scratch help pages](https://scratch.mit.edu/help/).

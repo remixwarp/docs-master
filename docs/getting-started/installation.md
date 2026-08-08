@@ -31,7 +31,7 @@ The desktop app is optional. Every core feature is available on the web.
 
 ## Packaging a project
 
-The [RemixWarp Packager](https://packager.02engine.org/) turns a single project into a standalone program you can distribute: an HTML file, a zip, or a native executable, all runnable without the editor. This is not an installer for RemixWarp itself; it is a build tool for the projects you make with it.
+The [02Engine Packager](https://packager.02engine.org/) turns a single project into a standalone program you can distribute: an HTML file, a zip, or a native executable, all runnable without the editor. This is not an installer for RemixWarp itself; it is a build tool for the projects you make with it.
 
 You can open the current project directly in the packager from **File then Package project** (Ctrl+P). See the [Packager overview](/packager/overview) for options like offline builds, custom stage resizing, and commercial use.
 

@@ -5,7 +5,7 @@ sidebar_position: 8
 
 # 调试与运行时工具
 
-RemixWarp 提供了一系列调试与运行时控制工具，这是 Bilup 中没有的。
+RemixWarp 提供了一系列调试与运行时控制工具，这是 RemixWarp 中没有的。
 
 ## 1. 积木执行高亮（Editor Stepping）
 

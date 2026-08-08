@@ -5,11 +5,11 @@ sidebar_position: 1
 
 # RemixWarp 独有功能
 
-本章节介绍了 **RemixWarp 编辑器** 相比 **Bilup 编辑器** 额外提供、而 Bilup 中没有的全部功能。
+本章节介绍了 **RemixWarp 编辑器** 相比 **RemixWarp 编辑器** 额外提供、而 RemixWarp 中没有的全部功能。
 
 ## 为什么存在这些差异
 
-RemixWarp 是基于 Bilup 修改，而 Bilup 是基于 MistWarp 修改。两者虽然共享大量底层代码，但 RemixWarp 在以下方向拥有更多独有能力：
+RemixWarp 是基于 RemixWarp 修改，而 RemixWarp 是基于 MistWarp 修改。两者虽然共享大量底层代码，但 RemixWarp 在以下方向拥有更多独有能力：
 
 - **AI 助手与智能创作**
 - **成就系统**

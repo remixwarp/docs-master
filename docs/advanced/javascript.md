@@ -62,7 +62,7 @@ If you are trying to **learn** how a Scratch project would look as JavaScript, t
 
 ## Packaging with custom code
 
-To ship a project as a standalone HTML file or app, use the [RemixWarp Packager](/packager/overview). The packager bundles the compiled runtime with your project so it runs anywhere, no editor required.
+To ship a project as a standalone HTML file or app, use the [02Engine Packager](/packager/overview). The packager bundles the compiled runtime with your project so it runs anywhere, no editor required.
 
 ## See also
 
