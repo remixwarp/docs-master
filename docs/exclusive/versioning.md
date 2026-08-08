@@ -1,11 +1,11 @@
 ---
-title: 版本管理与云端还原点
+title: 版本管理
 sidebar_position: 11
 ---
 
-# 版本管理与云端还原点
+# 版本管理
 
-RemixWarp 提供了版本管理和云端还原点功能，这是 Bilup 中没有的。
+RemixWarp 提供了版本管理功能，这是 Bilup 中没有的。
 
 ## 1. 版本管理（Version Manager）
 
@@ -27,21 +27,7 @@ RemixWarp 提供了版本管理和云端还原点功能，这是 Bilup 中没有
 - 翻译更新内容
 - 关闭时标记版本为已查看（`markVersionAsSeen`）
 
-## 3. 云端还原点（Cloud Saver）
-
-云端还原点保存模块，监听项目变更并自动保存。
-
-**功能（cloud-saver.js）：**
-- 监听项目变更
-- 自动保存到本地
-- 由 monitor 推送 GitHub
-
-**功能（cloud-saver-simple.js，简化版）：**
-- localStorage 保存
-- 24 小时清理
-- 云端同步状态追踪
-
-## 4. 自定义默认角色（Custom Default Sprite）
+## 3. 自定义默认角色（Custom Default Sprite）
 
 将用户上传的默认角色持久化到 localStorage，加载默认项目时自动应用。
 
@@ -51,5 +37,4 @@ RemixWarp 提供了版本管理和云端还原点功能，这是 Bilup 中没有
 |---|---|
 | 版本管理 | `src/lib/version-manager.js` |
 | 更新日志容器 | `src/containers/update-log-modal.jsx` |
-| 云端还原点 | `src/lib/cloud-saver.js`、`cloud-saver-simple.js` |
 | 自定义默认角色 | `src/lib/custom-default-sprite.js` |

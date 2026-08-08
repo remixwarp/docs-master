@@ -9,7 +9,7 @@ module.exports = {
   favicon: 'logo.svg',
   organizationName: 'RemixWarp',
   projectName: 'docs',
-  trailingSlash: false,
+  trailingSlash: true,
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'zh'],

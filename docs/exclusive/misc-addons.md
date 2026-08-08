@@ -1,6 +1,6 @@
 ---
 title: 其他独有插件
-sidebar_position: 12
+sidebar_position: 10
 ---
 
 # 其他独有插件
@@ -80,55 +80,19 @@ RemixWarp 还提供了一系列 Bilup 中不存在的独立插件（Addons）。
 - `showControls`：显示相机控制（默认 false）
 - `autoHide`：不使用时自动隐藏
 
-## 8. 圣诞主题（Santa）
-
-圣诞主题插件，添加雪花和圣诞帽效果，并加载圣诞默认项目。
-
-**功能：**
-- 雪花飘落效果
-- 圣诞树彩灯（lights）
-- 圣诞帽（hat）
-- 默认项目加载为圣诞主题项目（`christmas-default-project.sb3`）
-
-**说明：** 仅当地系统日期为 12 月 23–26 日时默认启用。
-
-## 9. 猫积木扩展（Cat Blocks Extended）
-
-获取 RemixWarp 编辑器 2026 年愚人节未发布的猫积木（April Fools' Day）功能扩展。
-
-**说明：**
-- 与"猫积木"插件不兼容（`incompatibleWith: ["cat-blocks"]`）
-- 默认不启用
-
-## 10. 自动保存（Autosave）
-
-自动将项目保存到本地文件，防止数据丢失。
-
-**设置项：**
-- `enabled`：启用
-- `interval`：间隔分钟（默认 5）
-- `showNotifications`：保存通知
-- `saveOnlyWhenChanged`：仅在变化时保存
-
-**说明：** 该功能已迁移到文件（File）菜单，由 MenuBar 组件直接处理，userscript 当前为空操作。
-
-## 11. 视频弹窗（Video Modal）
+## 8. 视频弹窗（Video Modal）
 
 视频教程播放弹窗，读取 `modals.videoModal` 与 `modals.videoModalData`（教程数据）。
 
-## 12. 教程弹窗（Tutorial Modal）
+## 9. 教程弹窗（Tutorial Modal）
 
 教程内容弹窗，读取 `modals.tutorialModal`。
 
-## 13. Markdown 渲染器（Markdown Renderer）
+## 10. Markdown 渲染器（Markdown Renderer）
 
 通用 Markdown 渲染组件，支持标题/代码/表格/公式，代码可复制下载。
 
-**入口：** 被 README 阅读器等组件复用。
-
-## 14. 微信小程序桥接（WebView Bridge）
-
-微信小程序 WebView 桥接，在小程序环境与编辑器通信。
+**入口：** 被 AI 面板、README 阅读器等组件复用。
 
 ## 相关代码位置
 
@@ -141,10 +105,6 @@ RemixWarp 还提供了一系列 Bilup 中不存在的独立插件（Addons）。
 | 视频录制 | `src/addons/addons/mediarecorder/` |
 | 自制积木增强 | `src/addons/addons/my-blocks-plus/` |
 | 舞台相机 | `src/addons/addons/stage-camera/` |
-| 圣诞主题 | `src/addons/addons/santa/` |
-| 猫积木扩展 | `src/addons/addons/cat-blocks-extended/` |
-| 自动保存 | `src/addons/addons/autosave/` |
 | 视频弹窗 | `src/containers/video-modal.jsx` |
 | 教程弹窗 | `src/containers/tutorial-modal.jsx` |
 | Markdown 渲染器 | `src/components/markdown-renderer/markdown-renderer.jsx` |
-| 微信桥接 | `src/lib/webview-bridge.js` |

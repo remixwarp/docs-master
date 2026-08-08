@@ -1,30 +1,27 @@
 ---
 title: 账号与安全
-sidebar_position: 10
+sidebar_position: 9
 ---
 
 # 账号与安全
 
-RemixWarp 提供了一些账号与安全相关的功能，这是 Bilup 中没有的。
+RemixWarp 提供了账号登录与 Bilup 社区接入相关的功能，这是 Bilup 中没有的。
 
-## 1. 人机验证（Captcha）
+## 1. Bilup 社区账号登录
 
-登录或进行敏感操作前的滑块拼图人机验证弹窗。
-
-**功能：**
-- 滑块拼图验证
-- 拖拽拼图完成验证
-- 失败可重试
-
-## 2. Bilup 账号登录弹窗
-
-Bilup 账号登录弹窗，支持云同步、动态、编辑状态分享。
+Bilup/RemixWarp 账号登录弹窗，支持云同步、动态发布与编辑状态分享。
 
 **功能：**
 - 登录 Bilup/RemixWarp 账号
 - 云同步设置
 - 动态发布
 - 编辑状态分享
+
+**入口：** 菜单栏登录按钮弹出登录弹窗（`bilup-login-modal`）。
+
+## 2. Rotur 会话与登录
+
+通过 Rotur 会话接入社区平台，支持登录后发布项目、关注他人、跨设备同步设置。
 
 ## 3. 新手引导（Onboarding）
 
@@ -56,9 +53,9 @@ Bilup 账号登录弹窗，支持云同步、动态、编辑状态分享。
 
 | 模块 | 路径 |
 |---|---|
-| 人机验证组件 | `src/components/captcha-modal/captcha-modal.jsx` |
-| 滑块拼图组件 | `src/components/slide-puzzle-captcha/` |
 | 登录弹窗 | `src/components/menu-bar/bilup-login-modal.jsx` |
+| Rotur 登录 | `src/components/mw-rotur-login-modal/rotur-login-modal.jsx` |
+| Rotur 会话 | `src/containers/rotur-session.jsx` |
 | 新手引导容器 | `src/containers/onboarding.jsx` |
 | 新手引导 reducer | `src/reducers/onboarding.js` |
 | 兼容性转换 | `src/components/tw-compatibility-modal/` |

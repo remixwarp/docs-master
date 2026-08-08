@@ -1,6 +1,6 @@
 ---
 title: 扩展开发工具
-sidebar_position: 9
+sidebar_position: 8
 ---
 
 # 扩展开发工具
@@ -17,20 +17,11 @@ RemixWarp 提供了一套完整的扩展开发工具链，这是 Bilup 中没有
 - 使用 WindowManager 浮动窗口系统
 - 通过 `extension-editor-modal` 容器打开
 
-## 2. 扩展管理器（Extension Chooser）
-
-扩展管理器/加载器，用于选择并加载本地/自定义扩展。
-
-**功能：**
-- 选择并加载本地/自定义扩展
-- 通过 `openPreviewExt` 动作触发
-- 与扩展预览组件联动
-
-## 3. 扩展加载方式选择（Extension Load Choice Modal）
+## 2. 扩展加载方式选择（Extension Load Choice Modal）
 
 加载扩展时，让用户选择加载方式（URL 或本地文件）。
 
-## 4. 超级重构（Super Refactor）
+## 3. 超级重构（Super Refactor）
 
 一个强大的项目重构工具，类似 IDE 的项目文件批量编辑/重构窗口。
 
@@ -42,13 +33,7 @@ RemixWarp 提供了一套完整的扩展开发工具链，这是 Bilup 中没有
 - `applyChanges` 将编辑后的文件回写应用到 VM 项目
 - `downloadProject` 下载项目
 
-**说明：** 相关的 `super-refactor-files.js` 是一个预置文件内容数据仓库（约 68 万字符），导出 `fileContents`、`getFileList()`、`getFileContent()`，为重构功能提供预置源码文件内容。
-
-## 5. 扩展积木预览（Extension Preview）
-
-预览扩展积木的 SVG 外观弹窗，通过 `openPreviewExt` 触发。
-
-## 6. Gandi 扩展帮助（Gandi Help）
+## 4. Gandi 扩展帮助（Gandi Help）
 
 提供 Gandi 扩展库的使用帮助说明（针对导入转换项目时扩展未找到的解决方案）。
 
@@ -57,9 +42,6 @@ RemixWarp 提供了一套完整的扩展开发工具链，这是 Bilup 中没有
 | 模块 | 路径 |
 |---|---|
 | 扩展编辑器窗口 | `src/components/extension-editor-window/extension-editor-window.jsx` |
-| 扩展管理器 | `src/components/extension-chooser/extension-chooser.jsx` |
 | 加载方式选择 | `src/components/tw-extension-load-choice-modal/` |
 | 超级重构弹窗 | `src/containers/super-refactor-modal.jsx` |
-| 超级重构数据仓库 | `src/containers/super-refactor-files.js` |
-| 扩展积木预览 | `src/components/ae-preview-ext/ae-preview-ext.jsx` |
 | Gandi 帮助 | `src/components/gandi-help/gandi-help.jsx` |

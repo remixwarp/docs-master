@@ -1,8 +1,0 @@
-
-> turbowarp-docs@0.0.0 serve
-> docusaurus serve
-
-
- ------------------------------------------------------------------------------                                                                                                         Update available 3.9.2 → 3.10.2                                                                                                                 To upgrade Docusaurus packages with the latest version, run the                                       following command:                                       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest`                                                                                         ------------------------------------------------------------------------------ 
-
-[SUCCESS] Serving "build" directory at: http://localhost:3000/
