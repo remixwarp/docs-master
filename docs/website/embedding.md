@@ -91,10 +91,10 @@ Use the [02Engine Packager](https://packager.02engine.org/) for more control ove
 
 You can also embed projects using RemixWarp's fullscreen stage mode, which loads the project directly on the stage without the editor UI. This is ideal for showcasing projects in a clean, distraction-free player.
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 24px; margin: 24px 0; color: white;">
-  <h3 style="margin-top: 0; color: white;">Stage Embedding Guide</h3>
-  <p style="opacity: 0.9; margin-bottom: 16px;">Learn how to embed projects using the fullscreen.html stage player — load external SB3 files directly into a standalone player view.</p>
-  <a href="/website/stage-embedding" style="display: inline-block; background: white; color: #667eea; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 600;">Read Stage Embedding Guide →</a>
+<div style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '12px', padding: '24px', margin: '24px 0', color: 'white'}}>
+  <h3 style={{marginTop: 0, color: 'white'}}>Stage Embedding Guide</h3>
+  <p style={{opacity: 0.9, marginBottom: '16px'}}>Learn how to embed projects using the fullscreen.html stage player — load external SB3 files directly into a standalone player view.</p>
+  <a href="/website/stage-embedding" style={{display: 'inline-block', background: 'white', color: '#667eea', padding: '10px 24px', borderRadius: '8px', textDecoration: 'none', fontWeight: 600}}>Read Stage Embedding Guide →</a>
 </div>
 
 ## Donations {#donations}
