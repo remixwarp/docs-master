@@ -1,5 +1,5 @@
 ---
-slug: /infinite-clones
+slug: /website/infinite-clones
 hide_table_of_contents: true
 ---
 

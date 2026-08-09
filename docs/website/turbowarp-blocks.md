@@ -1,5 +1,5 @@
 ---
-slug: /blocks
+slug: /website/blocks
 hide_table_of_contents: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /return
+slug: /website/return
 hide_table_of_contents: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-slug: /custom-stage-size
+slug: /website/custom-stage-size
 hide_table_of_contents: true
 ---
 

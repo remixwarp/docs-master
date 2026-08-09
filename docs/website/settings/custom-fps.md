@@ -1,5 +1,5 @@
 ---
-slug: /custom-fps
+slug: /website/custom-fps
 hide_table_of_contents: true
 ---
 

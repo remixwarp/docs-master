@@ -1,5 +1,5 @@
 ---
-slug: /remove-fencing
+slug: /website/remove-fencing
 hide_table_of_contents: true
 ---
 

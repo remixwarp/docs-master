@@ -1,5 +1,5 @@
 ---
-slug: /warp-timer
+slug: /website/warp-timer
 hide_table_of_contents: true
 ---
 

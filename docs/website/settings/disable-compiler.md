@@ -1,5 +1,5 @@
 ---
-slug: /disable-compiler
+slug: /website/disable-compiler
 hide_table_of_contents: true
 ---
 

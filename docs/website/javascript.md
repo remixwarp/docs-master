@@ -1,5 +1,5 @@
 ---
-slug: /javascript
+slug: /website/javascript
 hide_table_of_contents: true
 ---
 

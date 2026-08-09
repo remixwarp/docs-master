@@ -1,5 +1,5 @@
 ---
-slug: /donate
+slug: /website/donate
 hide_table_of_contents: true
 ---
 

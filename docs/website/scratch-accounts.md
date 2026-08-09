@@ -1,5 +1,5 @@
 ---
-slug: /scratch-accounts
+slug: /website/scratch-accounts
 hide_table_of_contents: true
 ---
 

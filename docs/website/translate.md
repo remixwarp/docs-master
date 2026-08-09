@@ -1,5 +1,5 @@
 ---
-slug: /translate
+slug: /website/translate
 hide_table_of_contents: true
 ---
 

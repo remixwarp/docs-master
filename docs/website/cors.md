@@ -1,5 +1,5 @@
 ---
-slug: /cors
+slug: /website/cors
 hide_table_of_contents: true
 ---
 

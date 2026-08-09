@@ -1,5 +1,5 @@
 ---
-slug: /how
+slug: /website/how
 hide_table_of_contents: true
 ---
 

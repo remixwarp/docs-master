@@ -1,5 +1,5 @@
 ---
-slug: /high-quality-pen
+slug: /website/high-quality-pen
 hide_table_of_contents: true
 ---
 

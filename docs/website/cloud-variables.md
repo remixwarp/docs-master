@@ -1,5 +1,5 @@
 ---
-slug: /cloud-variables
+slug: /website/cloud-variables
 hide_table_of_contents: true
 ---
 

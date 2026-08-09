@@ -1,5 +1,5 @@
 ---
-slug: /remove-misc-limits
+slug: /website/remove-misc-limits
 hide_table_of_contents: true
 ---
 
