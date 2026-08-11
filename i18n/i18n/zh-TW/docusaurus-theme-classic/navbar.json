@@ -1,0 +1,94 @@
+{
+  "title": {
+    "message": "RemixWarp 文檔",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "RemixWarp Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Getting Started": {
+    "message": "快速開始",
+    "description": "Navbar item with label Getting Started"
+  },
+  "item.label.Use RemixWarp": {
+    "message": "使用 RemixWarp",
+    "description": "Navbar item with label Use RemixWarp"
+  },
+  "item.label.Build & Extend": {
+    "message": "建構與擴展",
+    "description": "Navbar item with label Build & Extend"
+  },
+  "item.label.Contribute": {
+    "message": "貢獻",
+    "description": "Navbar item with label Contribute"
+  },
+  "item.label.More": {
+    "message": "更多",
+    "description": "Navbar item with label More"
+  },
+  "item.label.Development": {
+    "message": "開發指南",
+    "description": "Navbar item with label Development"
+  },
+  "item.label.GUI Internals": {
+    "message": "GUI 內部",
+    "description": "Navbar item with label GUI Internals"
+  },
+  "item.label.Packager": {
+    "message": "打包器",
+    "description": "Navbar item with label Packager"
+  },
+  "item.label.API Reference": {
+    "message": "API 參考",
+    "description": "Navbar item with label API Reference"
+  },
+  "item.label.Building Extensions": {
+    "message": "建構擴展",
+    "description": "Navbar item with label Building Extensions"
+  },
+  "item.label.Contributing": {
+    "message": "貢獻指南",
+    "description": "Navbar item with label Contributing"
+  },
+  "item.label.Architecture & Internals": {
+    "message": "架構與內部",
+    "description": "Navbar item with label Architecture & Internals"
+  },
+  "item.label.RemixWarp Exclusive": {
+    "message": "RemixWarp 獨有功能",
+    "description": "Navbar item with label RemixWarp Exclusive"
+  },
+  "item.label.User Guide": {
+    "message": "使用者指南",
+    "description": "Navbar item with label User Guide"
+  },
+  "item.label.Website Features": {
+    "message": "網站功能",
+    "description": "Navbar item with label Website Features"
+  },
+  "item.label.Using the Editor": {
+    "message": "使用編輯器",
+    "description": "Navbar item with label Using the Editor"
+  },
+  "item.label.Blocks Reference": {
+    "message": "積木參考",
+    "description": "Navbar item with label Blocks Reference"
+  },
+  "item.label.Extensions": {
+    "message": "擴展",
+    "description": "Navbar item with label Extensions"
+  },
+  "item.label.Advanced Features": {
+    "message": "進階功能",
+    "description": "Navbar item with label Advanced Features"
+  },
+  "item.label.RemixWarp": {
+    "message": "RemixWarp",
+    "description": "Navbar item with label RemixWarp"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
