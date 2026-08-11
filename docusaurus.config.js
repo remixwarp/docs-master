@@ -69,9 +69,9 @@ module.exports = {
           position: 'left',
           items: [
             {to: '/contributing/overview', label: 'Contributing'},
-            {to: '/development/home', label: 'Development'},
+            {to: '/development/', label: 'Development'},
             {to: '/internals/overview', label: 'Architecture & Internals'},
-            {to: '/gui-internals/home', label: 'GUI Internals'}
+            {to: '/gui-internals/', label: 'GUI Internals'}
           ]
         },
         {
@@ -81,7 +81,7 @@ module.exports = {
           items: [
             {to: '/exclusive/overview', label: 'RemixWarp Exclusive'},
             {to: '/user-guide/overview', label: 'User Guide'},
-            {to: '/website/how-it-works', label: 'Website Features'}
+            {to: '/website/how', label: 'Website Features'}
           ]
         },
         {
