@@ -22,7 +22,7 @@ When people refer to "extensions", there are a few things they could be referrin
 |Sandboxed custom extensions|❌|✅|
 |Unsandboxed custom extensions|✅|✅|
 
-The documentation in these segments refers only to custom extensions. While core extensions share many fundamentals, the process of developing them is significantly different. See [getting started](../getting-started) as a starting point for building core extensions.
+The documentation in these segments refers only to custom extensions. While core extensions share many fundamentals, the process of developing them is significantly different. See [getting started](../getting-started/introduction) as a starting point for building core extensions.
 
 We will discuss the difference between sandboxed and unsandboxed extensions at [a later time](./unsandboxed).
 

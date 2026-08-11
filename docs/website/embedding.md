@@ -99,7 +99,7 @@ You can also embed projects using RemixWarp's fullscreen stage mode, which loads
 
 ## Donations {#donations}
 
-If you use a RemixWarp embed in a commercial website, consider [donating](/donate) to support hosting and upstream projects. ❤️
+If you use a RemixWarp embed in a commercial website, consider [donating](/website/donate) to support hosting and upstream projects. ❤️
 
 ## License {#license}
 
